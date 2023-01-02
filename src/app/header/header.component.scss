@@ -1,3 +1,11 @@
+* {
+  overflow: hidden;
+}
+
+.full-header {
+  position: relative;
+}
+
 .top-header {
   display: flex;
   justify-content: space-around;
@@ -9,4 +17,15 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
+
+  h1:hover {
+    cursor: pointer;
+
+  }
+
+}
+
+.colorTest {
+  border-style: dotted;
+  height: 50px;
 }
