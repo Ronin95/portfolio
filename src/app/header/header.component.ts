@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
+  title = 'Portfolio';
+  circle: any = document.getElementById('circle');
+  // document.circle.style.setProperty("--color1", global.this.color1);
 }
