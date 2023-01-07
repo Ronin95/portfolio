@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   title = 'Portfolio';
-  circle: any = document.getElementById('circle');
-  // document.circle.style.setProperty("--color1", global.this.color1);
 }

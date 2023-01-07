@@ -31,6 +31,7 @@ export class StyleService {
       globalThis.color2 = '#33B476';
     }
 
+    // the below 2 lines of code set the property to the colors that was chosen in the above condition
     document.body.style.setProperty('--color1', globalThis.color1);
     document.body.style.setProperty('--color2', globalThis.color2);
   }
