@@ -2,9 +2,7 @@
   overflow: hidden;
 }
 
-
 .full-header {
-  // position: relative;
   height: 2000px;
 }
 
@@ -22,16 +20,14 @@
 
   h1:hover {
     cursor: pointer;
-
   }
-
 }
 
-.circle {
+.circle { // the color circle that changes its color
   z-index: -1;
-  position: relative;
-  bottom: 200px;
-  left: 50px;
+  position: absolute;
+  bottom: 150px;
+  right: 700px;
   background: linear-gradient(0.40turn, var(--color1), var(--color2));
   border-radius: 50%;
   height: 800px;
