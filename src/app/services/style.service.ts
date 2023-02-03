@@ -36,14 +36,14 @@ export class StyleService {
     document.body.style.setProperty('--color2', globalThis.color2);
   }
 
-  public displayDifferentCoverImg() {
-    let coverImg;
-    if (this.randomNum === 1) {
-      coverImg = '<img src="src/assets/img/cover-img/me-nobackground-hoodie.png" class="cover-img" alt="nikola-badjevic">';
-    } else if (this.randomNum === 2) {
-      coverImg = '<img src="src/assets/img/cover-img/me-nobackground-hoodie.png" class="cover-img" alt="nikola-badjevic">';
-    } else if (this.randomNum === 3) {
-      coverImg = '<img src="src/assets/img/cover-img/me-nobackground-hoodie.png" class="cover-img" alt="nikola-badjevic">';
-    }
-  }
+  // public displayDifferentCoverImg() {
+  //   let coverImg;
+  //   if (this.randomNum === 1) {
+  //     coverImg = '<img src="src/assets/img/cover-img/me-nobackground-hoodie.png" class="cover-img" alt="nikola-badjevic">';
+  //   } else if (this.randomNum === 2) {
+  //     coverImg = '<img src="src/assets/img/cover-img/me-nobackground-hoodie.png" class="cover-img" alt="nikola-badjevic">';
+  //   } else if (this.randomNum === 3) {
+  //     coverImg = '<img src="src/assets/img/cover-img/me-nobackground-hoodie.png" class="cover-img" alt="nikola-badjevic">';
+  //   }
+  // }
 }
