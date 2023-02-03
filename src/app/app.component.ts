@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
   }
   ngOnInit() {
     this.ss.chooseColorOfPortfolio();
+    this.ss.displayDifferentCoverImg();
   }
   constructor(private ss:StyleService) {}
 

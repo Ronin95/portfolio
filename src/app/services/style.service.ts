@@ -23,19 +23,27 @@ export class StyleService {
     if (this.randomNum === 1) {
       globalThis.color1 = '#5988FF';
       globalThis.color2 = '#0043F0';
-      globalThis.cover_img1 = 'src/assets/img/cover-img/me-nobackground-tshirt.png';
     } else if (this.randomNum === 2) {
       globalThis.color1 = '#FF5959';
       globalThis.color2 = '#DE0000';
-      globalThis.cover_img2 = 'src/assets/img/cover-img/me-nobackground.png';
     } else if (this.randomNum === 3) {
       globalThis.color1 = '#57E8A2';
       globalThis.color2 = '#33B476';
-      globalThis.cover_img3 = 'src/assets/img/cover-img/me-nobackground-hoodie.png';
     }
 
     // the below 2 lines of code set the property to the colors that was chosen in the above condition
     document.body.style.setProperty('--color1', globalThis.color1);
     document.body.style.setProperty('--color2', globalThis.color2);
+  }
+
+  public displayDifferentCoverImg() {
+    let coverImg;
+    if (this.randomNum === 1) {
+      coverImg = '<img src="src/assets/img/cover-img/me-nobackground-hoodie.png" class="cover-img" alt="nikola-badjevic">';
+    } else if (this.randomNum === 2) {
+      coverImg = '<img src="src/assets/img/cover-img/me-nobackground-hoodie.png" class="cover-img" alt="nikola-badjevic">';
+    } else if (this.randomNum === 3) {
+      coverImg = '<img src="src/assets/img/cover-img/me-nobackground-hoodie.png" class="cover-img" alt="nikola-badjevic">';
+    }
   }
 }
