@@ -1,0 +1,64 @@
+* {
+  overflow: hidden;
+}
+
+.header-aboutme-circle-position {
+  z-index: 1;
+  position: relative;
+  bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-aboutme-circle {
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  bottom: 120px;
+}
+
+.random-circle-position {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  left: 50px;
+}
+
+.random-circle {
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.about-me-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  color: var(--color1);
+  border-color: var(--color1);
+  font-weight: bold;
+  cursor: pointer;
+}
+

@@ -3,7 +3,7 @@
 }
 
 .full-header {
-  height: 2000px;
+  background: radial-gradient(circle at bottom, var(--color1), 5%, transparent);
 }
 
 .top-header {
@@ -17,6 +17,8 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
+  font-size: 10px;
+  padding-bottom: 30px;
 
   h1:hover {
     cursor: pointer;
@@ -35,18 +37,61 @@
 }
 
 .cover-img {
-  
+  border-style: dashed;
+  border-color: transparent;
+  position: relative;
+  top: 15px;
 }
 
 .cover-img-text-intro {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-
-.intro-frontDev-text {
-  font-family: "Montserrat-ExtraBold" !important;
-  font-size: 62px;
+.frontDev-text {
+  font-family: "Montserrat-ExtraBold";
+  font-size: 100px;
+  color: var(--color1);
+  text-align: left;
 }
 
+.scroll-line-socialMedia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.scroll-text {
+  position: relative;
+  left: 120px;
+  margin-top: 20px;
+}
+
+.vertical-line {
+  width: 3px;
+  height: 290px;
+  background-color: var(--color2);
+  position: relative;
+  top: 10px;
+  left: 150px;
+}
+
+.vertical-line-socialMedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialMedia-Buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.circle-socialMedia {
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
