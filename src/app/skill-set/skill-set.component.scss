@@ -1,0 +1,32 @@
+.skills {
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title-skill-set {
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+}
+
+.skills-ordering {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.individual-skill-position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.individual-skill-position h3 {
+  color: white;
+}
