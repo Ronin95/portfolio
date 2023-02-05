@@ -4,12 +4,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { IntroTextComponent } from './intro-text/intro-text.component';
+import { SkillSetComponent } from './skill-set/skill-set.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    IntroTextComponent
+    IntroTextComponent,
+    SkillSetComponent
   ],
   imports: [
     BrowserModule,
