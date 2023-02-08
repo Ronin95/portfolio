@@ -1,9 +1,39 @@
 .circle1 { // the color circle that changes its color
     z-index: -1;
-    position: absolute;
-    
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    height: 90px;
-    width: 90px;
-  }
+    height: 80px;
+    width: 80px;
+}
+
+.circle2 { // the color circle that changes its color
+    z-index: -1;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.circle3 { // the color circle that changes its color
+    z-index: -1;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.circle4 { // the color circle that changes its color
+    z-index: -1;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.circle5 { // the color circle that changes its color
+    z-index: -1;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
