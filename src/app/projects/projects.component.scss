@@ -1,0 +1,9 @@
+.circle1 { // the color circle that changes its color
+    z-index: -1;
+    position: absolute;
+    
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+  }
