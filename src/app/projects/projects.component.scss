@@ -1,80 +1,96 @@
-// * {
-//     overflow-x: hidden;
-// }
+* {
+    overflow: hidden;
+}
 
-// .circle1-pos {
-//     position: relative;
-//     left: 490px;
-//     top: 30px;
-//     width: 80px;
-// }
+.section1 {
+    height: 300px;
+}
 
-// .circle1 { // the color circle that changes its color
-//     z-index: -1;
-//     background: linear-gradient(0.40turn, var(--color1), var(--color2));
-//     border-radius: 50%;
-//     height: 80px;
-//     width: 80px;
-// }
+.section2 {
+    height: 410px;
+}
 
-// .circle2-pos {
-//     position: relative;
-//     left: 1200px;
-//     top: 190px;
-//     width: 100px;
-// }
+.work-text {
+    margin-top: 20px;
+    margin-left: 140px;
+    gap: 40px;
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+}
 
-// .circle2 { // the color circle that changes its color
-//     z-index: -1;
-//     background: linear-gradient(0.40turn, var(--color1), var(--color2));
-//     border-radius: 50%;
-//     height: 100px;
-//     width: 100px;
-// }
+.circle1 { // the color circle that changes its color
+    z-index: -1;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 490px;
+    top: 50px;
+}
 
-// .circle3-pos {
-//     position: relative;
-//     width: 150px;
-//     right: 80px;
-//     top: 350px;
-// }
+.circle2 { // the color circle that changes its color
+    z-index: -1;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    position: relative;
+    left: 1100px;
+    bottom: 60px;
+}
 
-// .circle3 { // the color circle that changes its color
-//     z-index: -1;
-//     background: linear-gradient(0.40turn, var(--color1), var(--color2));
-//     border-radius: 50%;
-//     height: 150px;
-//     width: 150px;
-// }
+.join {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding-right: 140px;
+    padding-left: 140px;
+}
 
-// .circle4-pos {
-//     width: 60px;
-//     position: relative;
-//     left: 90px;
-//     top: 400px;
-// }
+.join-img img {
+    max-width:100%;
+    max-height:100%;
+}
 
-// .circle4 { // the color circle that changes its color
-//     z-index: -1;
-//     background: linear-gradient(0.40turn, var(--color1), var(--color2));
-//     border-radius: 50%;
-//     height: 60px;
-//     width: 60px;
-// }
+.join-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-// .circle5-pos {
-//     width: 250px;
-//     position: relative;
-//     left: 1300px;
-//     top: 450px;
-// }
+.join-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
 
-// .circle5 { // the color circle that changes its color
-//     z-index: -1;
-//     background: linear-gradient(0.40turn, var(--color1), var(--color2));
-//     border-radius: 50%;
-//     height: 250px;
-//     width: 250px;
-// }
+}
 
+.join-buttons button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: var(--color1);
+    border-color: var(--color1);
+    font-weight: bold;
+    cursor: pointer;
+}
 
+.circle3 {
+    z-index: -1;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+    position: relative;
+    right: 110px;
+    bottom: 190px;
+}
