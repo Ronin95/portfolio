@@ -7,7 +7,11 @@
 }
 
 .section2 {
-    height: 410px;
+    height: 400px;
+}
+
+.section3 {
+    height: 600px;
 }
 
 .work-text {
@@ -56,22 +60,20 @@
     max-height:100%;
 }
 
-.join-info {
+.project-info {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.join-buttons {
+.project-buttons {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
     gap: 50px;
-
 }
 
-.join-buttons button {
+.project-buttons button {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
@@ -92,5 +94,43 @@
     width: 290px;
     position: relative;
     right: 110px;
-    bottom: 190px;
+    bottom: 210px;
+}
+
+.el-pollo-loco {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.el-pollo-loco-info {
+    align-items: flex-end;
+}
+
+.el-pollo-loco-img img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.circle4 {
+    z-index: -1;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    right: 480px;
+}
+
+.circle5 {
+    z-index: -1;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 100px;
 }
