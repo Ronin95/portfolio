@@ -4,3 +4,47 @@
     height: 40px;
     width: 40px;
 }
+
+.contact-intro {
+    padding-left: 100px;
+    padding-bottom: 60px;
+}
+
+.contact-form-structure {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-text {
+    padding-left: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-form {
+    border-style: dotted;
+    padding-right: 50px;
+    width: 300px;   
+}
+
+.input-form li {
+    padding-bottom: 30px;
+}
+
+input[type=text], input[type=email] {
+    width: 80%;
+    border: 2px solid var(--color1);
+    border-radius: 5px;
+    height: 40px;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid var(--color1);
+    border-radius: 5px;
+    resize: none;
+}
