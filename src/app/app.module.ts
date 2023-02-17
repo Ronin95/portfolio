@@ -7,6 +7,7 @@ import { IntroTextComponent } from './intro-text/intro-text.component';
 import { SkillSetComponent } from './skill-set/skill-set.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     IntroTextComponent,
     SkillSetComponent,
     ProjectsComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

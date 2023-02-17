@@ -23,15 +23,6 @@
     gap: 20px;
 }
 
-.input-form {
-    border-style: dotted;
-    padding-right: 50px;
-    width: 300px;   
-}
-
-.input-form li {
-    padding-bottom: 30px;
-}
 
 input[type=text], input[type=email] {
     width: 80%;
@@ -40,11 +31,3 @@ input[type=text], input[type=email] {
     height: 40px;
 }
 
-textarea {
-    width: 80%;
-    height: 150px;
-    padding: 12px 20px;
-    border: 2px solid var(--color1);
-    border-radius: 5px;
-    resize: none;
-}
