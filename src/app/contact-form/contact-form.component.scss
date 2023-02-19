@@ -1,33 +1,60 @@
 .form-circle {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 130px;
+    width: 130px;
+}
+
+.circle-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: var(--color1);
+    border-color: var(--color1);
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .contact-intro {
-    padding-left: 100px;
+    padding-left: 140px;
     padding-bottom: 60px;
 }
 
-.contact-form-structure {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.contact-text {
-    padding-left: 50px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-
 input[type=text], input[type=email] {
-    width: 80%;
     border: 2px solid var(--color1);
     border-radius: 5px;
     height: 40px;
 }
 
+.contact-form-text-structure {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 45%;
+}
+
+.form-structure {
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
