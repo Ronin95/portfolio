@@ -33,21 +33,52 @@
 
 .contact-form-text-structure {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-around;
 }
 
 .contact-text {
+    padding-left: 70px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    width: 45%;
+    gap: 35px;
+    width: 35%;
 }
 
 .form-structure-1 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 35px;
     justify-content: center;
     align-items: center;
+    height: 350px;
+    width: 600px;
+}
+
+input {
+    border: 2px solid;
+    border-color: var(--color1);
+    text-align: left;
+    border-radius: 10px;
+    width: 450px;
+    height: 40px;
+}
+
+textarea {
+    border: 2px solid;
+    border-color: var(--color1);
+    text-align: left;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    resize: none;
+}
+
+.txt {
+    padding-left: 20px;
+}
+
+.txtarea {
+    padding-top: 10px;
+    padding-left: 20px;
 }
