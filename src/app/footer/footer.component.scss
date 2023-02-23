@@ -1,0 +1,22 @@
+.footer {
+    padding-left: 120px;
+    padding-right: 120px;
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.socialMedia {
+    cursor: pointer;
+}

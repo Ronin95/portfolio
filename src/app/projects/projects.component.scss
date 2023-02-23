@@ -24,6 +24,13 @@
     justify-content: center;
 }
 
+.work-text-small {
+    color: var(--color2);
+    font-family: "Montserrat-ExtraBold";
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .circle1 { // the color circle that changes its color
     z-index: -1;
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
