@@ -82,3 +82,33 @@ textarea {
     padding-top: 10px;
     padding-left: 20px;
 }
+
+.contact-circles {
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.scroll-up-circle {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-up-circle img {
+    width: 15px;
+    cursor: pointer;
+}
+
+.bottom-circle {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}

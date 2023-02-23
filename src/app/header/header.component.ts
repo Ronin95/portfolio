@@ -10,8 +10,8 @@ export class HeaderComponent implements OnInit {
 
   randomCoverImgNum = Math.floor(Math.random()*3)+1;
   selected_img = '';
-  cover_img1 = './assets/img/cover-img/me-nobackground.png'; // -hoodie -ending of the other pictures
-  cover_img2 = './assets/img/cover-img/me-nobackground.png'; // -tshirt -ending of the other pictures
+  cover_img1 = './assets/img/cover-img/me-nobackground-hoodie.png'; // -hoodie -ending of the other pictures
+  cover_img2 = './assets/img/cover-img/me-nobackground-tshirt.png'; // -tshirt -ending of the other pictures
   cover_img3 = './assets/img/cover-img/me-nobackground.png';
 
   ngOnInit() {
