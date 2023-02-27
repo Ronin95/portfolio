@@ -6,6 +6,10 @@
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color1: #5988ff;
   --color2: #0043f0;

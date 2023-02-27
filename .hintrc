@@ -6,7 +6,8 @@
     "no-inline-styles": "off",
     "typescript-config/strict": "off",
     "disown-opener": "off",
-    "button-type": "off"
+    "button-type": "off",
+    "axe/keyboard": "off"
   },
   "browserslist": [
     "defaults",

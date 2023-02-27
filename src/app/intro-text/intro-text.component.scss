@@ -98,7 +98,6 @@
   right: 0;
   z-index: -1;
   transition: all 0.3s ease-in-out;
-  transform: skew(30deg);
   transform-origin: bottom right;
 }
 
@@ -113,32 +112,6 @@
 .btn:hover::after {
   width: 250px;
 }
-
-
-
-
-// .contact-btn {
-//   border-style: dotted;
-//   width: 200px;
-//   button:hover {
-//     cursor: pointer;
-//     transform: scale(1.1);
-//     background-color: var(--color2);
-//     transition: all 0.3s ease-in-out;
-//   }
-// }
-
-// .contact-btn button {
-//   padding-top: 10px;
-//   padding-bottom: 10px;
-//   padding-right: 20px;
-//   padding-left: 20px;
-//   background-color: transparent;
-//   border-radius: 10px;
-//   color: var(--color1);
-//   border-color: var(--color1);
-//   font-weight: bold;
-// }
 
 .work-together-text {
   padding-left: 60px;
