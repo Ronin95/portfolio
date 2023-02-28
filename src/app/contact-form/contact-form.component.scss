@@ -1,5 +1,24 @@
-.contact-margin {
+@font-face {
+  font-family: 'Ubuntu-BoldItalic';
+  src: url("../../assets/fonts/Ubuntu-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: 'Ubuntu-Light';
+  src: url('../../assets/fonts/Ubuntu-Light.ttf');
+}
+
+* {
+  font-family: 'Ubuntu-Light';
+}
+
+.contact {
     margin-bottom: 30px;
+}
+
+.contact-intro h1 {
+  font-family: 'Ubuntu-BoldItalic';
+  font-size: 75px;
 }
 
 .form-circle {

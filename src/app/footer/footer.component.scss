@@ -30,7 +30,11 @@
 }
 
 .socialMedia {
-    cursor: pointer;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
     a:hover {
       animation: pulse 1s infinite;
