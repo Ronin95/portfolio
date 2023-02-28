@@ -107,17 +107,64 @@ a:active { text-decoration: none; }
     gap: 50px;
 }
 
-.project-buttons a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-style: solid;
-    border-radius: 10px;
-    color: var(--color1);
-    border-color: var(--color1);
-    font-weight: bold;
-    cursor: pointer;
+.project-buttons-a {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: var(--color2);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn::before {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+  transform: skew(-30deg);
+  transform-origin: bottom left;
+}
+
+.btn::after {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+  transform-origin: bottom right;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.btn:hover::before {
+  width: 250px;
+}
+
+.btn:hover::after {
+  width: 250px;
 }
 
 .circle3 {
@@ -173,3 +220,18 @@ a:active { text-decoration: none; }
     left: 1100px;
     bottom: 290px;
 }
+
+
+// .img-magnifier-container {
+//   position: relative;
+// }
+
+// .img-magnifier-glass {
+//   position: absolute;
+//   border: 3px solid #000;
+//   border-radius: 50%;
+//   cursor: none;
+//   /*Set the size of the magnifier glass:*/
+//   width: 100px;
+//   height: 100px;
+// }
