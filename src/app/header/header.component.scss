@@ -142,5 +142,82 @@ a:active { text-decoration: none; }
 .mail-header-logo {
   position: relative;
   top: 2px;
+}
 
+.logo-position img {
+  width: 200px;
+}
+
+
+@media screen and (max-width: 320px) {
+  .top-header-links {
+    display: none;
+  }
+
+  .cover-img-text-intro {
+    flex-direction: column-reverse;
+  }
+
+  .word-spacing {
+    padding: 0;
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+  }
+
+  .full-header {
+    height: 650px;
+  }
+
+  .name-text {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+
+  .frontDev-text1 {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 25px;
+    left: 20px;
+  }
+
+  .frontDev-text2 {
+    font-size: 37px;
+    color: white;
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+  }
+
+  .cover-img-position img {
+    width: 300px;
+    position: absolute;
+    top: 226px;
+    right: 5px;
+  }
+
+  .logo-position {
+    position: relative;
+    right: 85px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .scroll-line-socialMedia {
+    display: none;
+  }
+
+  .circle {
+    width: 600px;
+    height: 600px;
+    right: 5px;
+    bottom: 190px;
+  }
 }
