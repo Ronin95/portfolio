@@ -59,3 +59,24 @@
                   200px 200px rgb(255, 255, 255);
   }
 }
+
+
+@media screen and (max-width: 320px) {
+  .skills {
+    border-style: dotted;
+    height: 650px;
+  }
+
+  .skills-ordering {
+    border-style: dotted;
+    flex-direction: column;
+  }
+
+  .individual-skill-position img  {
+    width: 20px;
+  }
+
+  .individual-skill-position h2 {
+    font-size: 10px;
+  }
+}
