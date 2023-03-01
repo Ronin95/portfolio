@@ -23,15 +23,15 @@ export class HeaderComponent implements OnInit {
       this.selected_img = this.cover_img3;
     }
 
-    let checkboxNavBar = document.getElementById('active') as HTMLInputElement;
-    checkboxNavBar.addEventListener('change', function() {
-      let body = document.getElementsByTagName('body')[0];
-      if (checkboxNavBar.checked) {
-        body.style.overflow = 'hidden';
-      } else {
-        body.style.overflow = 'auto';
-      }
-    });
+    // let checkboxNavBar = document.getElementById('active') as HTMLInputElement;
+    // checkboxNavBar.addEventListener('change', function() {
+    //   let body = document.getElementsByTagName('body')[0];
+    //   if (checkboxNavBar.checked) {
+    //     body.style.overflow = 'hidden';
+    //   } else {
+    //     body.style.overflow = 'auto';
+    //   }
+    // });
   }
 
   checkCoverImg() {
