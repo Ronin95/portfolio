@@ -1,5 +1,6 @@
 * {
   overflow: hidden;
+  font-family: "Montserrat";
 }
 
 .header-aboutme-circle-position {
@@ -24,7 +25,8 @@
   justify-content: space-around;
   align-items: center;
   position: relative;
-  bottom: 50px;
+  bottom: 80px;
+  height: 300px;
 }
 
 .random-circle-position {
@@ -118,10 +120,9 @@
   padding-left: 60px;
   color: var(--color2);
   font-size: 35px;
-}
-
-.work-together-text h1 {
-  font-family: "Montserrat-BoldItalic";
+  font-style: italic;
+  position: relative;
+  bottom: 30px;
 }
 
 @media screen and (max-width: 320px) {
@@ -130,6 +131,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 630px;
   }
 
   .random-circle-position {

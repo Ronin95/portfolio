@@ -1,19 +1,6 @@
 * {
   overflow: hidden;
-}
-
-@font-face {
-  font-family: 'Ubuntu-BoldItalic';
-  src: url("../../assets/fonts/Ubuntu-BoldItalic.ttf");
-}
-
-@font-face {
-  font-family: 'Ubuntu-Light';
-  src: url('../../assets/fonts/Ubuntu-Light.ttf');
-}
-
-* {
-  font-family: 'Ubuntu-Light';
+  font-family: 'Ubuntu';
 }
 
 .contact {
@@ -21,7 +8,6 @@
 }
 
 .contact-intro h1 {
-  font-family: 'Ubuntu-BoldItalic';
   font-size: 75px;
 }
 
@@ -81,7 +67,6 @@
   position: absolute;
   width: 250px;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
   bottom: 0;
   right: 0;
   z-index: -1;
@@ -138,6 +123,36 @@ input {
     width: 450px;
     height: 40px;
     cursor: pointer;
+}
+
+input[type="text"]:focus {
+  border-bottom: var(--color2);
+}
+
+input[type="text"]:focus::placeholder {
+  color: var(--color2);
+  transform: translateY(-20px);
+  transition: all 0.5s;
+}
+
+input[type="email"]:focus {
+  border-bottom: 2px solid var(--color2);
+}
+
+input[type="email"]:focus::placeholder {
+  color: var(--color2);
+  transform: translateY(-20px);
+  transition: all 0.5s;
+}
+
+textarea:focus {
+  border-color: var(--color2);
+}
+
+textarea:focus::placeholder {
+  color: var(--color2);
+  transform: translateY(-20px);
+  transition: all 0.5s;
 }
 
 .input-size {
@@ -213,4 +228,22 @@ textarea {
   border-radius: 50%;
   height: 50px;
   width: 50px;
+}
+
+
+@media screen and (max-width: 320px) {
+  .contact-intro {
+    border-style: dotted;
+
+    h1 {
+      font-size: 50px;
+      position: relative;
+      padding: 0;
+    }
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
+  }
+
 }

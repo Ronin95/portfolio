@@ -1,5 +1,6 @@
 * {
   overflow: hidden;
+  font-family: 'Montserrat';
 }
 
 @keyframes pulse {
@@ -55,14 +56,16 @@ a { color: inherit; }
 }
 
 .frontDev-text1 {
-  font-family: "Montserrat-ExtraBold";
+  font-family: 'Montserrat';
+  font-weight: 900;
   font-size: 90px;
   color: var(--color1);
   text-align: left;
 }
 
 .frontDev-text2 {
-  font-family: "Montserrat-ExtraBold";
+  font-family: 'Montserrat';
+  font-weight: 900;
   font-size: 82px;
   color: var(--color1);
   text-align: left;
