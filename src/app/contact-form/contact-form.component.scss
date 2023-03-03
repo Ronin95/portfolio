@@ -3,6 +3,14 @@
   font-family: 'Ubuntu';
 }
 
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
+}
+
 .contact {
     margin-bottom: 30px;
 }
@@ -106,6 +114,7 @@
 }
 
 .form-structure-1 {
+    z-index: 999;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -127,36 +136,46 @@ input {
 
 input[type="text"]:focus {
   border-bottom: var(--color2);
+  animation: horizontal-shaking 0.35s 2ms;
 }
 
 input[type="text"]:focus::placeholder {
   color: var(--color2);
-  transform: translateY(-20px);
+  // transform: translateY(-20px);
   transition: all 0.5s;
+  animation: horizontal-shaking 0.35s 2ms;
 }
 
 input[type="email"]:focus {
   border-bottom: 2px solid var(--color2);
+  animation: horizontal-shaking 0.35s 2ms;
 }
 
 input[type="email"]:focus::placeholder {
   color: var(--color2);
-  transform: translateY(-20px);
+  // transform: translateY(-20px);
   transition: all 0.5s;
+  animation: horizontal-shaking 0.35s 2ms;
 }
 
 textarea:focus {
   border-color: var(--color2);
+  animation: horizontal-shaking 0.35s 2ms;
 }
 
 textarea:focus::placeholder {
   color: var(--color2);
-  transform: translateY(-20px);
+  // transform: translateY(-20px);
   transition: all 0.5s;
+  animation: horizontal-shaking 0.35s 2ms;
 }
 
 .input-size {
   height: 60px;
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 textarea {
@@ -172,6 +191,10 @@ textarea {
 
 .textarea-size {
   height: 130px;
+  width: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .txt {
@@ -234,7 +257,10 @@ textarea {
 @media screen and (max-width: 320px) {
   .contact {
     position: relative;
-    bottom: 80px;
+    bottom: 40px;
+    height: 740px;
+    margin: 0;
+    padding: 0;
   }
 
   .contact-intro {
@@ -248,33 +274,43 @@ textarea {
     }
   }
 
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .circle-position-3 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 95px;
+
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+
   .contact-text {
     width: 80%;
     position: relative;
     right: 40px;
-  }
-
-  .circle-position2 {
-    border-style: dotted;
-    position: relative;
-    top: 10px;
-  }
-
-  .form-circle2 {
-    display: flex;
-    z-index: -1;
-    width: 20px;
-    height: 20px;
-  }
-
-  .form-structure {
-    width: 100%;
-  }
-
-  .form-structure-1 {
-    padding-top: 20px;
-    position: relative;
-    right: 145px;
   }
 
   input, textarea {
@@ -283,6 +319,160 @@ textarea {
 
   .contact-form-text-structure {
     flex-direction: column;
+  }
+
+  .form-structure-1 {
+    height: fit-content;
+    width: 300px;
+    position: relative;
+    left: 6px;
+    bottom: 20px;
+    gap: 0;
+  }
+
+  .name-position {
+    padding: 0;
+    width: max-content;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .email-position {
+    padding: 0;
+    width: max-content;
+    position: relative;
+    bottom: 35px;
+  }
+
+  .txtarea-position {
+    width: max-content;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .btn-size {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .contact-circles {
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    bottom: 30px;
+  }
+
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .contact {
+    position: relative;
+    bottom: 40px;
+    height: 740px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-intro {
+    height: 5px;
+
+    h1 {
+      font-size: 40px;
+      position: relative;
+      right: 100px;
+      padding: 0;
+    }
+  }
+
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .circle-position-3 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 95px;
+
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .contact-text {
+    width: 80%;
+    position: relative;
+    right: 40px;
+  }
+
+  input, textarea {
+    width: 300px;
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
+  }
+
+  .form-structure-1 {
+    height: fit-content;
+    width: 360px;
+    position: relative;
+    left: 5px;
+    bottom: 20px;
+    gap: 0;
+  }
+
+  .name-position {
+    padding: 0;
+    width: max-content;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .email-position {
+    padding: 0;
+    width: max-content;
+    position: relative;
+    bottom: 35px;
+  }
+
+  .txtarea-position {
+    width: max-content;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .btn-size {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .contact-circles {
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    bottom: 30px;
   }
 
 }

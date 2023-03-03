@@ -169,3 +169,53 @@
     bottom: 10px;
   }
 }
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .about-me {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 630px;
+  }
+
+  .random-circle-position {
+    left: 100px;
+    bottom: 20px;
+  }
+
+  .work-together-text {
+    font-size: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .about-me-desc {
+    position: relative;
+    left: 40px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      padding: 0;
+    }
+  }
+
+  .about-me-text {
+    gap: 90px;
+  }
+
+  .btn-size {
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+  }
+}

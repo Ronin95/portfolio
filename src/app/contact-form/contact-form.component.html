@@ -11,7 +11,7 @@
             <p>Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to your projects with my work.</p>
           </div>
           <div>
-            <p style="color: var(--color1)">Need a Frontend Developer? <strong style="color: var(--color2)" href="mailto:n.badjevic@gmail.com">Contact me!</strong></p>
+            <p style="color: var(--color1)">Need a Frontend Developer? <span><strong style="color: var(--color2)">Contact me!</strong></span></p>
           </div>
           <div class="circle-position">
             <figure class="form-circle"></figure>
@@ -19,18 +19,18 @@
       </div>
       <div class="form-structure">
         <form (ngSubmit)="onSubmit(f)" #f="ngForm">
-          <div class="form-structure-1">
-            <div class="circle-position2" style="display:none">
-              <figure class="form-circle2"></figure>
+          <div class="form-structure-1 ">
+            <div class="circle-position-3">
+              <figure class="form-circle-3"></figure>
             </div>
-            <div class="input-size">
-              <input required ngModel type="text" class="txt" id="name" name="user_name" placeholder="Your name" />
+            <div class="input-size name-position">
+              <input required ngModel type="text" class="horizontal-shake txt" id="name" name="user_name" placeholder="Your name" />
             </div>
-            <div class="input-size">
-              <input required email ngModel type="email" class="txt" id="mail" name="user_email" placeholder="Your email" />
+            <div class="input-size email-position">
+              <input required email ngModel type="email" class="horizontal-shake txt" id="mail" name="user_email" placeholder="Your email" />
             </div>
-            <div class="textarea-size">
-              <textarea required ngModel id="msg" class="txtarea" name="user_message" placeholder="Your message..."></textarea>
+            <div class="textarea-size txtarea-position">
+              <textarea required ngModel id="msg" class="horizontal-shake txtarea" name="user_message" placeholder="Your message..."></textarea>
             </div>
             <div class="btn-size">
               <a type="submit" class="contact-btn">Contact</a>

@@ -1,3 +1,8 @@
+* {
+  overflow: hidden;
+  font-family: 'Montserrat';
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -46,4 +51,57 @@
     a:hover {
       animation: pulse 1s infinite;
     }
+}
+
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    height: 250px;
+  }
+
+  .name {
+    gap: 10px;
+    color: white;
+
+    h3 {
+      font-weight: 300;
+    }
+
+    p {
+      font-weight: 150;
+    }
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    height: 250px;
+  }
+
+  .name {
+    gap: 10px;
+    color: white;
+
+    h3 {
+      font-weight: 300;
+    }
+
+    p {
+      font-weight: 150;
+    }
+  }
+
 }
