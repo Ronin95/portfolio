@@ -23,7 +23,6 @@ a { color: inherit; }
 
 .full-header {
   background: radial-gradient(circle at bottom, var(--color1), 5%, transparent);
-  // height: 700px;
 }
 
 .top-header {
@@ -565,11 +564,16 @@ a { color: inherit; }
     left: 20px;
   }
 
+  .cover-img-position {
+    width: 400px;
+    height: 700px;
+  }
+
   .cover-img-position img {
     width: 300px;
-    position: absolute;
-    top: 226px;
-    right: 33px;
+    position: relative;
+    top: 170px;
+    left: 50px;
     z-index: -1;
   }
 
@@ -717,7 +721,7 @@ a { color: inherit; }
 
   .full-header {
     height: 650px;
-    background: none;
+    background: radial-gradient(circle at bottom, var(--color1), 0.1%, transparent);
   }
 
   .name-text {
@@ -744,11 +748,15 @@ a { color: inherit; }
     left: 20px;
   }
 
+  .cover-img-position {
+    width: 550px;
+  }
+
   .cover-img-position img {
-    width: 400px;
-    position: absolute;
-    top: 90px;
-    right: 150px;
+    width: 450px;
+    position: relative;
+    bottom: 250px;
+    left: 90px;
     z-index: -1;
   }
 
@@ -866,7 +874,6 @@ a { color: inherit; }
     color: var(--color1);
   }
 }
-
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .cover-img-text-intro {
