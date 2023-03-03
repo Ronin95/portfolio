@@ -17,17 +17,20 @@
             <figure class="form-circle"></figure>
           </div>
       </div>
-      <div>
-        <form>
+      <div class="form-structure">
+        <form (ngSubmit)="onSubmit(f)" #f="ngForm">
           <div class="form-structure-1">
-            <div class="input-size">
-              <input required type="text" class="txt" id="name" name="user_name" placeholder="Your name" />
+            <div class="circle-position2" style="display:none">
+              <figure class="form-circle2"></figure>
             </div>
             <div class="input-size">
-              <input required type="email" class="txt" id="mail" name="user_email" placeholder="Your email" />
+              <input required ngModel type="text" class="txt" id="name" name="user_name" placeholder="Your name" />
+            </div>
+            <div class="input-size">
+              <input required email ngModel type="email" class="txt" id="mail" name="user_email" placeholder="Your email" />
             </div>
             <div class="textarea-size">
-              <textarea required id="msg" class="txtarea" name="user_message" placeholder="Your message..."></textarea>
+              <textarea required ngModel id="msg" class="txtarea" name="user_message" placeholder="Your message..."></textarea>
             </div>
             <div class="btn-size">
               <a type="submit" class="contact-btn">Contact</a>

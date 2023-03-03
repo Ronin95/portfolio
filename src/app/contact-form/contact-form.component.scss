@@ -232,14 +232,53 @@ textarea {
 
 
 @media screen and (max-width: 320px) {
+  .contact {
+    position: relative;
+    bottom: 80px;
+  }
+
   .contact-intro {
-    border-style: dotted;
+    height: 5px;
 
     h1 {
-      font-size: 50px;
+      font-size: 40px;
       position: relative;
+      right: 100px;
       padding: 0;
     }
+  }
+
+  .contact-text {
+    width: 80%;
+    position: relative;
+    right: 40px;
+  }
+
+  .circle-position2 {
+    border-style: dotted;
+    position: relative;
+    top: 10px;
+  }
+
+  .form-circle2 {
+    display: flex;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
+  }
+
+  .form-structure {
+    width: 100%;
+  }
+
+  .form-structure-1 {
+    padding-top: 20px;
+    position: relative;
+    right: 145px;
+  }
+
+  input, textarea {
+    width: 250px;
   }
 
   .contact-form-text-structure {
