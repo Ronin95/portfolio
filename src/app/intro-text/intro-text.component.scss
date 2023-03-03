@@ -219,3 +219,157 @@
     bottom: 20px;
   }
 }
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .about-me {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 630px;
+  }
+
+  .random-circle-position {
+    left: 100px;
+    bottom: 20px;
+  }
+
+  .work-together-text {
+    padding-left: 100px;
+    font-size: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .about-me-desc {
+    position: relative;
+    left: 40px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      padding: 0;
+    }
+  }
+
+  .about-me-text {
+    gap: 90px;
+  }
+
+  .btn-size {
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .about-me {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 630px;
+  }
+
+  .random-circle-position {
+    left: 100px;
+    bottom: 20px;
+  }
+
+  .work-together-text {
+    font-size: 22px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+
+    h1 {
+      width: 300px;
+    }
+  }
+
+  .about-me-desc {
+    position: relative;
+    left: 40px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      padding: 0;
+    }
+  }
+
+  .about-me-text {
+    gap: 90px;
+  }
+
+  .btn-size {
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .about-me {
+    padding-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 630px;
+  }
+
+  .random-circle-position {
+    left: 100px;
+    bottom: 20px;
+  }
+
+  .work-together-text {
+    font-size: 22px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+
+    h1 {
+      width: 350px;
+      font-size: 56px;
+    }
+  }
+
+  .about-me-desc {
+    position: relative;
+    left: 40px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      padding: 0;
+      font-size: 26px;
+    }
+  }
+
+  .about-me-text {
+    gap: 90px;
+  }
+
+  .btn-size {
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+  }
+}
