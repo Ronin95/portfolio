@@ -84,8 +84,7 @@
   }
 }
 
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media screen and (min-width: 321px) and (max-width: 425px) {
   .title-skill-set {
     font-size: 22px;
   }
@@ -98,6 +97,7 @@
   .individual-skill-position {
     max-width: 70px;
     max-height: 125px;
+    gap: 10px;
 
     img {
       width: 50px;
@@ -105,6 +105,40 @@
 
     h2 {
       font-size: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .title-skill-set {
+    font-size: 22px;
+  }
+
+  .skills-ordering {
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .individual-skill-position {
+    max-width: 70px;
+    max-height: 140px;
+    gap: 10px;
+
+    img {
+      width: 50px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .firebase {
+    h2 {
+      position: relative;
+      bottom: 8px;
     }
   }
 }
