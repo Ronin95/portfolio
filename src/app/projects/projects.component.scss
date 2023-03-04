@@ -9,11 +9,11 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .section2 {
-  height: 420px;
+  height: 450px;
 }
 
 .section3 {
-  height: 470px;
+  height: 480px;
 }
 
 .work-text {
@@ -467,5 +467,304 @@ a:active { text-decoration: none; }
     padding: 25px;
     width: 280px;
     height: 170px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .circle2 {
+    left: 220px;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .circle1 {
+    left: 100px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .circle3 {
+    width: 190px;
+    height: 190px;
+    bottom: 390px;
+    right: 50px;
+  }
+
+  .work-text {
+    width: 100%;
+    position: relative;
+    right: 100px;
+  }
+
+  .circle5 {
+    width: 190px;
+    height: 190px;
+    top: -480px;
+    left: 250px;
+  }
+
+  .work-text-p {
+    position: relative;
+    right: 45px;
+    bottom: 20px;
+    line-height: 25px;
+  }
+
+  .project-info {
+    text-align: center;
+    width: 100%;
+    gap: 20px;
+
+    p, h3 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .work-text-small {
+    position: relative;
+    right: 15px;
+  }
+
+  .work-text-small h1 {
+    font-size: 50px;
+  }
+
+  .project-buttons {
+    justify-content: center;
+    gap: 0;
+  }
+
+  .section2 {
+    height: 480px;
+  }
+
+  .join {
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+  }
+
+  .join-img img {
+    padding: 10px;
+    width: 280px;
+    height: 170px;
+  }
+
+  .section3 {
+    height: 650px;
+  }
+
+
+  .el-pollo-loco {
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    width: 100%;
+    position: relative;
+    right: 150px;
+    gap: 20px;
+  }
+
+  .el-pollo-loco-info {
+    gap: 20px;
+
+    h1 {
+      position: relative;
+      right: 110px;
+    }
+
+    h3 {
+      position: relative;
+      right: 85px;
+    }
+
+    p {
+      text-align: center;
+      position: relative;
+      left: 5px;
+    }
+
+  }
+
+  .el-pollo-loco-btn {
+    position: relative;
+    right: 50px;
+  }
+
+  .el-pollo-loco-img img {
+    padding: 25px;
+    width: 280px;
+    height: 170px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .circle2 {
+    left: 620px;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .circle1 {
+    left: 100px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .circle3 {
+    width: 210px;
+    height: 210px;
+    bottom: 390px;
+    left: 90px;
+  }
+
+  .circle4 {
+    position:relative;
+    right: 610px;
+  }
+
+  .work-text {
+    width: 100%;
+    position: relative;
+    right: 100px;
+  }
+
+  .circle5 {
+    width: 190px;
+    height: 190px;
+    top: -480px;
+    left: 450px;
+  }
+
+  .work-text-p {
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+    line-height: 25px;
+  }
+
+  .project-info {
+    text-align: center;
+    width: 100%;
+    gap: 20px;
+
+    p, h3 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .work-text-small {
+    position: relative;
+    left: 100px;
+  }
+
+  .work-text-small h1 {
+    font-size: 50px;
+  }
+
+  .project-buttons {
+    justify-content: center;
+    gap: 0;
+  }
+
+  .section2 {
+    height: 480px;
+  }
+
+  .join {
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+  }
+
+  .join-img img {
+    padding: 10px;
+    width: 280px;
+    height: 170px;
+  }
+
+  .section3 {
+    height: 650px;
+  }
+
+
+  .el-pollo-loco {
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    width: 100%;
+    position: relative;
+    right: 150px;
+    gap: 20px;
+  }
+
+  .el-pollo-loco-info {
+    gap: 20px;
+
+    h1 {
+      position: relative;
+      right: 280px;
+    }
+
+    h3 {
+      position: relative;
+      right: 255px;
+    }
+
+    p {
+      text-align: center;
+      position: relative;
+      left: 5px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+  }
+
+  .el-pollo-loco-btn {
+    position: relative;
+    right: 220px;
+  }
+
+  .el-pollo-loco-img img {
+    padding: 25px;
+    width: 280px;
+    height: 170px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .circle3 {
+    width: 270px;
+    height: 270px;
+    bottom: 160px;
+    left: 40px;
+  }
+
+  .circle4 {
+    position:relative;
+    right: 190px;
+  }
+
+  .circle5 {
+    width: 230px;
+    height: 230px;
+    left: 770px;
+    bottom: 170px;
+  }
+
+  .work-text-p {
+    position: relative;
+    right: 30px;
+    line-height: 25px;
+    width: 60%;
   }
 }
