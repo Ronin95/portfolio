@@ -18,22 +18,43 @@
           </div>
       </div>
       <div class="form-structure">
-        <form action="https://ftp82.world4you.com/send_mail/send_mail.php" method="post">
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
           <div class="form-structure-1 ">
             <div class="circle-position-3">
               <figure class="form-circle-3"></figure>
             </div>
             <div class="input-size name-position">
-              <input required ngModel type="text" class="horizontal-shake txt" id="name" name="name" placeholder="Your name" />
+              <input
+                formControlName="name"
+                ngModel
+                type="text"
+                class="horizontal-shake txt"
+                id="name"
+                name="name"
+                placeholder="Your name" />
             </div>
             <div class="input-size email-position">
-              <input required email ngModel type="email" class="horizontal-shake txt" id="mail" name="email" placeholder="Your email" />
+              <input
+                formControlName="email"
+                email
+                ngModel
+                type="email"
+                class="horizontal-shake txt"
+                id="mail"
+                name="email"
+                placeholder="Your email" />
             </div>
             <div class="textarea-size txtarea-position">
-              <textarea required ngModel id="msg" class="horizontal-shake txtarea" name="message" placeholder="Your message..."></textarea>
+              <textarea
+                formControlName="message"
+                ngModel
+                id="msg"
+                class="horizontal-shake txtarea"
+                name="message"
+                placeholder="Your message..."></textarea>
             </div>
             <div class="btn-size">
-              <a type="submit" class="contact-btn">Contact</a>
+              <button><a type="submit" class="contact-btn">Contact</a></button>
             </div>
           </div>
         </form>

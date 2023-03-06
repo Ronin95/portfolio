@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms';
+import { FormControl, FormGroup, NgForm, Validators } from '@angular/forms';
 
 
 @Component({
@@ -8,9 +8,18 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./contact-form.component.scss']
 })
 export class ContactFormComponent implements OnInit {
-  ngOnInit() {}
+  contactForm: FormGroup;
 
-  onSubmit(form: NgForm) {
-    console.log(form);
+  ngOnInit() {
+    this.contactForm = new FormGroup({
+      'name': new FormControl(null, Validators.required),
+      'email': new FormControl(null, [Validators.required, Validators.email]),
+      'message': new FormControl(null),
+    });
+  }
+
+  onSubmit() {
+    console.log(this.contactForm);
+    this.contactForm.reset();
   }
 }

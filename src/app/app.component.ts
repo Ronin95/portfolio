@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 import { StyleService } from './services/style.service';
+
 
 @Component({
   selector: 'app-root',
