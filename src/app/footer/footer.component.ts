@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
   constructor() {}
   ngOnInit(): void {}
-  onGoToImprint() {
-    const url = './imprint.component.html';
-    window.location.href = url;
-  }
+  // onGoToImprint() {
+  //   const url = 'imprint.component.html';
+  //   window.open(url, '_blank');
+  // }
 }

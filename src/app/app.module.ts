@@ -12,6 +12,7 @@ import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ImprintComponent } from './imprint/imprint.component';
 import { RouterModule } from '@angular/router';
+import { StartComponent } from './start/start.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RouterModule } from '@angular/router';
     ProjectsComponent,
     ContactFormComponent,
     FooterComponent,
-    ImprintComponent
+    ImprintComponent,
+    StartComponent
   ],
   imports: [
     BrowserModule,
