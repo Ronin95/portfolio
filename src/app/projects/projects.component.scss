@@ -9,11 +9,11 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .section2 {
-  height: 450px;
+  height: 500px;
 }
 
 .section3 {
-  height: 480px;
+  height: 500px;
 }
 
 .work-text {
@@ -152,23 +152,23 @@ a:active { text-decoration: none; }
 }
 
 .circle3 {
-    z-index: -1;
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 290px;
-    width: 290px;
-    position: relative;
-    right: 110px;
-    bottom: 210px;
+  z-index: -1;
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  border-radius: 50%;
+  height: 290px;
+  width: 290px;
+  position: relative;
+  right: -50px;
+  bottom: 260px;
 }
 
 .el-pollo-loco {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 60px;
-    padding-right: 140px;
-    padding-left: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  padding-right: 140px;
+  padding-left: 140px;
 }
 
 .el-pollo-loco-info {
@@ -185,24 +185,24 @@ a:active { text-decoration: none; }
 }
 
 .circle4 {
-    z-index: -1;
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    position: relative;
-    right: 480px;
+  z-index: -1;
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  right: 480px;
 }
 
 .circle5 {
-    z-index: -1;
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 420px;
-    width: 420px;
-    position: relative;
-    left: 1100px;
-    bottom: 290px;
+  z-index: -1;
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  border-radius: 50%;
+  height: 420px;
+  width: 420px;
+  position: relative;
+  left: 1450px;
+  bottom: 390px;
 }
 
 
@@ -762,9 +762,28 @@ a:active { text-decoration: none; }
   }
 
   .work-text-p {
-    position: relative;
-    right: 30px;
     line-height: 25px;
     width: 60%;
+  }
+
+  .work-text {
+    padding-left: 80px;
+  }
+
+  .circle2 {
+    left: 800px;
+    bottom: 90px;
+  }
+
+  .section1 {
+    height: 300px;
+  }
+
+  .section2 {
+    height: 320px;
+  }
+
+  .section3 {
+    height: 320px;
   }
 }

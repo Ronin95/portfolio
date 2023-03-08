@@ -253,7 +253,7 @@
     align-items: left;
     flex-direction: column;
     position: relative;
-    bottom: 20px;
+    bottom: 40px;
   }
 
   .about-me-desc {
@@ -288,7 +288,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 630px;
+    height: 500px;
   }
 
   .random-circle-position {
@@ -298,21 +298,19 @@
 
   .work-together-text {
     font-size: 29px;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: left;
-    flex-direction: column;
-
-    h1 {
-      width: 300px;
-    }
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    right: 20px;
   }
 
   .about-me-desc {
     position: relative;
-    left: 40px;
-    width: 500px;
+    left: 80px;
+    width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -341,7 +339,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 630px;
+    height: 400px;
   }
 
   .random-circle-position {

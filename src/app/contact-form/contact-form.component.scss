@@ -112,32 +112,32 @@
 }
 
 .contact-text {
-    padding-left: 70px;
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    width: 35%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 35%;
 }
 
 .form-structure-1 {
-    z-index: 999;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    height: 350px;
-    width: 600px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 600px;
 }
 
 input {
-    border: 2px solid;
-    border-color: var(--color1);
-    text-align: left;
-    border-radius: 10px;
-    width: 450px;
-    height: 40px;
-    cursor: pointer;
+  border: 2px solid;
+  border-color: var(--color1);
+  text-align: left;
+  border-radius: 10px;
+  width: 450px;
+  height: 40px;
+  cursor: pointer;
 }
 
 input[type="text"]:focus {
@@ -185,14 +185,14 @@ textarea:focus::placeholder {
 }
 
 textarea {
-    border: 2px solid;
-    border-color: var(--color1);
-    text-align: left;
-    border-radius: 10px;
-    width: 450px;
-    height: 100px;
-    resize: none;
-    cursor: pointer;
+  border: 2px solid;
+  border-color: var(--color1);
+  text-align: left;
+  border-radius: 10px;
+  width: 450px;
+  height: 100px;
+  resize: none;
+  cursor: pointer;
 }
 
 .textarea-size {
@@ -274,7 +274,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .contact {
     position: relative;
     bottom: 40px;
@@ -334,7 +334,7 @@ textarea {
   .contact-text {
     width: 80%;
     position: relative;
-    right: 40px;
+    left: 35px;
   }
 
   input, textarea {
@@ -380,7 +380,7 @@ textarea {
 
   .btn-size {
     position: relative;
-    bottom: 20px;
+    bottom: 40px;
   }
 
   .contact-circles {
@@ -388,7 +388,7 @@ textarea {
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
-    bottom: 30px;
+    bottom: 70px;
   }
 
 }
@@ -495,7 +495,7 @@ textarea {
 
   .btn-size {
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
   }
 
   .contact-circles {
@@ -503,7 +503,7 @@ textarea {
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
-    bottom: 30px;
+    bottom: 40px;
   }
 
 }
@@ -568,7 +568,7 @@ textarea {
   .contact-text {
     width: 80%;
     position: relative;
-    right: 40px;
+    left: 35px;
   }
 
   input, textarea {
@@ -681,7 +681,10 @@ textarea {
   }
 
   .contact-text {
+    padding-top: 20px;
     width: 80%;
+    position: relative;
+    left: 75px;
   }
 
   input, textarea {
@@ -731,7 +734,29 @@ textarea {
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
-    bottom: 30px;
+    bottom: 50px;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contact-form-text-structure {
+    position: relative;
+    left: 30px;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+  }
+
+  .contact-text {
+    position: relative;
+    left: 50px;
+  }
+
+  .contact-intro {
+    padding-left: 80px;
+    padding-bottom: 20px;
   }
 
 }
