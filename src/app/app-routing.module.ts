@@ -6,7 +6,7 @@ import { StartComponent } from './start/start.component';
 
 const routes: Routes = [
   { path: '', component: StartComponent},
-  { path: 'home', component: HeaderComponent},
+  // { path: 'header', component: HeaderComponent},
   { path: 'imprint', component: ImprintComponent },
 ];
 
