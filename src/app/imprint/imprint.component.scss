@@ -1,0 +1,15 @@
+* {
+  font-family: 'Montserrat';
+}
+
+.imprint-style {
+  margin: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  .imprint-style {
+    margin: 0;
+    padding: 20px;
+  }
+
+}
