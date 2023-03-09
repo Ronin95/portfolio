@@ -212,7 +212,7 @@ a { color: inherit; }
     width: 290px;
     position: absolute;
     top: 240px;
-    right: 5px;
+    right: 10px;
     z-index: -1;
   }
 
@@ -234,7 +234,7 @@ a { color: inherit; }
     width: 420px;
     height: 420px;
     left: -130px;
-    bottom: 320px;
+    bottom: 390px;
   }
 
   // Code for the Navbar
@@ -255,8 +255,8 @@ a { color: inherit; }
   .menu-btn{
     position: absolute;
     z-index: 2;
-    right: 5px;
-    top: 20px;
+    right: 15px;
+    top: 10px;
     height: 50px;
     width: 50px;
     text-align: center;
@@ -391,7 +391,7 @@ a { color: inherit; }
     width: 330px;
     position: absolute;
     top: 190px;
-    right: 10px;
+    right: 25px;
     z-index: -1;
   }
 
@@ -413,7 +413,7 @@ a { color: inherit; }
     width: 470px;
     height: 470px;
     left: -130px;
-    bottom: 320px;
+    bottom: 350px;
   }
 
   // Code for the Navbar
@@ -434,8 +434,8 @@ a { color: inherit; }
   .menu-btn{
     position: absolute;
     z-index: 2;
-    right: 5px;
-    top: 20px;
+    right: 25px;
+    top: 10px;
     height: 50px;
     width: 50px;
     text-align: center;
@@ -534,7 +534,7 @@ a { color: inherit; }
     width: 300px;
     position: absolute;
     top: 80px;
-    left: 90px;
+    left: 70px;
   }
 
   .full-header {
@@ -576,7 +576,7 @@ a { color: inherit; }
 
   .logo-position {
     position: relative;
-    right: 50px;
+    right: 65px;
     top: 5px;
 
     img {
@@ -592,7 +592,7 @@ a { color: inherit; }
     width: 490px;
     height: 490px;
     left: -120px;
-    bottom: 320px;
+    bottom: 350px;
   }
 
   // Code for the Navbar
@@ -613,8 +613,8 @@ a { color: inherit; }
   .menu-btn{
     position: absolute;
     z-index: 2;
-    right: 5px;
-    top: 20px;
+    right: 35px;
+    top: 10px;
     height: 50px;
     width: 50px;
     text-align: center;
@@ -689,12 +689,12 @@ a { color: inherit; }
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 550px) {
   .wrapper-text {
     overflow: hidden;
-    position: absolute;
-    top: 450px;
-    left: 390px;
+    position: relative;
+    top: 370px;
+    left: 260px;
     width: 100%;
     height: 650px;
     color: black;
@@ -713,12 +713,12 @@ a { color: inherit; }
     width: 300px;
     position: absolute;
     top: 80px;
-    left: 70px;
+    left: 40px;
   }
 
   .full-header {
     height: 650px;
-    background: radial-gradient(circle at bottom, var(--color1), 0.1%, transparent);
+    background: none;
   }
 
   .name-text {
@@ -745,21 +745,203 @@ a { color: inherit; }
     left: 20px;
   }
 
-  .cover-img-position {
-    width: 550px;
-  }
-
   .cover-img-position img {
-    width: 450px;
-    position: relative;
-    bottom: 250px;
-    left: 90px;
+    width: 300px;
+    position: absolute;
+    top: 225px;
+    right: 120px;
     z-index: -1;
   }
 
   .logo-position {
     position: relative;
-    right: 120px;
+    right: 95px;
+    top: 5px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .scroll-line-socialMedia {
+    display: none;
+  }
+
+  .circle {
+    width: 490px;
+    height: 490px;
+    left: -125px;
+    bottom: 325px;
+  }
+
+  // Code for the Navbar
+  .wrapper{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #ffffff, $alpha: .8);
+    transition: all 0.6s ease-in-out;
+  }
+
+  #active:checked ~ .wrapper{
+    right:0;
+  }
+
+  .menu-btn{
+    position: absolute;
+    z-index: 2;
+    right: 30px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid var(--color1);
+  }
+  .menu-btn:before{
+    transform: translateY(-8px);
+  }
+  .menu-btn:after{
+    transform: translateY(8px);
+  }
+
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 650px;
+    pointer-events: none;
+    transition: background .6s;
+  }
+
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: var(--color1);
+  }
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: var(--color1);
+  }
+
+  .wrapper ul{
+    height: 650px;
+    transform: translate(-50%, -50%);
+  }
+  .wrapper ul li a{
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 1000;
+    padding: 5px 30px;
+    transition: all 0.3s ease;
+    // transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .wrapper ul li a:after{
+    width: 100%;
+    height: 650px;
+    transform: scaleY(0);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: var(--color1);
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  .wrapper-text {
+    overflow: hidden;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+    width: 100%;
+    height: 650px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cover-img-text-intro {
+    flex-direction: column-reverse;
+  }
+
+
+  .full-header {
+    height: 650px;
+    background: radial-gradient(circle at bottom, var(--color1), 0.1%, transparent);
+  }
+
+  .name-text {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+
+  .word-spacing {
+    padding: 0;
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+  }
+
+  .frontDev-text1 {
+    font-size: 47px;
+    color: white;
+    position: relative;
+    bottom: 25px;
+    left: 20px;
+  }
+
+  .frontDev-text2 {
+    font-size: 43px;
+    color: white;
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+  }
+
+  .cover-img-position {
+    width: 100%;
+    height: 650px;
+    border-color: black;
+
+    img {
+      width: 390px;
+      position: relative;
+      top: 100px;
+      left: 200px;
+      z-index: -1;
+    }
+  }
+
+  .logo-position {
+    position: relative;
+    right: 140px;
     top: 10px;
 
     img {

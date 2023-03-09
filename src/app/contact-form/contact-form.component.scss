@@ -289,7 +289,7 @@ textarea {
     h1 {
       font-size: 40px;
       position: relative;
-      right: 100px;
+      right: 110px;
       padding: 0;
     }
   }
@@ -334,7 +334,7 @@ textarea {
   .contact-text {
     width: 80%;
     position: relative;
-    left: 15px;
+    left: 5px;
   }
 
   input, textarea {
@@ -384,10 +384,12 @@ textarea {
   }
 
   .contact-circles {
+    width: 80%;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
+    left: 15px;
     bottom: 70px;
   }
 
