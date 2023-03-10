@@ -3,7 +3,8 @@
 }
 
 .imprint-style {
-  margin: 50px;
+  padding: 50px;
+  background: radial-gradient(circle at bottom, var(--color1), 1%, transparent);
 }
 
 @media screen and (max-width: 375px) {

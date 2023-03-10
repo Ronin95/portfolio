@@ -12,6 +12,7 @@ import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ImprintComponent } from './imprint/imprint.component';
 import { StartComponent } from './start/start.component';
+import { HeaderMenuComponent } from './header-menu/header-menu.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { StartComponent } from './start/start.component';
     ContactFormComponent,
     FooterComponent,
     ImprintComponent,
-    StartComponent
+    StartComponent,
+    HeaderMenuComponent
   ],
   imports: [
     BrowserModule,
