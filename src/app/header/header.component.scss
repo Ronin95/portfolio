@@ -119,12 +119,12 @@
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 20px;
   }
 
   .full-header {
-    height: 650px;
+    height: 600px;
     background: none;
   }
 
@@ -155,7 +155,7 @@
   .cover-img-position img {
     width: 290px;
     position: absolute;
-    top: 240px;
+    top: 250px;
     right: 10px;
     z-index: -1;
   }
@@ -183,20 +183,6 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-  .wrapper-text {
-    overflow: hidden;
-    position: relative;
-    top: 370px;
-    left: 190px;
-    width: 100%;
-    height: 650px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .cover-img-text-intro {
     flex-direction: column-reverse;
   }
@@ -210,7 +196,7 @@
   }
 
   .full-header {
-    height: 650px;
+    height: 600px;
     background: none;
   }
 
@@ -241,7 +227,7 @@
   .cover-img-position img {
     width: 330px;
     position: absolute;
-    top: 190px;
+    top: 200px;
     right: 25px;
     z-index: -1;
   }
