@@ -274,491 +274,491 @@ textarea {
 }
 
 
-@media screen and (max-width: 375px) {
-  .contact {
-    position: relative;
-    bottom: 40px;
-    height: 740px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .contact-intro {
-    height: 5px;
-
-    h1 {
-      font-size: 40px;
-      position: relative;
-      right: 110px;
-      padding: 0;
-    }
-  }
-
-  .circle-position {
-    display: none;
-  }
-
-  .form-circle {
-    display: none;
-  }
-
-  .txtarea {
-    width: 230px;
-  }
-
-  .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 50px;
-    top: 95px;
-
-  }
-
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 80%;
-    position: relative;
-    left: 5px;
-  }
-
-  input, textarea {
-    width: 250px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    width: 300px;
-    position: relative;
-    left: 6px;
-    bottom: 20px;
-    gap: 0;
-  }
-
-  .name-position {
-    padding: 0;
-    width: max-content;
-    position: relative;
-    bottom: 40px;
-  }
-
-  .email-position {
-    padding: 0;
-    width: max-content;
-    position: relative;
-    bottom: 35px;
-  }
-
-  .txtarea-position {
-    width: max-content;
-    position: relative;
-    bottom: 30px;
-  }
-
-  .textarea-size textarea {
-    width: 230px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 40px;
-  }
-
-  .contact-circles {
-    width: 80%;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: relative;
-    left: 15px;
-    bottom: 70px;
-  }
-
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .contact {
-    position: relative;
-    bottom: 40px;
-    height: 740px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .textarea-size textarea {
-    width: 280px;
-  }
-
-  .contact-intro {
-    height: 5px;
-
-    h1 {
-      font-size: 40px;
-      position: relative;
-      right: 100px;
-      padding: 0;
-    }
-  }
-
-  .circle-position {
-    display: none;
-  }
-
-  .form-circle {
-    display: none;
-  }
-
-  .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 50px;
-    top: 95px;
-
-  }
-
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 80%;
-    position: relative;
-    right: 40px;
-  }
-
-  input, textarea {
-    width: 300px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    width: 360px;
-    position: relative;
-    left: 5px;
-    bottom: 20px;
-    gap: 0;
-  }
-
-  .name-position {
-    padding: 0;
-    width: max-content;
-    position: relative;
-    bottom: 40px;
-  }
-
-  .email-position {
-    padding: 0;
-    width: max-content;
-    position: relative;
-    bottom: 35px;
-  }
-
-  .txtarea-position {
-    width: max-content;
-    position: relative;
-    bottom: 30px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 30px;
-  }
-
-  .contact-circles {
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: relative;
-    bottom: 40px;
-  }
-
-}
-
-@media screen and (min-width: 376px) and (max-width: 425px) {
-  .contact {
-    position: relative;
-    bottom: 40px;
-    height: 740px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .textarea-size textarea {
-    width: 280px;
-  }
-
-  .contact-intro {
-    height: 5px;
-
-    h1 {
-      font-size: 40px;
-      position: relative;
-      right: 100px;
-      padding: 0;
-    }
-  }
-
-  .circle-position {
-    display: none;
-  }
-
-  .form-circle {
-    display: none;
-  }
-
-  .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 50px;
-    top: 95px;
-
-  }
-
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 80%;
-    position: relative;
-    left: 35px;
-  }
-
-  input, textarea {
-    width: 300px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    width: 410px;
-    position: relative;
-    left: 8px;
-    bottom: 20px;
-    gap: 0;
-  }
-
-  .name-position {
-    padding: 0;
-    width: max-content;
-    position: relative;
-    bottom: 40px;
-  }
-
-  .email-position {
-    padding: 0;
-    width: max-content;
-    position: relative;
-    bottom: 35px;
-  }
-
-  .txtarea-position {
-    width: max-content;
-    position: relative;
-    bottom: 30px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 20px;
-  }
-
-  .contact-circles {
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: relative;
-    bottom: 30px;
-  }
-
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .contact {
-    position: relative;
-    bottom: 40px;
-    height: 740px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .textarea-size textarea {
-    width: 560px;
-  }
-
-  .contact-intro {
-    height: 5px;
-
-    h1 {
-      font-size: 50px;
-      position: relative;
-      right: 60px;
-      padding: 0;
-    }
-  }
-
-  .circle-position {
-    display: none;
-  }
-
-  .form-circle {
-    display: none;
-  }
-
-  .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 50px;
-    top: 95px;
-
-  }
-
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 50px;
-    height: 140px;
-    width: 140px;
-  }
-
-  .contact-text {
-    padding-top: 20px;
-    width: 80%;
-    position: relative;
-    left: 75px;
-  }
-
-  input, textarea {
-    width: 580px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    width: 750px;
-    position: relative;
-    left: 8px;
-    bottom: 20px;
-    gap: 0;
-  }
-
-  .name-position {
-    padding: 0;
-    width: max-content;
-    position: relative;
-    bottom: 40px;
-  }
-
-  .email-position {
-    padding: 0;
-    width: max-content;
-    position: relative;
-    bottom: 35px;
-  }
-
-  .txtarea-position {
-    width: max-content;
-    position: relative;
-    bottom: 30px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 20px;
-  }
-
-  .contact-circles {
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: relative;
-    bottom: 50px;
-  }
-
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .contact-form-text-structure {
-    position: relative;
-    left: 30px;
-    gap: 0;
-    padding: 0;
-    margin: 0;
-    width: 1000px;
-  }
-
-  .contact-text {
-    position: relative;
-    left: 50px;
-  }
-
-  .contact-intro {
-    padding-left: 80px;
-    padding-bottom: 20px;
-  }
-
-}
+// @media screen and (max-width: 375px) {
+//   .contact {
+//     position: relative;
+//     bottom: 40px;
+//     height: 740px;
+//     margin: 0;
+//     padding: 0;
+//   }
+
+//   .contact-intro {
+//     height: 5px;
+
+//     h1 {
+//       font-size: 40px;
+//       position: relative;
+//       right: 110px;
+//       padding: 0;
+//     }
+//   }
+
+//   .circle-position {
+//     display: none;
+//   }
+
+//   .form-circle {
+//     display: none;
+//   }
+
+//   .txtarea {
+//     width: 230px;
+//   }
+
+//   .circle-position-3 {
+//     width: 100%;
+//     height: 100%;
+//     z-index: -999;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     left: 50px;
+//     top: 95px;
+
+//   }
+
+//   .form-circle-3 {
+//     background: linear-gradient(0.40turn, var(--color1), var(--color2));
+//     border-radius: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     right: 50px;
+//     height: 90px;
+//     width: 90px;
+//   }
+
+//   .contact-text {
+//     width: 80%;
+//     position: relative;
+//     left: 5px;
+//   }
+
+//   input, textarea {
+//     width: 250px;
+//   }
+
+//   .contact-form-text-structure {
+//     flex-direction: column;
+//   }
+
+//   .form-structure-1 {
+//     height: fit-content;
+//     width: 300px;
+//     position: relative;
+//     left: 6px;
+//     bottom: 20px;
+//     gap: 0;
+//   }
+
+//   .name-position {
+//     padding: 0;
+//     width: max-content;
+//     position: relative;
+//     bottom: 40px;
+//   }
+
+//   .email-position {
+//     padding: 0;
+//     width: max-content;
+//     position: relative;
+//     bottom: 35px;
+//   }
+
+//   .txtarea-position {
+//     width: max-content;
+//     position: relative;
+//     bottom: 30px;
+//   }
+
+//   .textarea-size textarea {
+//     width: 230px;
+//   }
+
+//   .btn-size {
+//     position: relative;
+//     bottom: 40px;
+//   }
+
+//   .contact-circles {
+//     width: 80%;
+//     justify-content: space-between;
+//     padding-left: 10px;
+//     padding-right: 10px;
+//     position: relative;
+//     left: 15px;
+//     bottom: 70px;
+//   }
+
+// }
+
+// @media screen and (min-width: 321px) and (max-width: 375px) {
+//   .contact {
+//     position: relative;
+//     bottom: 40px;
+//     height: 740px;
+//     margin: 0;
+//     padding: 0;
+//   }
+
+//   .textarea-size textarea {
+//     width: 280px;
+//   }
+
+//   .contact-intro {
+//     height: 5px;
+
+//     h1 {
+//       font-size: 40px;
+//       position: relative;
+//       right: 100px;
+//       padding: 0;
+//     }
+//   }
+
+//   .circle-position {
+//     display: none;
+//   }
+
+//   .form-circle {
+//     display: none;
+//   }
+
+//   .circle-position-3 {
+//     width: 100%;
+//     height: 100%;
+//     z-index: -999;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     left: 50px;
+//     top: 95px;
+
+//   }
+
+//   .form-circle-3 {
+//     background: linear-gradient(0.40turn, var(--color1), var(--color2));
+//     border-radius: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     right: 50px;
+//     height: 90px;
+//     width: 90px;
+//   }
+
+//   .contact-text {
+//     width: 80%;
+//     position: relative;
+//     right: 40px;
+//   }
+
+//   input, textarea {
+//     width: 300px;
+//   }
+
+//   .contact-form-text-structure {
+//     flex-direction: column;
+//   }
+
+//   .form-structure-1 {
+//     height: fit-content;
+//     width: 360px;
+//     position: relative;
+//     left: 5px;
+//     bottom: 20px;
+//     gap: 0;
+//   }
+
+//   .name-position {
+//     padding: 0;
+//     width: max-content;
+//     position: relative;
+//     bottom: 40px;
+//   }
+
+//   .email-position {
+//     padding: 0;
+//     width: max-content;
+//     position: relative;
+//     bottom: 35px;
+//   }
+
+//   .txtarea-position {
+//     width: max-content;
+//     position: relative;
+//     bottom: 30px;
+//   }
+
+//   .btn-size {
+//     position: relative;
+//     bottom: 30px;
+//   }
+
+//   .contact-circles {
+//     justify-content: space-between;
+//     padding-left: 10px;
+//     padding-right: 10px;
+//     position: relative;
+//     bottom: 40px;
+//   }
+
+// }
+
+// @media screen and (min-width: 376px) and (max-width: 425px) {
+//   .contact {
+//     position: relative;
+//     bottom: 40px;
+//     height: 740px;
+//     margin: 0;
+//     padding: 0;
+//   }
+
+//   .textarea-size textarea {
+//     width: 280px;
+//   }
+
+//   .contact-intro {
+//     height: 5px;
+
+//     h1 {
+//       font-size: 40px;
+//       position: relative;
+//       right: 100px;
+//       padding: 0;
+//     }
+//   }
+
+//   .circle-position {
+//     display: none;
+//   }
+
+//   .form-circle {
+//     display: none;
+//   }
+
+//   .circle-position-3 {
+//     width: 100%;
+//     height: 100%;
+//     z-index: -999;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     left: 50px;
+//     top: 95px;
+
+//   }
+
+//   .form-circle-3 {
+//     background: linear-gradient(0.40turn, var(--color1), var(--color2));
+//     border-radius: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     right: 50px;
+//     height: 90px;
+//     width: 90px;
+//   }
+
+//   .contact-text {
+//     width: 80%;
+//     position: relative;
+//     left: 35px;
+//   }
+
+//   input, textarea {
+//     width: 300px;
+//   }
+
+//   .contact-form-text-structure {
+//     flex-direction: column;
+//   }
+
+//   .form-structure-1 {
+//     height: fit-content;
+//     width: 410px;
+//     position: relative;
+//     left: 8px;
+//     bottom: 20px;
+//     gap: 0;
+//   }
+
+//   .name-position {
+//     padding: 0;
+//     width: max-content;
+//     position: relative;
+//     bottom: 40px;
+//   }
+
+//   .email-position {
+//     padding: 0;
+//     width: max-content;
+//     position: relative;
+//     bottom: 35px;
+//   }
+
+//   .txtarea-position {
+//     width: max-content;
+//     position: relative;
+//     bottom: 30px;
+//   }
+
+//   .btn-size {
+//     position: relative;
+//     bottom: 20px;
+//   }
+
+//   .contact-circles {
+//     justify-content: space-between;
+//     padding-left: 10px;
+//     padding-right: 10px;
+//     position: relative;
+//     bottom: 30px;
+//   }
+
+// }
+
+// @media screen and (min-width: 426px) and (max-width: 768px) {
+//   .contact {
+//     position: relative;
+//     bottom: 40px;
+//     height: 740px;
+//     margin: 0;
+//     padding: 0;
+//   }
+
+//   .textarea-size textarea {
+//     width: 560px;
+//   }
+
+//   .contact-intro {
+//     height: 5px;
+
+//     h1 {
+//       font-size: 50px;
+//       position: relative;
+//       right: 60px;
+//       padding: 0;
+//     }
+//   }
+
+//   .circle-position {
+//     display: none;
+//   }
+
+//   .form-circle {
+//     display: none;
+//   }
+
+//   .circle-position-3 {
+//     width: 100%;
+//     height: 100%;
+//     z-index: -999;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     left: 50px;
+//     top: 95px;
+
+//   }
+
+//   .form-circle-3 {
+//     background: linear-gradient(0.40turn, var(--color1), var(--color2));
+//     border-radius: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     right: 50px;
+//     height: 140px;
+//     width: 140px;
+//   }
+
+//   .contact-text {
+//     padding-top: 20px;
+//     width: 80%;
+//     position: relative;
+//     left: 75px;
+//   }
+
+//   input, textarea {
+//     width: 580px;
+//   }
+
+//   .contact-form-text-structure {
+//     flex-direction: column;
+//   }
+
+//   .form-structure-1 {
+//     height: fit-content;
+//     width: 750px;
+//     position: relative;
+//     left: 8px;
+//     bottom: 20px;
+//     gap: 0;
+//   }
+
+//   .name-position {
+//     padding: 0;
+//     width: max-content;
+//     position: relative;
+//     bottom: 40px;
+//   }
+
+//   .email-position {
+//     padding: 0;
+//     width: max-content;
+//     position: relative;
+//     bottom: 35px;
+//   }
+
+//   .txtarea-position {
+//     width: max-content;
+//     position: relative;
+//     bottom: 30px;
+//   }
+
+//   .btn-size {
+//     position: relative;
+//     bottom: 20px;
+//   }
+
+//   .contact-circles {
+//     justify-content: space-between;
+//     padding-left: 10px;
+//     padding-right: 10px;
+//     position: relative;
+//     bottom: 50px;
+//   }
+
+// }
+
+// @media screen and (min-width: 769px) and (max-width: 1024px) {
+//   .contact-form-text-structure {
+//     position: relative;
+//     left: 30px;
+//     gap: 0;
+//     padding: 0;
+//     margin: 0;
+//     width: 1000px;
+//   }
+
+//   .contact-text {
+//     position: relative;
+//     left: 50px;
+//   }
+
+//   .contact-intro {
+//     padding-left: 80px;
+//     padding-bottom: 20px;
+//   }
+
+// }
