@@ -84,62 +84,62 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
-  .title-skill-set {
-    font-size: 22px;
-  }
+// @media screen and (min-width: 321px) and (max-width: 425px) {
+//   .title-skill-set {
+//     font-size: 22px;
+//   }
 
-  .skills-ordering {
-    padding: 0;
-    gap: 20px;
-  }
+//   .skills-ordering {
+//     padding: 0;
+//     gap: 20px;
+//   }
 
-  .individual-skill-position {
-    max-width: 70px;
-    max-height: 125px;
-    gap: 10px;
+//   .individual-skill-position {
+//     max-width: 70px;
+//     max-height: 125px;
+//     gap: 10px;
 
-    img {
-      width: 50px;
-    }
+//     img {
+//       width: 50px;
+//     }
 
-    h2 {
-      font-size: 20px;
-    }
-  }
-}
+//     h2 {
+//       font-size: 20px;
+//     }
+//   }
+// }
 
-@media screen and (min-width: 426px) and (max-width: 1024px) {
-  .title-skill-set {
-    font-size: 22px;
-  }
+// @media screen and (min-width: 426px) and (max-width: 1024px) {
+//   .title-skill-set {
+//     font-size: 22px;
+//   }
 
-  .skills-ordering {
-    align-items: center;
-    justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    gap: 20px;
-  }
+//   .skills-ordering {
+//     align-items: center;
+//     justify-content: center;
+//     padding-left: 20px;
+//     padding-right: 20px;
+//     gap: 20px;
+//   }
 
-  .individual-skill-position {
-    max-width: 70px;
-    max-height: 140px;
-    gap: 10px;
+//   .individual-skill-position {
+//     max-width: 70px;
+//     max-height: 140px;
+//     gap: 10px;
 
-    img {
-      width: 50px;
-    }
+//     img {
+//       width: 50px;
+//     }
 
-    h2 {
-      font-size: 20px;
-    }
-  }
+//     h2 {
+//       font-size: 20px;
+//     }
+//   }
 
-  .firebase {
-    h2 {
-      position: relative;
-      bottom: 8px;
-    }
-  }
-}
+//   .firebase {
+//     h2 {
+//       position: relative;
+//       bottom: 8px;
+//     }
+//   }
+// }
