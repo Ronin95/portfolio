@@ -129,6 +129,12 @@
   padding-right: 40px;
 }
 
+// Galaxy Fold
+@media screen and (max-width: 280px) {
+  .header-aboutme-circle-position {
+    bottom: 150px;
+  }
+}
 
 // @media screen and (max-width: 320px) {
 //   .about-me {

@@ -47,12 +47,12 @@ a { color: inherit; }
   width: 800px;
 }
 
-// JioPhone 2
-@media screen and (max-width: 240px) {
+// Galaxy Fold
+@media screen and (max-width: 280px) {
   .circle {
-    width: 300px;
-    height: 300px;
-    bottom: 375px;
+    width: 340px;
+    height: 340px;
+    bottom: 330px;
   }
 
   .top-header {
@@ -65,7 +65,7 @@ a { color: inherit; }
     right: 20px;
 
     img {
-      width: 100px;
+      width: 150px;
     }
   }
 
@@ -73,8 +73,8 @@ a { color: inherit; }
   .wrapper-text {
     overflow: hidden;
     position: relative;
-    top: 400px;
-    left: 70px;
+    top: 330px;
+    left: 45px;
     width: 100%;
     height: 600px;
     display: flex;
@@ -100,8 +100,8 @@ a { color: inherit; }
   .menu-btn {
     position: absolute;
     z-index: 2;
-    right: 55px;
-    top: -5px;
+    right: 10px;
+    top: 5px;
     height: 50px;
     width: 50px;
     text-align: center;
@@ -172,253 +172,886 @@ a { color: inherit; }
   }
 }
 
-// @media screen and (min-width: 281px) and (max-width: 320px) {
-//   .top-header {
-//     background: none;
-//     padding: 0;
-//   }
+// Galaxy S9+ / Nokia Lumia 520 / iPhone 4 / iPhone 5-SE /
+@media screen and (min-width: 281px) and (max-width: 320px) {
+  .top-header {
+    background: none;
+    padding: 0;
+  }
 
-//   .circle {
-//     height: 395px;
-//     width: 395px;
-//     bottom: 483px;
-//   }
+  .circle {
+    height: 395px;
+    width: 395px;
+    bottom: 350px;
+  }
 
-//   .logo-position {
-//     position: relative;
-//     right: 20px;
+  .logo-position {
+    position: relative;
+    right: 20px;
 
-//     img {
-//       width: 150px;
-//     }
-//   }
+    img {
+      width: 150px;
+    }
+  }
 
-//   // Code for the Navbar
-//   .wrapper-text {
-//     overflow: hidden;
-//     position: relative;
-//     top: 400px;
-//     left: 70px;
-//     width: 100%;
-//     height: 600px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//   }
+  // Code for the Navbar
+  .wrapper-text {
+    overflow: hidden;
+    position: relative;
+    top: 400px;
+    left: 70px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-//   .wrapper{
-//     position: fixed;
-//     top: 0;
-//     right: -100%;
-//     height: 100%;
-//     width: 100%;
-//     background: rgba($color: #ffffff, $alpha: .8);
-//     transition: all 0.6s ease-in-out;
-//   }
+  .wrapper{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #ffffff, $alpha: .8);
+    transition: all 0.6s ease-in-out;
+  }
 
-//   #active:checked ~ .wrapper{
-//     right:0;
-//   }
+  #active:checked ~ .wrapper{
+    right:0;
+  }
 
-//   .menu-btn {
-//     position: absolute;
-//     z-index: 2;
-//     right: 5px;
-//     top: 10px;
-//     height: 50px;
-//     width: 50px;
-//     text-align: center;
-//     cursor: pointer;
-//     transition: all 0.3s ease-in-out;
-//   }
-//   .menu-btn span,
-//   .menu-btn:before,
-//   .menu-btn:after{
-//     content: "";
-//     position: absolute;
-//     top: calc(50% - 1px);
-//     left: 30%;
-//     width: 40%;
-//     border-bottom: 2px solid var(--color1);
-//   }
-//   .menu-btn:before{
-//     transform: translateY(-8px);
-//   }
-//   .menu-btn:after{
-//     transform: translateY(8px);
-//   }
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid var(--color1);
+  }
+  .menu-btn:before{
+    transform: translateY(-8px);
+  }
+  .menu-btn:after{
+    transform: translateY(8px);
+  }
 
-//   .close {
-//     z-index: 1;
-//     width: 100%;
-//     height: 600px;
-//     pointer-events: none;
-//     transition: background .6s;
-//   }
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+    pointer-events: none;
+    transition: background .6s;
+  }
 
-//   /* closing animation */
-//   #active:checked + .menu-btn span {
-//     transform: scaleX(0);
-//   }
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
 
-//   #active:checked + .menu-btn:before {
-//     transform: rotate(45deg);
-//     border-color: var(--color1);
-//   }
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: var(--color1);
+  }
 
-//   #active:checked + .menu-btn:after {
-//     transform: rotate(-45deg);
-//     border-color: var(--color1);
-//   }
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: var(--color1);
+  }
 
-//   .wrapper ul{
-//     height: 600px;
-//     transform: translate(-50%, -50%);
-//   }
+  .wrapper ul{
+    height: 600px;
+    transform: translate(-50%, -50%);
+  }
 
-//   .wrapper ul li a {
-//     font-size: 40px;
-//     z-index: 1000;
-//   }
+  .wrapper ul li a {
+    font-size: 40px;
+    z-index: 1000;
+  }
 
-//   .wrapper ul li a:after{
-//     width: 100%;
-//     height: 600px;
-//     transform: scaleY(0);
-//     z-index: 1000;
-//   }
-//   .wrapper ul li a:hover:after{
-//     transform: scaleY(1);
-//   }
-//   .wrapper ul li a:hover{
-//     color: var(--color1);
-//   }
-// }
+  .wrapper ul li a:after{
+    width: 100%;
+    height: 600px;
+    transform: scaleY(0);
+    z-index: 1000;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: var(--color1);
+  }
+}
 
-// @media screen and (min-width: 361px) and (max-width: 375px) {
-//   .top-header {
-//     padding: 0;
-//     background: none;
-//   }
+// Pixel 4 (353px)
+// Galaxy Note 3/Note II/ S III/ S8 / Microsoft Lumia 950 / Moto G4 / Galaxy S8+ / Galaxy S5 (360px)
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  .top-header {
+    background: none;
+    padding: 0;
+  }
 
-//   .circle {
-//     height: 435px;
-//     width: 435px;
-//     bottom: 450px;
-//   }
+  .circle {
+    height: 440px;
+    width: 440px;
+    bottom: 310px;
+  }
 
-//   .logo-position {
-//     position: relative;
-//     right: 35px;
+  .logo-position {
+    position: relative;
+    right: 20px;
 
-//     img {
-//       width: 150px;
-//     }
-//   }
+    img {
+      width: 150px;
+    }
+  }
 
-//   // Code for the Navbar
-//   .wrapper-text {
-//     overflow: hidden;
-//     position: relative;
-//     top: 400px;
-//     left: 90px;
-//     width: 100%;
-//     height: 600px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//   }
+  // Code for the Navbar
+  .wrapper-text {
+    overflow: hidden;
+    position: relative;
+    top: 400px;
+    left: 80px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-//   .wrapper {
-//     position: fixed;
-//     top: 0;
-//     right: -100%;
-//     height: 100%;
-//     width: 100%;
-//     background: rgba($color: #ffffff, $alpha: .8);
-//     transition: all 0.6s ease-in-out;
-//   }
+  .wrapper{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #ffffff, $alpha: .8);
+    transition: all 0.6s ease-in-out;
+  }
 
-//   #active:checked ~ .wrapper {
-//     right:0;
-//   }
+  #active:checked ~ .wrapper{
+    right:0;
+  }
 
-//   .menu-btn {
-//     position: absolute;
-//     z-index: 2;
-//     right: 10px;
-//     top: 10px;
-//     height: 50px;
-//     width: 50px;
-//     text-align: center;
-//     cursor: pointer;
-//     transition: all 0.3s ease-in-out;
-//   }
-//   .menu-btn span,
-//   .menu-btn:before,
-//   .menu-btn:after{
-//     content: "";
-//     position: absolute;
-//     top: calc(50% - 1px);
-//     left: 30%;
-//     width: 40%;
-//     border-bottom: 2px solid var(--color1);
-//   }
-//   .menu-btn:before{
-//     transform: translateY(-8px);
-//   }
-//   .menu-btn:after{
-//     transform: translateY(8px);
-//   }
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid var(--color1);
+  }
+  .menu-btn:before{
+    transform: translateY(-8px);
+  }
+  .menu-btn:after{
+    transform: translateY(8px);
+  }
 
-//   .close {
-//     z-index: 1;
-//     width: 100%;
-//     height: 650px;
-//     pointer-events: none;
-//     transition: background .6s;
-//   }
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+    pointer-events: none;
+    transition: background .6s;
+  }
 
-//   /* closing animation */
-//   #active:checked + .menu-btn span {
-//     transform: scaleX(0);
-//   }
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
 
-//   #active:checked + .menu-btn:before {
-//     transform: rotate(45deg);
-//     border-color: var(--color1);
-//   }
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: var(--color1);
+  }
 
-//   #active:checked + .menu-btn:after {
-//     transform: rotate(-45deg);
-//     border-color: var(--color1);
-//   }
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: var(--color1);
+  }
 
-//   .wrapper ul{
-//     height: 600px;
-//     transform: translate(-50%, -50%);
-//   }
+  .wrapper ul{
+    height: 600px;
+    transform: translate(-50%, -50%);
+  }
 
-//   .wrapper ul li a {
-//     font-size: 40px;
-//     z-index: 1000;
-//   }
+  .wrapper ul li a {
+    font-size: 40px;
+    z-index: 1000;
+  }
 
-//   .wrapper ul li a:after{
-//     width: 100%;
-//     height: 650px;
-//     transform: scaleY(0);
-//     z-index: 1000;
-//   }
-//   .wrapper ul li a:hover:after{
-//     transform: scaleY(1);
-//   }
-//   .wrapper ul li a:hover{
-//     color: var(--color1);
-//   }
-// }
+  .wrapper ul li a:after{
+    width: 100%;
+    height: 600px;
+    transform: scaleY(0);
+    z-index: 1000;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: var(--color1);
+  }
+}
+
+// iPhone SE / iPhone 6-7-8 / iPhone X
+@media screen and (min-width: 361px) and (max-width: 375px) {
+  .top-header {
+    padding: 0;
+    background: none;
+  }
+
+  .circle {
+    height: 460px;
+    width: 460px;
+    bottom: 300px;
+  }
+
+  .logo-position {
+    position: relative;
+    right: 35px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  // Code for the Navbar
+  .wrapper-text {
+    overflow: hidden;
+    position: relative;
+    top: 400px;
+    left: 90px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #ffffff, $alpha: .8);
+    transition: all 0.6s ease-in-out;
+  }
+
+  #active:checked ~ .wrapper {
+    right:0;
+  }
+
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid var(--color1);
+  }
+  .menu-btn:before{
+    transform: translateY(-8px);
+  }
+  .menu-btn:after{
+    transform: translateY(8px);
+  }
+
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+    pointer-events: none;
+    transition: background .6s;
+  }
+
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
+
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: var(--color1);
+  }
+
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: var(--color1);
+  }
+
+  .wrapper ul{
+    height: 600px;
+    transform: translate(-50%, -50%);
+  }
+
+  .wrapper ul li a {
+    font-size: 40px;
+    z-index: 1000;
+  }
+
+  .wrapper ul li a:after{
+    width: 100%;
+    height: 600px;
+    transform: scaleY(0);
+    z-index: 1000;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: var(--color1);
+  }
+}
+
+// LG Optimus L70 / Nexus 4 (384px)
+// iPhone 12 Pro (390px)
+// Pixel 3 / Pixel 3 XL (393px)
+// Pixel 2 / Pixel 2 XL (411px)
+// Nexus 5X / Nexus 6 / Nexus 6P / Galaxy S20 Ultra / Galaxy A51/71 (412px)
+// iPhone XR / iPhone 6-7-8 Plus (414px)
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .top-header {
+    padding: 0;
+    background: none;
+  }
+
+  .circle {
+    height: 460px;
+    width: 460px;
+    bottom: 300px;
+  }
+
+  .logo-position {
+    position: relative;
+    right: 35px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  // Code for the Navbar
+  .wrapper-text {
+    overflow: hidden;
+    position: relative;
+    top: 400px;
+    left: 105px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #ffffff, $alpha: .8);
+    transition: all 0.6s ease-in-out;
+  }
+
+  #active:checked ~ .wrapper {
+    right:0;
+  }
+
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid var(--color1);
+  }
+  .menu-btn:before{
+    transform: translateY(-8px);
+  }
+  .menu-btn:after{
+    transform: translateY(8px);
+  }
+
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+    pointer-events: none;
+    transition: background .6s;
+  }
+
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
+
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: var(--color1);
+  }
+
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: var(--color1);
+  }
+
+  .wrapper ul{
+    height: 600px;
+    transform: translate(-50%, -50%);
+  }
+
+  .wrapper ul li a {
+    font-size: 40px;
+    z-index: 1000;
+  }
+
+  .wrapper ul li a:after{
+    width: 100%;
+    height: 600px;
+    transform: scaleY(0);
+    z-index: 1000;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: var(--color1);
+  }
+}
+
+// Nokia N9 (480px)
+@media screen and (min-width: 415px) and (max-width: 480px) {
+  .top-header {
+    padding: 0;
+    background: none;
+  }
+
+  .circle {
+    height: 535px;
+    width: 535px;
+    bottom: 240px;
+  }
+
+  .logo-position {
+    position: relative;
+    right: 45px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  // Code for the Navbar
+  .wrapper-text {
+    overflow: hidden;
+    position: relative;
+    top: 400px;
+    left: 140px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #ffffff, $alpha: .8);
+    transition: all 0.6s ease-in-out;
+  }
+
+  #active:checked ~ .wrapper {
+    right:0;
+  }
+
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid var(--color1);
+  }
+  .menu-btn:before{
+    transform: translateY(-8px);
+  }
+  .menu-btn:after{
+    transform: translateY(8px);
+  }
+
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+    pointer-events: none;
+    transition: background .6s;
+  }
+
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
+
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: var(--color1);
+  }
+
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: var(--color1);
+  }
+
+  .wrapper ul{
+    height: 600px;
+    transform: translate(-50%, -50%);
+  }
+
+  .wrapper ul li a {
+    font-size: 40px;
+    z-index: 1000;
+  }
+
+  .wrapper ul li a:after{
+    width: 100%;
+    height: 600px;
+    transform: scaleY(0);
+    z-index: 1000;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: var(--color1);
+  }
+}
+
+// Surface Duo (540px)
+@media screen and (min-width: 481px) and (max-width: 540px) {
+  .top-header {
+    padding: 0;
+    background: none;
+  }
+
+  .circle {
+    height: 535px;
+    width: 535px;
+    bottom: 240px;
+  }
+
+  .logo-position {
+    position: relative;
+    right: 45px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  // Code for the Navbar
+  .wrapper-text {
+    overflow: hidden;
+    position: relative;
+    top: 400px;
+    left: 170px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #ffffff, $alpha: .8);
+    transition: all 0.6s ease-in-out;
+  }
+
+  #active:checked ~ .wrapper {
+    right:0;
+  }
+
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid var(--color1);
+  }
+  .menu-btn:before{
+    transform: translateY(-8px);
+  }
+  .menu-btn:after{
+    transform: translateY(8px);
+  }
+
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+    pointer-events: none;
+    transition: background .6s;
+  }
+
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
+
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: var(--color1);
+  }
+
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: var(--color1);
+  }
+
+  .wrapper ul{
+    height: 600px;
+    transform: translate(-50%, -50%);
+  }
+
+  .wrapper ul li a {
+    font-size: 40px;
+    z-index: 1000;
+  }
+
+  .wrapper ul li a:after{
+    width: 100%;
+    height: 600px;
+    transform: scaleY(0);
+    z-index: 1000;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: var(--color1);
+  }
+}
+
+// BlackBerry Playbook/ Nexus 7
+@media screen and (min-width: 541px) and (max-width: 600px) {
+  .top-header {
+    padding: 0;
+    background: none;
+  }
+
+  .circle {
+    height: 535px;
+    width: 535px;
+    bottom: 240px;
+  }
+
+  .logo-position {
+    position: relative;
+    right: 70px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  // Code for the Navbar
+  .wrapper-text {
+    overflow: hidden;
+    position: relative;
+    top: 400px;
+    left: 210px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #ffffff, $alpha: .8);
+    transition: all 0.6s ease-in-out;
+  }
+
+  #active:checked ~ .wrapper {
+    right:0;
+  }
+
+  .menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 2px solid var(--color1);
+  }
+  .menu-btn:before{
+    transform: translateY(-8px);
+  }
+  .menu-btn:after{
+    transform: translateY(8px);
+  }
+
+  .close {
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+    pointer-events: none;
+    transition: background .6s;
+  }
+
+  /* closing animation */
+  #active:checked + .menu-btn span {
+    transform: scaleX(0);
+  }
+
+  #active:checked + .menu-btn:before {
+    transform: rotate(45deg);
+    border-color: var(--color1);
+  }
+
+  #active:checked + .menu-btn:after {
+    transform: rotate(-45deg);
+    border-color: var(--color1);
+  }
+
+  .wrapper ul{
+    height: 600px;
+    transform: translate(-50%, -50%);
+  }
+
+  .wrapper ul li a {
+    font-size: 40px;
+    z-index: 1000;
+  }
+
+  .wrapper ul li a:after{
+    width: 100%;
+    height: 600px;
+    transform: scaleY(0);
+    z-index: 1000;
+  }
+  .wrapper ul li a:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li a:hover{
+    color: var(--color1);
+  }
+}
 
 // @media screen and (min-width: 376px) and (max-width: 425px) {
 //   .top-header {
@@ -564,7 +1197,7 @@ a { color: inherit; }
 //       width: 150px;
 //     }
 //   }
-  
+
 //   // Code for the Navbar
 //   .wrapper-text {
 //     overflow: hidden;
