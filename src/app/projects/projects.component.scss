@@ -251,24 +251,21 @@ a:active { text-decoration: none; }
   }
 
   .work-text {
-    width: 100%;
-    position: relative;
-    right: 100px;
-    gap: 0;
+    width: 250px;
+    padding: 0;
+    gap: 15px;
   }
 
   .work-text-small {
-
     h1 {
+      padding-top: 10px;
+      position: relative;
+      left: 35px;
       font-size: 50px;
     }
   }
 
   .work-text-p {
-    width: 100%;
-    padding: 10px;
-    position: relative;
-    right: 65px;
     line-height: 25px;
   }
 
@@ -832,24 +829,24 @@ a:active { text-decoration: none; }
   }
 
   .work-text {
-    width: 100%;
-    position: relative;
-    right: 100px;
-    gap: 0;
+    border-style: dotted;
+    width: 400px;
+    padding: 0;
+    gap: 15px;
   }
 
   .work-text-small {
-
+    border-style: dotted;
+    width: 250px;
     h1 {
+      padding-top: 10px;
+      position: relative;
+      left: 35px;
       font-size: 50px;
     }
   }
 
   .work-text-p {
-    width: 100%;
-    padding: 10px;
-    position: relative;
-    right: 60px;
     line-height: 25px;
   }
 
@@ -976,26 +973,20 @@ a:active { text-decoration: none; }
   }
 
   .work-text {
-    width: 100%;
-    position: relative;
-    right: 100px;
     gap: 0;
   }
 
   .work-text-small {
-
     h1 {
-      position: relative;
-      left: 130px;
       font-size: 50px;
     }
   }
 
   .work-text-p {
-    width: 100%;
     padding: 10px;
+    width: 350px;
     position: relative;
-    right: 50px;
+    right: 90px;
     line-height: 25px;
   }
 
