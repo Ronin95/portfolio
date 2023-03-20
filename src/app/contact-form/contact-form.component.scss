@@ -276,7 +276,7 @@ textarea {
   .contact {
     position: relative;
     bottom: 40px;
-    height: 740px;
+    height: 780px;
     margin: 0;
     padding: 0;
   }
@@ -288,6 +288,7 @@ textarea {
       font-size: 40px;
       position: relative;
       right: 110px;
+      bottom: 5px;
       padding: 0;
     }
   }
@@ -309,7 +310,7 @@ textarea {
     align-items: center;
     position: relative;
     left: 50px;
-    top: 95px;
+    top: 145px;
   }
 
   .form-circle-3 {
@@ -335,48 +336,31 @@ textarea {
   }
 
   .form-structure-1 {
-    border-style: dotted;
     height: fit-content;
     padding: 0;
+    margin: 0;
     position: relative;
+    left: 4px;
     bottom: 60px;
-    width: 95%;
+    width: 275px;
     gap: 0;
   }
 
-  // .name-position {
-  //   // border-style: dotted;
-  //   padding: 0;
-  //   position: relative;
-  //   width: 250px;
-  //   right: 95px;
-  //   bottom: 40px;
-  // }
+  .input-size {
+    width: 250px;
+  }
 
   .email-position {
-    padding: 0;
     width: 250px;
-    right: 87px;
-    position: relative;
-    // bottom: 30px;
   }
 
   .textarea-size {
-    // border-style: dotted;
-    padding: 0;
     width: 250px;
-    position: relative;
-    right: 87px;
-  }
-
-  textarea {
-    // border-style: dotted;
-    // width: 100px;
   }
 
   .btn-size {
     position: relative;
-    bottom: 40px;
+    bottom: 10px;
   }
 
   .contact-circles {
@@ -385,8 +369,8 @@ textarea {
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
-    left: 15px;
-    bottom: 70px;
+    left: 20px;
+    bottom: 60px;
   }
 }
 
