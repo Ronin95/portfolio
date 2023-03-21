@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="form-structure">
-        <form action="" method="post" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" #myForm>
           <div class="form-structure-1 ">
             <div class="circle-position-3">
               <figure class="form-circle-3"></figure>
