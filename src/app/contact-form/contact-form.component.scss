@@ -376,38 +376,724 @@ textarea {
 
 // Galaxy S9+ / Nokia Lumia 520 / iPhone 4 / iPhone 5-SE /
 @media screen and (min-width: 281px) and (max-width: 320px) {
+  .contact {
+    position: relative;
+    bottom: 40px;
+    height: 780px;
+    margin: 0;
+    padding: 0;
+  }
 
+  .contact-intro {
+    height: 5px;
+
+    h1 {
+      font-size: 40px;
+      position: relative;
+      right: 110px;
+      bottom: 5px;
+      padding: 0;
+    }
+  }
+
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .circle-position-3 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 145px;
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .contact-text {
+    width: 85%;
+    position: relative;
+    left: 5px;
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
+  }
+
+  .form-structure-1 {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 4px;
+    bottom: 60px;
+    width: 310px;
+    gap: 0;
+  }
+
+  .input-size {
+    width: 280px;
+  }
+
+  .email-position {
+    width: 280px;
+  }
+
+  .textarea-size {
+    width: 280px;
+  }
+
+  .btn-size {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .contact-circles {
+    width: 80%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+  }
 }
 
 // Pixel 4 (353px)
 // Galaxy Note 3/Note II/ S III/ S8 / Microsoft Lumia 950 / Moto G4 / Galaxy S8+ / Galaxy S5 (360px)
 @media screen and (min-width: 321px) and (max-width: 360px) {
+  .contact {
+    position: relative;
+    bottom: 40px;
+    height: 780px;
+    margin: 0;
+    padding: 0;
+  }
 
+  .contact-intro {
+    height: 5px;
+
+    h1 {
+      font-size: 40px;
+      position: relative;
+      right: 110px;
+      bottom: 5px;
+      padding: 0;
+    }
+  }
+
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .circle-position-3 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 145px;
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .contact-text {
+    width: 90%;
+    position: relative;
+    left: 5px;
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
+  }
+
+  .form-structure-1 {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 4px;
+    bottom: 60px;
+    width: 350px;
+    gap: 0;
+  }
+
+  .input-size {
+    width: 300px;
+  }
+
+  .email-position {
+    width: 300px;
+  }
+
+  .textarea-size {
+    width: 300px;
+  }
+
+  .btn-size {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .contact-circles {
+    width: 80%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+  }
 }
 
 // iPhone SE / iPhone 6-7-8 / iPhone X
 @media screen and (min-width: 361px) and (max-width: 375px) {
+  .contact {
+    position: relative;
+    bottom: 40px;
+    height: 780px;
+    margin: 0;
+    padding: 0;
+  }
 
+  .contact-intro {
+    height: 5px;
+
+    h1 {
+      font-size: 40px;
+      position: relative;
+      right: 110px;
+      bottom: 5px;
+      padding: 0;
+    }
+  }
+
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .circle-position-3 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 145px;
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .contact-text {
+    width: 90%;
+    position: relative;
+    left: 5px;
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
+  }
+
+  .form-structure-1 {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 6px;
+    bottom: 60px;
+    width: 360px;
+    gap: 0;
+  }
+
+  .input-size {
+    width: 340px;
+  }
+
+  .email-position {
+    width: 340px;
+  }
+
+  .textarea-size {
+    width: 340px;
+  }
+
+  .btn-size {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .contact-circles {
+    width: 85%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+  }
 }
 
 // LG Optimus L70 / Nexus 4
 @media screen and (min-width: 376px) and (max-width: 414px) {
+  .contact {
+    position: relative;
+    bottom: 40px;
+    height: 780px;
+    margin: 0;
+    padding: 0;
+  }
 
+  .contact-intro {
+    height: 5px;
+
+    h1 {
+      font-size: 40px;
+      position: relative;
+      right: 110px;
+      bottom: 5px;
+      padding: 0;
+    }
+  }
+
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .circle-position-3 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 145px;
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .contact-text {
+    width: 90%;
+    position: relative;
+    left: 5px;
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
+  }
+
+  .form-structure-1 {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 4px;
+    bottom: 60px;
+    width: 410px;
+    gap: 0;
+  }
+
+  .input-size {
+    width: 380px;
+  }
+
+  .email-position {
+    width: 380px;
+  }
+
+  .textarea-size {
+    width: 380px;
+  }
+
+  .btn-size {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .contact-circles {
+    width: 90%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+  }
 }
 
 // Nokia N9 (480px)
 @media screen and (min-width: 415px) and (max-width: 480px) {
+  .contact {
+    position: relative;
+    bottom: 40px;
+    height: 780px;
+    margin: 0;
+    padding: 0;
+  }
 
+  .contact-intro {
+    height: 5px;
+
+    h1 {
+      font-size: 40px;
+      position: relative;
+      right: 110px;
+      bottom: 5px;
+      padding: 0;
+    }
+  }
+
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .circle-position-3 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 145px;
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .contact-text {
+    width: 90%;
+    position: relative;
+    left: 5px;
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
+  }
+
+  .form-structure-1 {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 4px;
+    bottom: 60px;
+    width: 470px;
+    gap: 0;
+  }
+
+  .input-size {
+    width: 440px;
+  }
+
+  .email-position {
+    width: 440px;
+  }
+
+  .textarea-size {
+    width: 440px;
+  }
+
+  .btn-size {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .contact-circles {
+    width: 90%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+  }
 }
 
 // Surface Duo (540px)
 @media screen and (min-width: 481px) and (max-width: 540px) {
+  .contact {
+    position: relative;
+    bottom: 5px;
+    height: 780px;
+    margin: 0;
+    padding: 0;
+  }
 
+  .contact-intro {
+    height: 5px;
+
+    h1 {
+      font-size: 40px;
+      position: relative;
+      right: 110px;
+      bottom: 5px;
+      padding: 0;
+    }
+  }
+
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .circle-position-3 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 145px;
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .contact-text {
+    width: 90%;
+    position: relative;
+    left: 5px;
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
+  }
+
+  .form-structure-1 {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 4px;
+    bottom: 60px;
+    width: 530px;
+    gap: 0;
+  }
+
+  .input-size {
+    width: 500px;
+  }
+
+  .email-position {
+    width: 500px;
+  }
+
+  .textarea-size {
+    width: 500px;
+  }
+
+  .btn-size {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .contact-circles {
+    width: 90%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+  }
 }
 
 // BlackBerry Playbook/ Nexus 7
 @media screen and (min-width: 541px) and (max-width: 600px) {
+  .contact {
+    position: relative;
+    bottom: 5px;
+    height: 780px;
+    margin: 0;
+    padding: 0;
+  }
 
+  .contact-intro {
+    height: 5px;
+
+    h1 {
+      font-size: 40px;
+      position: relative;
+      right: 110px;
+      bottom: 5px;
+      padding: 0;
+    }
+  }
+
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .circle-position-3 {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    top: 145px;
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .contact-text {
+    width: 95%;
+    position: relative;
+    left: 5px;
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
+  }
+
+  .form-structure-1 {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 4px;
+    bottom: 60px;
+    width: 590px;
+    gap: 0;
+  }
+
+  .input-size {
+    width: 550px;
+  }
+
+  .email-position {
+    width: 550px;
+  }
+
+  .textarea-size {
+    width: 550px;
+  }
+
+  .btn-size {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .contact-circles {
+    width: 90%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+  }
 }
 
 // Microsoft Lumia 550
