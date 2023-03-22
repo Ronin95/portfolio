@@ -18,13 +18,15 @@
         </div>
       </div>
       <div class="form-structure">
-        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" #myForm>
+        <!-- [formGroup]="contactForm" -->
+        <form ngNativeValidate (ngSubmit)="onSubmit()" #myForm>
           <div class="form-structure-1 ">
             <div class="circle-position-3">
               <figure class="form-circle-3"></figure>
             </div>
             <div class="input-size name-position">
               <input
+                #nameField
                 formControlName="name"
                 ngModel
                 type="text"
@@ -35,6 +37,7 @@
             </div>
             <div class="input-size email-position">
               <input
+                #emailField
                 formControlName="email"
                 email
                 ngModel
@@ -46,6 +49,7 @@
             </div>
             <div class="textarea-size txtarea-position">
               <textarea
+                #messageField
                 formControlName="message"
                 ngModel
                 id="msg"
@@ -55,7 +59,7 @@
               </textarea>
             </div>
             <div class="btn-size">
-              <button><a type="submit" class="contact-btn">Contact</a></button>
+              <button #sendButton><a type="submit" class="contact-btn">Contact</a></button>
             </div>
           </div>
         </form>
