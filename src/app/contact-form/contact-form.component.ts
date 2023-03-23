@@ -14,21 +14,17 @@ export class ContactFormComponent implements OnInit {
   @ViewChild('messageField') messageField: ElementRef;
   @ViewChild('sendButton') sendButton: ElementRef;
 
-  // contactForm: FormGroup;
+  contactForm: FormGroup;
 
   ngOnInit() {
-    // this.contactForm = new FormGroup({
-    //   'name': new FormControl(null, Validators.required),
-    //   'email': new FormControl(null, [Validators.required, Validators.email]),
-    //   'message': new FormControl(null),
-    // });
+    this.contactForm = new FormGroup({
+      'name': new FormControl(null, Validators.required),
+      'email': new FormControl(null, [Validators.required, Validators.email]),
+      'message': new FormControl(null),
+    });
   }
 
   async onSubmit() {
-    // console.log(this.contactForm);
-    // this.contactForm.reset();
-    // action="https://nikola-badjevic.developerakademie.net/send_mail/send_mail.php" method="post"
-    console.log('Sending mail', this.myForm);
     let nameField = this.nameField.nativeElement;
     let emailField = this.emailField.nativeElement;
     let messageField = this.messageField.nativeElement;
@@ -56,5 +52,18 @@ export class ContactFormComponent implements OnInit {
     emailField.disabled = false;
     messageField.disabled = false;
     sendButton.disabled = false;
+
+    this.displayCheckMark();
+  }
+
+  displayCheckMark() {
+    document.getElementById('sendButton').addEventListener('click', function() {
+      const image = document.getElementById('check-marker');
+      image.style.display = 'block';
+
+      setTimeout(function() {
+        image.style.display = 'none';
+      }, 3000);
+    });
   }
 }

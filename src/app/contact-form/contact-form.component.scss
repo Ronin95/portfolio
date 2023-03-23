@@ -11,6 +11,25 @@
   100% { transform: translateX(0) }
 }
 
+.d-none {
+  display: none;
+}
+
+.check-marker {
+  position: relative;
+  left: 140px;
+
+  img {
+    width: 40px;
+  }
+}
+
+.btn-marker-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-size button {
   border: none;
   background: none;
@@ -106,27 +125,18 @@
 }
 
 .contact-form-text-structure {
-    display: flex;
-    align-items: start;
-    justify-content: space-around;
+  height: 380px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
 }
 
 .contact-text {
-  margin-left: 20px;
+  margin-left: 60px;
   display: flex;
   flex-direction: column;
   gap: 35px;
   width: 35%;
-}
-
-.form-structure-1 {
-  z-index: 999;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  width: 600px;
 }
 
 input {
@@ -175,12 +185,13 @@ textarea:focus::placeholder {
   animation: horizontal-shaking 0.35s 2ms;
 }
 
-.input-size {
-  height: 60px;
-  width: 550px;
+.form-structure {
+  width: 600px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 textarea {
@@ -188,49 +199,11 @@ textarea {
   border-color: var(--color1);
   text-align: left;
   border-radius: 10px;
-  width: 450px;
+  width: 520px;
   height: 130px;
   resize: none;
   cursor: pointer;
 }
-
-.textarea-size {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.txt {
-    padding-left: 20px;
-
-    &:hover {
-      border: 4px solid var(--color1);
-    }
-}
-
-
-.txtarea {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  &:hover {
-    border: 4px solid var(--color1);
-  }
-}
-
-.textarea-size {
-  height: 180px;
-  width: 550px;
-  padding: 0;
-  margin: 0;
-}
-
-.textarea-size textarea {
-  width: 500px;
-}
-
 
 .contact-circles {
   padding-left: 120px;
@@ -270,15 +243,21 @@ textarea {
   width: 50px;
 }
 
+.txt {
+  padding: 5px 20px;
+}
+
 
 // Galaxy Fold
 @media screen and (max-width: 280px) {
   .contact {
-    position: relative;
-    bottom: 40px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact-intro {
@@ -287,11 +266,15 @@ textarea {
     h1 {
       width: 200px;
       font-size: 40px;
-      position: relative;
-      right: 110px;
-      bottom: 5px;
+      // position: relative;
+      // right: 110px;
+      // bottom: 5px;
       padding: 0;
     }
+  }
+
+  .contact-form-text-structure {
+    flex-direction: column;
   }
 
   .circle-position {
@@ -302,76 +285,86 @@ textarea {
     display: none;
   }
 
-  .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 50px;
-    top: 145px;
-  }
-
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
   .contact-text {
-    width: 80%;
-    position: relative;
-    left: 5px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
+    gap: 10px;
+    // border-style: dashed;
+    width: 250px;
     padding: 0;
     margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 275px;
-    gap: 0;
+    // height: 600px;
+    // position: relative;
+    // top: -40px;
+    // left: 10px;
   }
 
-  .input-size {
-    width: 250px;
-  }
+  // .circle-position-3 {
+  //   width: 50%;
+  //   height: 100px;
+  //   z-index: -999;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   padding: 0;
+  //   margin: 0;
+  //   left: 65px;
+  //   // top: 150px;
+  // }
 
-  .email-position {
-    width: 250px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   height: 90px;
+  //   width: 90px;
+  // }
 
-  .textarea-size {
-    width: 250px;
-  }
+  // .contact-form-text-structure {
+  //   flex-direction: column;
+  //   // border-style: dashed;
+  //   gap: 0;
+  //   height: fit-content;
+  //   padding: 0;
+  //   margin: 0;
+  // }
 
-  .btn-size {
-    position: relative;
-    bottom: 10px;
-  }
+  // .form-positioning {
+  //   // border-style: dotted;
+  //   // height: 800px;
+  //   // position: relative;
+  //   // top: -150px;
+  // }
+
+  // .form-structure {
+  //   width: 280px;
+  //   // position: relative;
+  //   // top: 10px;
+  // }
+
+  // input {
+  //   width: 200px;
+  // }
+
+  // textarea {
+  //   width: 200px;
+  // }
+
+  // .btn-size {
+  //   position: relative;
+  //   bottom: 50px;
+  //   left: 25px;
+  // }
 
   .contact-circles {
     width: 80%;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
+    // position: relative;
+    // left: 20px;
+    // bottom: 40px;
   }
 }
 
@@ -440,27 +433,18 @@ textarea {
     flex-direction: column;
   }
 
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
+  .form-structure {
+    width: 320px;
     position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 310px;
-    gap: 0;
+    top: -50px;
   }
 
-  .input-size {
-    width: 280px;
+  input {
+    width: 290px;
   }
 
-  .email-position {
-    width: 280px;
-  }
-
-  .textarea-size {
-    width: 280px;
+  textarea {
+    width: 290px;
   }
 
   .btn-size {

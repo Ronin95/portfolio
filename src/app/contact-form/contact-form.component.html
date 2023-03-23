@@ -1,78 +1,73 @@
 <div id="contact" class="contact">
-    <div class="contact-intro">
-        <h1 style="color: var(--color2)">Contact</h1>
-    </div>
-    <div class="contact-form-text-structure">
-      <div class="contact-text">
-        <div class="contact-text-h2">
-          <h2 style="color: var(--color2)">Got a problem to solve?</h2>
-        </div>
-        <div>
-          <p>Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to your projects with my work.</p>
-        </div>
-        <div>
-          <p style="color: var(--color1)">Need a Frontend Developer? <span><strong style="color: var(--color2)">Contact me!</strong></span></p>
-        </div>
-        <div class="circle-position">
-          <figure class="form-circle"></figure>
-        </div>
+  <div class="contact-intro">
+      <h1 style="color: var(--color2)">Contact</h1>
+  </div>
+  <div class="contact-form-text-structure">
+    <div class="contact-text">
+      <div class="contact-text-h2">
+        <h2 style="color: var(--color2)">Got a problem to solve?</h2>
       </div>
-      <div class="form-structure">
-        <!-- [formGroup]="contactForm" -->
-        <form ngNativeValidate (ngSubmit)="onSubmit()" #myForm>
-          <div class="form-structure-1 ">
-            <div class="circle-position-3">
-              <figure class="form-circle-3"></figure>
-            </div>
-            <div class="input-size name-position">
-              <input
-                #nameField
-                formControlName="name"
-                ngModel
-                type="text"
-                class="horizontal-shake txt"
-                id="name"
-                name="name"
-                placeholder="Your name" />
-            </div>
-            <div class="input-size email-position">
-              <input
-                #emailField
-                formControlName="email"
-                email
-                ngModel
-                type="email"
-                class="horizontal-shake txt"
-                id="mail"
-                name="email"
-                placeholder="Your email" />
-            </div>
-            <div class="textarea-size txtarea-position">
-              <textarea
-                #messageField
-                formControlName="message"
-                ngModel
-                id="msg"
-                class="horizontal-shake txtarea"
-                name="message"
-                placeholder="Your message...">
-              </textarea>
-            </div>
-            <div class="btn-size">
-              <button #sendButton><a type="submit" class="contact-btn">Contact</a></button>
-            </div>
-          </div>
-        </form>
+      <div class="contact-text-p">
+        <p>Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to your projects with my work.</p>
+      </div>
+      <div>
+        <p style="color: var(--color1)">Need a Frontend Developer? <span><strong style="color: var(--color2)">Contact me!</strong></span></p>
+      </div>
+      <div class="circle-position">
+        <figure class="form-circle"></figure>
       </div>
     </div>
-    <div class="contact-circles">
-      <div class="scroll-up-circle">
-        <a href="#header">
-          <img src="./assets/img/media/scroll-up.png" alt="scroll-up">
-        </a>
+    <div class="form-positioning">
+      <div class="circle-position-3">
+        <figure class="form-circle-3"></figure>
       </div>
-      <div class="circle-position-2">
-        <figure class="bottom-circle"></figure>
+      <form class="form-structure" [formGroup]="contactForm" ngNativeValidate (ngSubmit)="onSubmit()" #myForm>
+        <input
+          #nameField
+          formControlName="name"
+          ngModel
+          type="text"
+          class="horizontal-shake txt"
+          id="name"
+          name="name"
+          placeholder="Your name" />
+        <input
+          #emailField
+          formControlName="email"
+          email
+          ngModel
+          type="email"
+          class="horizontal-shake txt"
+          id="mail"
+          name="email"
+          placeholder="Your email" />
+        <textarea
+          #messageField
+          formControlName="message"
+          ngModel
+          id="msg"
+          class="horizontal-shake txt"
+          name="message"
+          placeholder="Your message..."></textarea>
+      </form>
+      <div class="btn-marker-position">
+        <div class="btn-size">
+          <button #sendButton id="sendButton"><a type="submit" class="contact-btn">Contact</a></button>
+        </div>
+        <div class="check-marker">
+          <img id="check-marker" class="d-none" src="./assets/img/media/check_mark.png" alt="check-marker">
+        </div>
       </div>
     </div>
+  </div>
+  <div class="contact-circles">
+    <div class="scroll-up-circle">
+      <a href="#header">
+        <img src="./assets/img/media/scroll-up.png" alt="scroll-up">
+      </a>
+    </div>
+    <div class="circle-position-2">
+      <figure class="bottom-circle"></figure>
+    </div>
+  </div>
 </div>
