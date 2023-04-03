@@ -266,9 +266,6 @@ textarea {
     h1 {
       width: 200px;
       font-size: 40px;
-      // position: relative;
-      // right: 110px;
-      // bottom: 5px;
       padding: 0;
     }
   }
@@ -287,75 +284,10 @@ textarea {
 
   .contact-text {
     gap: 10px;
-    // border-style: dashed;
     width: 250px;
     padding: 0;
     margin: 0;
-    // height: 600px;
-    // position: relative;
-    // top: -40px;
-    // left: 10px;
   }
-
-  // .circle-position-3 {
-  //   width: 50%;
-  //   height: 100px;
-  //   z-index: -999;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   position: relative;
-  //   padding: 0;
-  //   margin: 0;
-  //   left: 65px;
-  //   // top: 150px;
-  // }
-
-  // .form-circle-3 {
-  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
-  //   border-radius: 50%;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   height: 90px;
-  //   width: 90px;
-  // }
-
-  // .contact-form-text-structure {
-  //   flex-direction: column;
-  //   // border-style: dashed;
-  //   gap: 0;
-  //   height: fit-content;
-  //   padding: 0;
-  //   margin: 0;
-  // }
-
-  // .form-positioning {
-  //   // border-style: dotted;
-  //   // height: 800px;
-  //   // position: relative;
-  //   // top: -150px;
-  // }
-
-  // .form-structure {
-  //   width: 280px;
-  //   // position: relative;
-  //   // top: 10px;
-  // }
-
-  // input {
-  //   width: 200px;
-  // }
-
-  // textarea {
-  //   width: 200px;
-  // }
-
-  // .btn-size {
-  //   position: relative;
-  //   bottom: 50px;
-  //   left: 25px;
-  // }
 
   .contact-circles {
     width: 80%;
