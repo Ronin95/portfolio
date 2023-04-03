@@ -258,19 +258,29 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 150px;
+    margin: 0;
 
     h1 {
       width: 200px;
       font-size: 40px;
       padding: 0;
+      position: relative;
+      right: 110px;
     }
   }
 
   .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 260px;
+    height: 700px;
     flex-direction: column;
   }
 
@@ -283,20 +293,67 @@ textarea {
   }
 
   .contact-text {
-    gap: 10px;
-    width: 250px;
+    position: relative;
+    left: 5px;
+    gap: 30px;
+    width: 240px;
+    height: 400px;
     padding: 0;
     margin: 0;
   }
 
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -160px;
+    width: 265px;
+    margin: 0;
+    padding: 0;
+    height: 370px;
+    gap: 40px;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  textarea {
+    width: 200px;
+  }
+
+  .circle-position-3 {
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 60px;
+    top: 55px;
+  }
+
+  .form-circle-3 {
+    background: linear-gradient(0.40turn, var(--color1), var(--color2));
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+
+  .btn-marker-position {
+    border-style: dotted;
+    z-index: 999;
+    
+
+  }
+
   .contact-circles {
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    // position: relative;
-    // left: 20px;
-    // bottom: 40px;
   }
 }
 
