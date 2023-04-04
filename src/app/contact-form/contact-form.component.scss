@@ -345,8 +345,6 @@ textarea {
   .btn-marker-position {
     border-style: dotted;
     z-index: 999;
-    
-
   }
 
   .contact-circles {
@@ -360,24 +358,37 @@ textarea {
 // Galaxy S9+ / Nokia Lumia 520 / iPhone 4 / iPhone 5-SE /
 @media screen and (min-width: 281px) and (max-width: 320px) {
   .contact {
-    position: relative;
-    bottom: 40px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 150px;
+    margin: 0;
 
     h1 {
       width: 200px;
       font-size: 40px;
+      padding: 0;
       position: relative;
       right: 110px;
-      bottom: 5px;
-      padding: 0;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 260px;
+    height: 700px;
+    flex-direction: column;
   }
 
   .circle-position {
@@ -388,67 +399,66 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    gap: 30px;
+    width: 240px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -160px;
+    width: 265px;
+    margin: 0;
+    padding: 0;
+    height: 370px;
+    gap: 40px;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  textarea {
+    width: 200px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 60px;
+    top: 55px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
   }
 
-  .contact-text {
-    width: 85%;
-    position: relative;
-    left: 5px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure {
-    width: 320px;
-    position: relative;
-    top: -50px;
-  }
-
-  input {
-    width: 290px;
-  }
-
-  textarea {
-    width: 290px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+  .btn-marker-position {
+    border-style: dotted;
+    z-index: 999;
   }
 
   .contact-circles {
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
@@ -456,24 +466,37 @@ textarea {
 // Galaxy Note 3/Note II/ S III/ S8 / Microsoft Lumia 950 / Moto G4 / Galaxy S8+ / Galaxy S5 (360px)
 @media screen and (min-width: 321px) and (max-width: 360px) {
   .contact {
-    position: relative;
-    bottom: 40px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 150px;
+    margin: 0;
 
     h1 {
       width: 200px;
       font-size: 40px;
+      padding: 0;
       position: relative;
       right: 110px;
-      bottom: 5px;
-      padding: 0;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 260px;
+    height: 700px;
+    flex-direction: column;
   }
 
   .circle-position {
@@ -484,100 +507,103 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    gap: 30px;
+    width: 240px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -160px;
+    width: 265px;
+    margin: 0;
+    padding: 0;
+    height: 370px;
+    gap: 40px;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  textarea {
+    width: 200px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 60px;
+    top: 55px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
   }
 
-  .contact-text {
-    width: 90%;
-    position: relative;
-    left: 5px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 350px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 300px;
-  }
-
-  .email-position {
-    width: 300px;
-  }
-
-  .textarea-size {
-    width: 300px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+  .btn-marker-position {
+    border-style: dotted;
+    z-index: 999;
   }
 
   .contact-circles {
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
 // iPhone SE / iPhone 6-7-8 / iPhone X
 @media screen and (min-width: 361px) and (max-width: 375px) {
   .contact {
-    position: relative;
-    bottom: 40px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 150px;
+    margin: 0;
 
     h1 {
       width: 200px;
       font-size: 40px;
+      padding: 0;
       position: relative;
       right: 110px;
-      bottom: 5px;
-      padding: 0;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 260px;
+    height: 700px;
+    flex-direction: column;
   }
 
   .circle-position {
@@ -588,76 +614,66 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    gap: 30px;
+    width: 240px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -160px;
+    width: 265px;
+    margin: 0;
+    padding: 0;
+    height: 370px;
+    gap: 40px;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  textarea {
+    width: 200px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 60px;
+    top: 55px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
   }
 
-  .contact-text {
-    width: 90%;
-    position: relative;
-    left: 5px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 6px;
-    bottom: 60px;
-    width: 360px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 340px;
-  }
-
-  .email-position {
-    width: 340px;
-  }
-
-  .textarea-size {
-    width: 340px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+  .btn-marker-position {
+    border-style: dotted;
+    z-index: 999;
   }
 
   .contact-circles {
-    width: 85%;
+    width: 90%;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
