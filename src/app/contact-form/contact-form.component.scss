@@ -343,8 +343,9 @@ textarea {
   }
 
   .btn-marker-position {
-    border-style: dotted;
-    z-index: 999;
+    width: 250px;
+    position: relative;
+    top: -165px;
   }
 
   .contact-circles {
@@ -360,7 +361,7 @@ textarea {
   .contact {
     margin: 0;
     padding: 0;
-    width: 270px;
+    width: 310px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -379,7 +380,7 @@ textarea {
       font-size: 40px;
       padding: 0;
       position: relative;
-      right: 110px;
+      right: 115px;
     }
   }
 
@@ -411,9 +412,9 @@ textarea {
 
   .form-structure {
     position: relative;
-    right: 2px;
+    right: 25px;
     top: -160px;
-    width: 265px;
+    width: 310px;
     margin: 0;
     padding: 0;
     height: 370px;
@@ -421,11 +422,11 @@ textarea {
   }
 
   input {
-    width: 200px;
+    width: 210px;
   }
 
   textarea {
-    width: 200px;
+    width: 210px;
   }
 
   .circle-position-3 {
@@ -450,12 +451,13 @@ textarea {
   }
 
   .btn-marker-position {
-    border-style: dotted;
-    z-index: 999;
+    width: 250px;
+    position: relative;
+    top: -165px;
   }
 
   .contact-circles {
-    width: 90%;
+    width: 85%;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
@@ -468,7 +470,7 @@ textarea {
   .contact {
     margin: 0;
     padding: 0;
-    width: 270px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -479,24 +481,29 @@ textarea {
 
   .contact-intro {
     height: 5px;
-    width: 150px;
+    width: 40px;
     margin: 0;
+    position: relative;
+    top: -5px;
+    right: 65px;
+
 
     h1 {
       width: 200px;
       font-size: 40px;
       padding: 0;
       position: relative;
-      right: 110px;
+      right: 130px;
     }
   }
 
   .contact-form-text-structure {
     position: relative;
     left: 2px;
-    width: 260px;
+    width: 340px;
     height: 700px;
     flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -511,8 +518,8 @@ textarea {
     position: relative;
     left: 5px;
     gap: 30px;
-    width: 240px;
-    height: 400px;
+    width: 320px;
+    height: 250px;
     padding: 0;
     margin: 0;
   }
@@ -520,20 +527,20 @@ textarea {
   .form-structure {
     position: relative;
     right: 2px;
-    top: -160px;
-    width: 265px;
+    top: -130px;
+    width: 350px;
     margin: 0;
     padding: 0;
-    height: 370px;
+    height: 360px;
     gap: 40px;
   }
 
   input {
-    width: 200px;
+    width: 270px;
   }
 
   textarea {
-    width: 200px;
+    width: 270px;
   }
 
   .circle-position-3 {
@@ -546,20 +553,21 @@ textarea {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 60px;
-    top: 55px;
+    left: 110px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 135px;
+    width: 135px;
   }
 
   .btn-marker-position {
-    border-style: dotted;
-    z-index: 999;
+    width: 350px;
+    position: relative;
+    top: -135px;
   }
 
   .contact-circles {
@@ -575,7 +583,7 @@ textarea {
   .contact {
     margin: 0;
     padding: 0;
-    width: 270px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -586,24 +594,29 @@ textarea {
 
   .contact-intro {
     height: 5px;
-    width: 150px;
+    width: 40px;
     margin: 0;
+    position: relative;
+    top: -5px;
+    right: 65px;
+
 
     h1 {
       width: 200px;
       font-size: 40px;
       padding: 0;
       position: relative;
-      right: 110px;
+      right: 130px;
     }
   }
 
   .contact-form-text-structure {
     position: relative;
     left: 2px;
-    width: 260px;
+    width: 340px;
     height: 700px;
     flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -618,8 +631,8 @@ textarea {
     position: relative;
     left: 5px;
     gap: 30px;
-    width: 240px;
-    height: 400px;
+    width: 320px;
+    height: 250px;
     padding: 0;
     margin: 0;
   }
@@ -627,20 +640,20 @@ textarea {
   .form-structure {
     position: relative;
     right: 2px;
-    top: -160px;
-    width: 265px;
+    top: -130px;
+    width: 350px;
     margin: 0;
     padding: 0;
-    height: 370px;
+    height: 360px;
     gap: 40px;
   }
 
   input {
-    width: 200px;
+    width: 270px;
   }
 
   textarea {
-    width: 200px;
+    width: 270px;
   }
 
   .circle-position-3 {
@@ -653,20 +666,21 @@ textarea {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 60px;
-    top: 55px;
+    left: 110px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 135px;
+    width: 135px;
   }
 
   .btn-marker-position {
-    border-style: dotted;
-    z-index: 999;
+    width: 350px;
+    position: relative;
+    top: -135px;
   }
 
   .contact-circles {
@@ -680,24 +694,42 @@ textarea {
 // LG Optimus L70 / Nexus 4
 @media screen and (min-width: 376px) and (max-width: 414px) {
   .contact {
-    position: relative;
-    bottom: 40px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 40px;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    right: 65px;
+
 
     h1 {
       width: 200px;
       font-size: 40px;
-      position: relative;
-      right: 110px;
-      bottom: 5px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 340px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -708,66 +740,60 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    gap: 30px;
+    width: 320px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 270px;
+  }
+
+  textarea {
+    width: 270px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 110px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 135px;
+    width: 135px;
+  }
+
+  .btn-marker-position {
+    width: 350px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 90%;
-    position: relative;
-    left: 5px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 410px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 380px;
-  }
-
-  .email-position {
-    width: 380px;
-  }
-
-  .textarea-size {
-    width: 380px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+    top: -135px;
   }
 
   .contact-circles {
@@ -775,33 +801,48 @@ textarea {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
 // Nokia N9 (480px)
 @media screen and (min-width: 415px) and (max-width: 480px) {
   .contact {
-    position: relative;
-    bottom: 40px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 40px;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    right: 65px;
+
 
     h1 {
       width: 200px;
       font-size: 40px;
-      position: relative;
-      right: 110px;
-      bottom: 5px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 400px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -812,66 +853,61 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    gap: 30px;
+    width: 320px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 350px;
+  }
+
+  textarea {
+    width: 350px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 150px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 135px;
+    width: 135px;
+  }
+
+  .btn-marker-position {
+    width: 350px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 90%;
-    position: relative;
-    left: 5px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 470px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 440px;
-  }
-
-  .email-position {
-    width: 440px;
-  }
-
-  .textarea-size {
-    width: 440px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+    top: -135px;
+    left: 50px;
   }
 
   .contact-circles {
@@ -879,33 +915,48 @@ textarea {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
 // Surface Duo (540px)
 @media screen and (min-width: 481px) and (max-width: 540px) {
   .contact {
-    position: relative;
-    bottom: 5px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 40px;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    right: 110px;
+
 
     h1 {
       width: 200px;
       font-size: 40px;
-      position: relative;
-      right: 110px;
-      bottom: 5px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 500px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -916,66 +967,61 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    gap: 30px;
+    width: 400px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 350px;
+  }
+
+  textarea {
+    width: 350px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 150px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 135px;
+    width: 135px;
+  }
+
+  .btn-marker-position {
+    width: 350px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 90%;
-    position: relative;
-    left: 5px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 530px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 500px;
-  }
-
-  .email-position {
-    width: 500px;
-  }
-
-  .textarea-size {
-    width: 500px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+    top: -135px;
+    left: 50px;
   }
 
   .contact-circles {
@@ -983,33 +1029,48 @@ textarea {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
 // BlackBerry Playbook/ Nexus 7
 @media screen and (min-width: 541px) and (max-width: 600px) {
   .contact {
-    position: relative;
-    bottom: 5px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 40px;
+    margin: 0;
+    position: relative;
+    right: 160px;
+    top: 20px;
+
 
     h1 {
       width: 200px;
       font-size: 40px;
-      position: relative;
-      right: 110px;
-      bottom: 5px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 500px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -1020,66 +1081,62 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    top: 40px;
+    gap: 30px;
+    width: 500px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 450px;
+  }
+
+  textarea {
+    width: 450px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 150px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 135px;
+    width: 135px;
+  }
+
+  .btn-marker-position {
+    width: 450px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 95%;
-    position: relative;
-    left: 5px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 590px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 550px;
-  }
-
-  .email-position {
-    width: 550px;
-  }
-
-  .textarea-size {
-    width: 550px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+    top: -135px;
+    left: 20px;
   }
 
   .contact-circles {
@@ -1087,33 +1144,48 @@ textarea {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
 // Microsoft Lumia 550
 @media screen and (min-width: 601px) and (max-width: 640px) {
   .contact {
-    position: relative;
-    bottom: 5px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 40px;
+    margin: 0;
+    position: relative;
+    right: 160px;
+    top: 20px;
+
 
     h1 {
       width: 200px;
       font-size: 40px;
-      position: relative;
-      right: 80px;
-      bottom: 5px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 500px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -1124,66 +1196,62 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    top: 40px;
+    gap: 30px;
+    width: 500px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 450px;
+  }
+
+  textarea {
+    width: 450px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 150px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 135px;
+    width: 135px;
+  }
+
+  .btn-marker-position {
+    width: 450px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 80%;
-    position: relative;
-    left: 30px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 630px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 620px;
-  }
-
-  .email-position {
-    width: 620px;
-  }
-
-  .textarea-size {
-    width: 620px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+    top: -135px;
+    left: 20px;
   }
 
   .contact-circles {
@@ -1191,33 +1259,48 @@ textarea {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
 // Galaxy Tab S4
 @media screen and (min-width: 641px) and (max-width: 712px) {
   .contact {
-    position: relative;
-    bottom: 5px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
+    width: 40px;
+    margin: 0;
+    position: relative;
+    right: 210px;
+    top: 20px;
+
 
     h1 {
       width: 200px;
-      font-size: 50px;
-      position: relative;
-      right: 40px;
-      bottom: 5px;
+      font-size: 40px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 600px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -1228,66 +1311,62 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    top: 40px;
+    gap: 30px;
+    width: 600px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 650px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 550px;
+  }
+
+  textarea {
+    width: 550px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 250px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 160px;
+    width: 160px;
+  }
+
+  .btn-marker-position {
+    width: 550px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 70%;
-    position: relative;
-    left: 70px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 700px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 690px;
-  }
-
-  .email-position {
-    width: 690px;
-  }
-
-  .textarea-size {
-    width: 690px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+    top: -135px;
+    left: 40px;
   }
 
   .contact-circles {
@@ -1295,34 +1374,48 @@ textarea {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
 // iPad Mini / iPad
 @media screen and (min-width: 713px) and (max-width: 768px) {
   .contact {
-    position: relative;
-    bottom: 5px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
-    height: 50px;
+    width: 40px;
+    margin: 0;
+    position: relative;
+    right: 260px;
+    top: 20px;
+
 
     h1 {
       width: 200px;
-      font-size: 50px;
-      position: relative;
-      right: 20px;
-      bottom: 5px;
+      font-size: 40px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 700px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -1333,66 +1426,62 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    top: 40px;
+    gap: 30px;
+    width: 700px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 760px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 650px;
+  }
+
+  textarea {
+    width: 650px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 300px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 160px;
+    width: 160px;
+  }
+
+  .btn-marker-position {
+    width: 650px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 70%;
-    position: relative;
-    left: 90px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 750px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 690px;
-  }
-
-  .email-position {
-    width: 690px;
-  }
-
-  .textarea-size {
-    width: 690px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+    top: -135px;
+    left: 50px;
   }
 
   .contact-circles {
@@ -1400,9 +1489,6 @@ textarea {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
@@ -1410,25 +1496,42 @@ textarea {
 // iPad Air (820px)
 @media screen and (min-width: 769px) and (max-width: 820px) {
   .contact {
-    position: relative;
-    bottom: 5px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 810px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -60px;
   }
 
   .contact-intro {
     height: 5px;
-    height: 50px;
+    width: 40px;
+    margin: 0;
+    position: relative;
+    right: 260px;
+    top: 20px;
+
 
     h1 {
       width: 200px;
-      font-size: 50px;
-      position: relative;
-      left: 10px;
-      bottom: 5px;
+      font-size: 40px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 800px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -1439,66 +1542,62 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    top: 40px;
+    gap: 30px;
+    width: 700px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 760px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 650px;
+  }
+
+  textarea {
+    width: 650px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 300px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 160px;
+    width: 160px;
+  }
+
+  .btn-marker-position {
+    width: 650px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
-  }
-
-  .contact-text {
-    width: 70%;
-    position: relative;
-    left: 120px;
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 810px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 790px;
-  }
-
-  .email-position {
-    width: 790px;
-  }
-
-  .textarea-size {
-    width: 790px;
-  }
-
-  .btn-size {
-    position: relative;
-    bottom: 10px;
+    top: -135px;
+    left: 50px;
   }
 
   .contact-circles {
@@ -1506,34 +1605,48 @@ textarea {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
 // Surface Pro 7
 @media screen and (min-width: 821px) and (max-width: 912px) {
   .contact {
-    position: relative;
-    top: 15px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 910px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30px;
   }
 
   .contact-intro {
     height: 5px;
-    height: 50px;
+    width: 300px;
+    margin: 0;
+    position: relative;
+    right: 180px;
+    top: 20px;
+
 
     h1 {
-      width: 200px;
-      font-size: 50px;
-      position: relative;
-      left: 55px;
-      top: 10px;
+      width: 400px;
+      font-size: 60px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 850px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -1544,74 +1657,101 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    top: 40px;
+    gap: 30px;
+    width: 800px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-text-h2 {
+    font-size: 25px;
+  }
+
+  .contact-text-p {
+    font-size: 20px;
+  }
+
+  .contact-text-contact {
+    font-size: 20px;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 850px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 750px;
+  }
+
+  textarea {
+    width: 750px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 340px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 160px;
+    width: 160px;
+  }
+
+  .btn-marker-position {
+    width: 750px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
+    top: -135px;
+    left: 40px;
   }
 
-  .contact-text-h2 {
-    font-size: 20px;
-  }
-
-  .contact-text {
-    width: 60%;
-    position: relative;
-    left: 165px;
-
-    p {
-      font-size: 20px;
-    }
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 900px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 790px;
-  }
-
-  .email-position {
-    width: 790px;
-  }
-
-  .textarea-size {
-    width: 790px;
+  .contact-btn {
+    font-size: 25px;
   }
 
   .btn-size {
-    position: relative;
-    bottom: 10px;
+    width: 300px;
+    height: 60px;
+  }
+  
+  .contact-btn::before {
+    width: 350px;
+    height: 100%;
+  }
+  
+  .contact-btn::after {
+    width: 350px;
+    height: 100%;
+  }
+  
+  .contact-btn:hover::before {
+    width: 350px;
+  }
+  
+  .contact-btn:hover::after {
+    width: 350px;
   }
 
   .contact-circles {
@@ -1619,34 +1759,47 @@ textarea {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
   }
 }
 
 // Nest Hub / iPad Pro
 @media screen and (min-width: 913px) and (max-width: 1024px) {
   .contact {
-    position: relative;
-    top: 15px;
-    height: 780px;
     margin: 0;
     padding: 0;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
   }
 
   .contact-intro {
     height: 5px;
-    height: 50px;
+    width: 250px;
+    margin: 0;
+    position: relative;
+    right: 250px;
+    top: 20px;
+
 
     h1 {
-      width: 200px;
-      font-size: 50px;
-      position: relative;
-      right: 10px;
-      top: 10px;
+      font-size: 60px;
       padding: 0;
+      position: relative;
+      right: 130px;
     }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    width: 1000px;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle-position {
@@ -1657,87 +1810,109 @@ textarea {
     display: none;
   }
 
+  .contact-text {
+    position: relative;
+    left: 5px;
+    top: 50px;
+    gap: 30px;
+    width: 900px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-text-h2 {
+    font-size: 25px;
+  }
+
+  .contact-text-p {
+    font-size: 20px;
+  }
+
+  .contact-text-contact {
+    font-size: 20px;
+  }
+
+  .form-structure {
+    position: relative;
+    right: 2px;
+    top: -130px;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    height: 360px;
+    gap: 40px;
+  }
+
+  input {
+    width: 850px;
+  }
+
+  textarea {
+    width: 850px;
+  }
+
   .circle-position-3 {
-    width: 100%;
-    height: 100%;
-    z-index: -999;
+    width: 150px;
+    height: 150px;
+    z-index: -1999;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50px;
-    top: 145px;
+    left: 420px;
+    top: 82px;
   }
 
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 160px;
+    width: 160px;
+  }
+
+  .btn-marker-position {
+    width: 900px;
     position: relative;
-    right: 50px;
-    height: 90px;
-    width: 90px;
+    top: -135px;
+    left: 40px;
   }
 
-  .contact-text-h2 {
-    font-size: 20px;
-  }
-
-  .contact-text {
-    width: 80%;
-    position: relative;
-    left: 105px;
-
-    p {
-      font-size: 20px;
-    }
-  }
-
-  .contact-form-text-structure {
-    flex-direction: column;
-  }
-
-  .form-structure-1 {
-    height: fit-content;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    left: 4px;
-    bottom: 60px;
-    width: 1010px;
-    gap: 0;
-  }
-
-  .input-size {
-    width: 790px;
-  }
-
-  .email-position {
-    width: 790px;
-  }
-
-  .textarea-size {
-    width: 790px;
+  .contact-btn {
+    font-size: 25px;
   }
 
   .btn-size {
-    position: relative;
-    bottom: 10px;
+    width: 300px;
+    height: 60px;
+  }
+  
+  .contact-btn::before {
+    width: 350px;
+    height: 100%;
+  }
+  
+  .contact-btn::after {
+    width: 350px;
+    height: 100%;
+  }
+  
+  .contact-btn:hover::before {
+    width: 350px;
+  }
+  
+  .contact-btn:hover::after {
+    width: 350px;
   }
 
   .contact-circles {
+    position: relative;
+    top: -60px;
     width: 90%;
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    left: 40px;
-    bottom: 60px;
   }
 }
-
-// Nest Hub Max
-// @media screen and (min-width: 1025px) and (max-width: 1280px) {
-// }
