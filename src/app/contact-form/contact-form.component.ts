@@ -23,6 +23,7 @@ export class ContactFormComponent implements OnInit {
       'message': new FormControl(null),
     });
     this.displayCheckMark();
+    // this.onSubmit();
   }
 
   async onSubmit() {
