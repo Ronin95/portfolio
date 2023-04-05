@@ -16,8 +16,19 @@
 }
 
 .check-marker {
+  display: none;
   position: relative;
-  left: 140px;
+  // left: 140px;
+
+  img {
+    width: 40px;
+  }
+}
+
+.check-marker-visible {
+  display: block;
+  position: relative;
+  // left: 140px;
 
   img {
     width: 40px;

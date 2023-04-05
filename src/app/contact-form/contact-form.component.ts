@@ -22,6 +22,7 @@ export class ContactFormComponent implements OnInit {
       'email': new FormControl(null, [Validators.required, Validators.email]),
       'message': new FormControl(null),
     });
+    this.displayCheckMark();
   }
 
   async onSubmit() {
@@ -52,18 +53,17 @@ export class ContactFormComponent implements OnInit {
     emailField.disabled = false;
     messageField.disabled = false;
     sendButton.disabled = false;
-
-    this.displayCheckMark();
   }
 
   displayCheckMark() {
-    document.getElementById('sendButton').addEventListener('click', function() {
-      const image = document.getElementById('check-marker');
-      image.style.display = 'block';
+    const showImageBtn = document.getElementById('sendButton') as HTMLButtonElement;
+    const imageToDisplay = document.getElementById('check-marker') as HTMLElement;
 
-      setTimeout(function() {
-        image.style.display = 'none';
-      }, 3000);
+    showImageBtn.addEventListener('click', () => {
+        imageToDisplay.parentElement?.classList.add('check-marker-visible');
+        setTimeout(() => {
+            imageToDisplay.parentElement?.classList.remove('check-marker-visible');
+        }, 3000);
     });
   }
 }
