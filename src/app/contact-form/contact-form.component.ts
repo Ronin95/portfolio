@@ -1,5 +1,5 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { FormControl, FormGroup, NgForm, Validators } from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 
 @Component({
@@ -8,52 +8,54 @@ import { FormControl, FormGroup, NgForm, Validators } from '@angular/forms';
   styleUrls: ['./contact-form.component.scss']
 })
 export class ContactFormComponent implements OnInit {
-  @ViewChild('myForm') myForm: ElementRef;
-  @ViewChild('nameField') nameField: ElementRef;
-  @ViewChild('emailField') emailField: ElementRef;
-  @ViewChild('messageField') messageField: ElementRef;
-  @ViewChild('sendButton') sendButton: ElementRef;
+  // @ViewChild('myForm') myForm: ElementRef;
+  // @ViewChild('nameField') nameField: ElementRef;
+  // @ViewChild('emailField') emailField: ElementRef;
+  // @ViewChild('messageField') messageField: ElementRef;
+  // @ViewChild('sendButton') sendButton: ElementRef;
 
-  contactForm: FormGroup;
+  // contactForm: FormGroup;
 
   ngOnInit() {
-    this.contactForm = new FormGroup({
-      'name': new FormControl(null, Validators.required),
-      'email': new FormControl(null, [Validators.required, Validators.email]),
-      'message': new FormControl(null),
-    });
+    // this.contactForm = new FormGroup({
+    //   'name': new FormControl(null, Validators.required),
+    //   'email': new FormControl(null, [Validators.required, Validators.email]),
+    //   'message': new FormControl(null),
+    // });
     this.displayCheckMark();
     // this.onSubmit();
   }
 
-  async onSubmit() {
-    let nameField = this.nameField.nativeElement;
-    let emailField = this.emailField.nativeElement;
-    let messageField = this.messageField.nativeElement;
-    let sendButton = this.sendButton.nativeElement;
-    nameField.disabled = true;
-    emailField.disabled = true;
-    messageField.disabled = true;
-    sendButton.disabled = true;
+  onSubmit(form: NgForm) {
+    console.log(form.value);
+    form.reset();
+    // let nameField = this.nameField.nativeElement;
+    // let emailField = this.emailField.nativeElement;
+    // let messageField = this.messageField.nativeElement;
+    // let sendButton = this.sendButton.nativeElement;
+    // nameField.disabled = true;
+    // emailField.disabled = true;
+    // messageField.disabled = true;
+    // sendButton.disabled = true;
 
-    let fd = new FormData();
-    fd.append('name', nameField.value);
-    fd.append('email', emailField.value);
-    fd.append('message', messageField.value);
+    // let fd = new FormData();
+    // fd.append('name', nameField.value);
+    // fd.append('email', emailField.value);
+    // fd.append('message', messageField.value);
 
-    let response = await fetch('https://nikola-badjevic.developerakademie.net/send_mail/send_mail.php',
-    {
-      method: 'POST',
-      body: fd
-    });
+    // let response = await fetch('https://nikola-badjevic.developerakademie.net/send_mail/send_mail.php',
+    // {
+    //   method: 'POST',
+    //   body: fd
+    // });
 
-    let result= await response.text();
-    console.log(result);
+    // let result= await response.text();
+    // console.log(result);
 
-    nameField.disabled = false;
-    emailField.disabled = false;
-    messageField.disabled = false;
-    sendButton.disabled = false;
+    // nameField.disabled = false;
+    // emailField.disabled = false;
+    // messageField.disabled = false;
+    // sendButton.disabled = false;
   }
 
   displayCheckMark() {

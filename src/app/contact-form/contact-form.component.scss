@@ -17,8 +17,13 @@
 
 .check-marker {
   display: none;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  // left: 140px;
+  left: 370px;
+  top: -50px;
 
   img {
     width: 40px;
@@ -27,24 +32,17 @@
 
 .check-marker-visible {
   display: block;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  // left: 140px;
+  left: 370px;
+  top: -50px;
 
   img {
     width: 40px;
   }
-}
-
-.btn-marker-position {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn-size button {
-  border: none;
-  background: none;
-  width: 200px;
 }
 
 .contact {
@@ -203,6 +201,12 @@ textarea:focus::placeholder {
   justify-content: center;
   align-items: center;
   gap: 20px;
+
+  button {
+    border: none;
+    background: none;
+    width: 170px;
+  }
 }
 
 textarea {
@@ -352,18 +356,6 @@ textarea {
     width: 120px;
   }
 
-  .btn-marker-position {
-    width: 250px;
-    position: relative;
-    top: -165px;
-  }
-
-  .check-marker {
-    width: 70px;
-    position: relative;
-    right: 27px;
-  }
-
   .contact-circles {
     width: 90%;
     justify-content: space-between;
@@ -466,17 +458,17 @@ textarea {
     width: 120px;
   }
 
-  .btn-marker-position {
-    width: 250px;
-    position: relative;
-    top: -165px;
-  }
+  // .btn-marker-position {
+  //   width: 250px;
+  //   position: relative;
+  //   top: -165px;
+  // }
 
-  .check-marker {
-    width: 70px;
-    position: relative;
-    right: 27px;
-  }
+  // .check-marker {
+  //   width: 70px;
+  //   position: relative;
+  //   right: 27px;
+  // }
 
   .contact-circles {
     width: 85%;

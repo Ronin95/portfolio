@@ -21,42 +21,26 @@
       <div class="circle-position-3">
         <figure class="form-circle-3"></figure>
       </div>
-      <form class="form-structure" [formGroup]="contactForm" ngNativeValidate (ngSubmit)="onSubmit()" #myForm>
+      <!--[formGroup]="contactForm"-->
+      <form class="form-structure" #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
         <input
-          #nameField
-          formControlName="name"
-          ngModel
-          type="text"
+          type="text" id="name" name="name" ngModel required 
           class="horizontal-shake txt"
-          id="name"
-          name="name"
           placeholder="Your name" />
         <input
-          #emailField
-          formControlName="email"
-          email
-          ngModel
-          type="email"
+          type="email" id="email" name="email" ngModel required
           class="horizontal-shake txt"
-          id="mail"
-          name="email"
           placeholder="Your email" />
         <textarea
-          #messageField
-          formControlName="message"
-          ngModel
-          id="msg"
+          id="message" name="message" ngModel required
           class="horizontal-shake txt"
-          name="message"
           placeholder="Your message..."></textarea>
+        <button type="submit" id="sendButton">
+          <a class="contact-btn">Contact</a>
+        </button>
       </form>
-      <div class="btn-marker-position">
-        <div class="btn-size">
-          <button #sendButton id="sendButton"><a type="submit" class="contact-btn">Contact</a></button>
-        </div>
-        <div class="check-marker">
-          <img id="check-marker" src="./assets/img/media/check_mark.png" alt="check-marker">
-        </div>
+      <div class="check-marker">
+        <img id="check-marker" src="./assets/img/media/check_mark.png" alt="check-marker">
       </div>
     </div>
   </div>
