@@ -24,18 +24,18 @@
       <!--[formGroup]="contactForm"-->
       <form class="form-structure" #myForm="ngForm" (ngSubmit)="onSubmit()">
         <input
-          type="text" id="name" name="name" ngModel required 
+          type="text" id="name" name="name" ngModel required  #nameField
           class="horizontal-shake txt"
           placeholder="Your name" />
         <input
-          type="email" id="email" name="email" ngModel required
+          type="email" id="email" name="email" ngModel required #emailField
           class="horizontal-shake txt"
           placeholder="Your email" />
         <textarea
-          id="message" name="message" ngModel required
+          id="message" name="message" ngModel required #messageField
           class="horizontal-shake txt"
           placeholder="Your message..."></textarea>
-        <button type="submit" id="sendButton" [disabled]="!myForm.valid">
+        <button #sendButton type="submit" id="sendButton" [disabled]="!myForm.valid">
           <a class="contact-btn">Contact</a>
         </button>
       </form>
