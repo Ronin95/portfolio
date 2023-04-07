@@ -17,12 +17,9 @@
 
 .check-marker {
   display: none;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 40px;
   position: relative;
-  left: 370px;
+  left: 390px;
   top: -50px;
 
   img {
@@ -32,10 +29,7 @@
 
 .check-marker-visible {
   display: block;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 40px;
   position: relative;
   left: 370px;
   top: -50px;
@@ -66,14 +60,6 @@
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.btn-size {
-  width: 220px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .contact-btn {
@@ -317,14 +303,14 @@ textarea {
   }
 
   .form-structure {
+    height: 430px;
     position: relative;
-    right: 2px;
-    top: -160px;
+    top: -150px;
     width: 265px;
     margin: 0;
     padding: 0;
-    height: 370px;
-    gap: 40px;
+    height: 400px;
+    gap: 20px;
   }
 
   input {
@@ -354,6 +340,12 @@ textarea {
     border-radius: 50%;
     height: 120px;
     width: 120px;
+  }
+
+  .check-marker-visible {
+    position: relative;
+    top: -215px;
+    left: 200px;
   }
 
   .contact-circles {
@@ -421,12 +413,12 @@ textarea {
   .form-structure {
     position: relative;
     right: 25px;
-    top: -160px;
+    top: -150px;
     width: 310px;
     margin: 0;
     padding: 0;
-    height: 370px;
-    gap: 40px;
+    height: 390px;
+    gap: 30px;
   }
 
   input {
@@ -451,24 +443,18 @@ textarea {
     top: 55px;
   }
 
+  .check-marker-visible {
+    position: relative;
+    top: -195px;
+    left: 200px;
+  }
+
   .form-circle-3 {
     background: linear-gradient(0.40turn, var(--color1), var(--color2));
     border-radius: 50%;
     height: 120px;
     width: 120px;
   }
-
-  // .btn-marker-position {
-  //   width: 250px;
-  //   position: relative;
-  //   top: -165px;
-  // }
-
-  // .check-marker {
-  //   width: 70px;
-  //   position: relative;
-  //   right: 27px;
-  // }
 
   .contact-circles {
     width: 85%;
@@ -545,7 +531,7 @@ textarea {
     width: 350px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 420px;
     gap: 40px;
   }
 
@@ -558,8 +544,8 @@ textarea {
   }
 
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     z-index: -1999;
     padding: 0;
     margin: 0;
@@ -567,8 +553,8 @@ textarea {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 110px;
-    top: 82px;
+    left: 75px;
+    top: 80px;
   }
 
   .form-circle-3 {
@@ -578,16 +564,10 @@ textarea {
     width: 135px;
   }
 
-  .btn-marker-position {
-    width: 350px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-  }
-
-  .check-marker {
-    width: 70px;
-    position: relative;
-    right: 27px;
+    top: -175px;
+    left: 260px;
   }
 
   .contact-circles {
@@ -664,7 +644,7 @@ textarea {
     width: 350px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 420px;
     gap: 40px;
   }
 
@@ -697,16 +677,10 @@ textarea {
     width: 135px;
   }
 
-  .btn-marker-position {
-    width: 350px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-  }
-
-  .check-marker {
-    width: 70px;
-    position: relative;
-    right: 27px;
+    top: -175px;
+    left: 260px;
   }
 
   .contact-circles {
@@ -783,7 +757,7 @@ textarea {
     width: 350px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 420px;
     gap: 40px;
   }
 
@@ -816,16 +790,10 @@ textarea {
     width: 135px;
   }
 
-  .btn-marker-position {
-    width: 350px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-  }
-
-  .check-marker {
-    width: 70px;
-    position: relative;
-    right: 27px;
+    top: -175px;
+    left: 260px;
   }
 
   .contact-circles {
@@ -902,7 +870,7 @@ textarea {
     width: 450px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 420px;
     gap: 40px;
   }
 
@@ -935,17 +903,10 @@ textarea {
     width: 135px;
   }
 
-  .btn-marker-position {
-    width: 350px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-    left: 50px;
-  }
-
-  .check-marker {
-    width: 70px;
-    position: relative;
-    right: 27px;
+    top: -175px;
+    left: 310px;
   }
 
   .contact-circles {
@@ -1022,7 +983,7 @@ textarea {
     width: 450px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 420px;
     gap: 40px;
   }
 
@@ -1055,11 +1016,10 @@ textarea {
     width: 135px;
   }
 
-  .btn-marker-position {
-    width: 350px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-    left: 50px;
+    top: -175px;
+    left: 310px;
   }
 
   .contact-circles {
@@ -1137,7 +1097,7 @@ textarea {
     width: 500px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 420px;
     gap: 40px;
   }
 
@@ -1150,8 +1110,8 @@ textarea {
   }
 
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     z-index: -1999;
     padding: 0;
     margin: 0;
@@ -1170,11 +1130,10 @@ textarea {
     width: 135px;
   }
 
-  .btn-marker-position {
-    width: 450px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-    left: 20px;
+    top: -175px;
+    left: 320px;
   }
 
   .contact-circles {
@@ -1252,7 +1211,7 @@ textarea {
     width: 500px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 420px;
     gap: 40px;
   }
 
@@ -1265,8 +1224,8 @@ textarea {
   }
 
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     z-index: -1999;
     padding: 0;
     margin: 0;
@@ -1285,11 +1244,10 @@ textarea {
     width: 135px;
   }
 
-  .btn-marker-position {
-    width: 450px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-    left: 20px;
+    top: -175px;
+    left: 320px;
   }
 
   .contact-circles {
@@ -1367,7 +1325,7 @@ textarea {
     width: 650px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 440px;
     gap: 40px;
   }
 
@@ -1380,8 +1338,8 @@ textarea {
   }
 
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     z-index: -1999;
     padding: 0;
     margin: 0;
@@ -1400,11 +1358,10 @@ textarea {
     width: 160px;
   }
 
-  .btn-marker-position {
-    width: 550px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-    left: 40px;
+    top: -185px;
+    left: 420px;
   }
 
   .contact-circles {
@@ -1482,7 +1439,7 @@ textarea {
     width: 760px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 440px;
     gap: 40px;
   }
 
@@ -1495,8 +1452,8 @@ textarea {
   }
 
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     z-index: -1999;
     padding: 0;
     margin: 0;
@@ -1505,7 +1462,7 @@ textarea {
     align-items: center;
     position: relative;
     left: 300px;
-    top: 82px;
+    top: 80px;
   }
 
   .form-circle-3 {
@@ -1515,11 +1472,10 @@ textarea {
     width: 160px;
   }
 
-  .btn-marker-position {
-    width: 650px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-    left: 50px;
+    top: -190px;
+    left: 500px;
   }
 
   .contact-circles {
@@ -1598,7 +1554,7 @@ textarea {
     width: 760px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 440px;
     gap: 40px;
   }
 
@@ -1611,8 +1567,8 @@ textarea {
   }
 
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     z-index: -1999;
     padding: 0;
     margin: 0;
@@ -1631,11 +1587,10 @@ textarea {
     width: 160px;
   }
 
-  .btn-marker-position {
-    width: 650px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-    left: 50px;
+    top: -185px;
+    left: 500px;
   }
 
   .contact-circles {
@@ -1725,7 +1680,7 @@ textarea {
     width: 850px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 440px;
     gap: 40px;
   }
 
@@ -1738,8 +1693,8 @@ textarea {
   }
 
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 190px;
     z-index: -1999;
     padding: 0;
     margin: 0;
@@ -1758,20 +1713,14 @@ textarea {
     width: 160px;
   }
 
-  .btn-marker-position {
-    width: 750px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-    left: 40px;
+    top: -185px;
+    left: 560px;
   }
 
   .contact-btn {
     font-size: 25px;
-  }
-
-  .btn-size {
-    width: 300px;
-    height: 60px;
   }
   
   .contact-btn::before {
@@ -1878,7 +1827,7 @@ textarea {
     width: 1000px;
     margin: 0;
     padding: 0;
-    height: 360px;
+    height: 430px;
     gap: 40px;
   }
 
@@ -1891,8 +1840,8 @@ textarea {
   }
 
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     z-index: -1999;
     padding: 0;
     margin: 0;
@@ -1911,20 +1860,14 @@ textarea {
     width: 160px;
   }
 
-  .btn-marker-position {
-    width: 900px;
+  .check-marker-visible {
     position: relative;
-    top: -135px;
-    left: 40px;
+    top: -180px;
+    left: 590px;
   }
 
   .contact-btn {
     font-size: 25px;
-  }
-
-  .btn-size {
-    width: 300px;
-    height: 60px;
   }
   
   .contact-btn::before {

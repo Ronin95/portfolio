@@ -64,9 +64,9 @@ export class ContactFormComponent implements OnInit {
 
     showImageBtn.addEventListener('click', () => {
         imageToDisplay.parentElement?.classList.add('check-marker-visible');
-        setTimeout(() => {
-            imageToDisplay.parentElement?.classList.remove('check-marker-visible');
-        }, 3000);
+        // setTimeout(() => {
+        //     imageToDisplay.parentElement?.classList.remove('check-marker-visible');
+        // }, 3000);
     });
   }
 }
