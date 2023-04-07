@@ -248,6 +248,10 @@ textarea {
   padding: 5px 20px;
 }
 
+input.ng-invalid.ng-touched {
+  border: 2px solid var(--color2);
+}
+
 // Galaxy Fold
 @media screen and (max-width: 280px) {
   .contact {

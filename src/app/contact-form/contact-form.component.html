@@ -22,7 +22,7 @@
         <figure class="form-circle-3"></figure>
       </div>
       <!--[formGroup]="contactForm"-->
-      <form class="form-structure" #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+      <form class="form-structure" #myForm="ngForm" (ngSubmit)="onSubmit()">
         <input
           type="text" id="name" name="name" ngModel required 
           class="horizontal-shake txt"
@@ -35,7 +35,7 @@
           id="message" name="message" ngModel required
           class="horizontal-shake txt"
           placeholder="Your message..."></textarea>
-        <button type="submit" id="sendButton">
+        <button type="submit" id="sendButton" [disabled]="!myForm.valid">
           <a class="contact-btn">Contact</a>
         </button>
       </form>
