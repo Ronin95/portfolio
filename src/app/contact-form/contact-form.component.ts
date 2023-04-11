@@ -14,25 +14,42 @@ export class ContactFormComponent implements OnInit {
   @ViewChild('messageField') messageField: ElementRef;
   @ViewChild('sendButton') sendButton: ElementRef;
 
-  // contactForm: FormGroup;
-
+  /**
+   * `ngOnInit()` is a lifecycle hook method in Angular that is called after 
+   * the component has been initialized. In this code, `ngOnInit()` is used to call
+   * the `displayCheckMark()` method, which adds an event listener to the send button 
+   * of the contact form. When the button is clicked, it displays a check mark image for 3 
+   * seconds to indicate that the message has been sent successfully.
+   * 
+   * @method
+   * @name ngOnInit
+   * @kind method
+   * @memberof ContactFormComponent
+   * @returns {void}
+   */
   ngOnInit() {
-    // this.contactForm = new FormGroup({
-    //   'name': new FormControl(null, Validators.required),
-    //   'email': new FormControl(null, [Validators.required, Validators.email]),
-    //   'message': new FormControl(null),
-    // });
     this.displayCheckMark();
-    // this.onSubmit();
   }
 
-  // onSubmit() {
-  //   console.log(this.myForm);
-  // }
 
+  /**
+   * `async onSubmit() {` is a method that is triggered when the submit 
+   * button of the contact form is clicked. It disables the form fields and 
+   * the submit button, creates a new FormData object with the values of the form 
+   * fields, sends a POST request to a PHP script on the server with the FormData 
+   * object as the request body, and waits for the response. Once the response is 
+   * received, it logs the response to the console and enables the form fields and
+   * the submit button again. The `async` keyword indicates that this method 
+   * contains asynchronous code and will return a Promise.
+   * 
+   * @async
+   * @method
+   * @name onSubmit
+   * @kind method
+   * @memberof ContactFormComponent
+   * @returns {Promise<void>}
+   */
   async onSubmit() {
-    // console.log(form.value);
-    // form.reset();
     let nameField = this.nameField.nativeElement;
     let emailField = this.emailField.nativeElement;
     let messageField = this.messageField.nativeElement;
@@ -62,6 +79,19 @@ export class ContactFormComponent implements OnInit {
     sendButton.disabled = false;
   }
 
+  /**
+   * `displayCheckMark()` is a method that adds an event listener to the send button of the contact form.
+   * When the button is clicked, it displays a check mark image for 
+   * 3 seconds to indicate that the message has been sent successfully. 
+   * It does this by adding and removing a CSS class to the parent element of 
+   * the check mark image.
+   * 
+   * @method
+   * @name displayCheckMark
+   * @kind method
+   * @memberof ContactFormComponent
+   * @returns {void}
+   */
   displayCheckMark() {
     const showImageBtn = document.getElementById('sendButton') as HTMLButtonElement;
     const imageToDisplay = document.getElementById('check-marker') as HTMLElement;

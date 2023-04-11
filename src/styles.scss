@@ -20,6 +20,11 @@ body {
   --color2: #0043f0;
 }
 
+.no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .bstyle {
   border-style: dotted;
 }
