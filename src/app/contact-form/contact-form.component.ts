@@ -49,7 +49,7 @@ export class ContactFormComponent implements OnInit {
    * @memberof ContactFormComponent
    * @returns {Promise<void>}
    */
-  async onSubmit() {
+  async onSubmit(myForm: NgForm) {
     let nameField = this.nameField.nativeElement;
     let emailField = this.emailField.nativeElement;
     let messageField = this.messageField.nativeElement;
@@ -77,6 +77,8 @@ export class ContactFormComponent implements OnInit {
     emailField.disabled = false;
     messageField.disabled = false;
     sendButton.disabled = false;
+
+    myForm.reset();
   }
 
   /**

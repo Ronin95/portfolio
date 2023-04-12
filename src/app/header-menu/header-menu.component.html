@@ -2,17 +2,18 @@
     <div class="logo-position">
         <img routerLink="/" src="./assets/img/otherImgs/logo-black-background-removebg-preview.png" alt="logo" >
     </div>
-    <div class="top-header-links" (click)="stopScrolling()">
+    <!-- (click)="stopScrolling()" -->
+    <div class="top-header-links">
         <input type="checkbox" id="active" style="display: none;">
         <label for="active" class="menu-btn"><span></span></label>
         <label for="active" class="close"></label>
         <nav class="wrapper">
-        <ul class="wrapper-text">
-            <li><a href="#about-me">About me</a></li>
-            <li><a href="#skills">Skill set</a></li>
-            <li><a href="#projects">My work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+            <ul class="wrapper-text">
+                <li><a href="#about-me" id="aboutMe" >About me</a></li>
+                <li><a href="#skills" id="skills" >Skill set</a></li>
+                <li><a href="#projects" id="projects">My work</a></li>
+                <li><a href="#contact" id="contact" >Contact</a></li>
+            </ul>
         </nav>
     </div>
     <div>

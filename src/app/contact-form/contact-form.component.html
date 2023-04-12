@@ -22,7 +22,7 @@
         <figure class="form-circle-3"></figure>
       </div>
       <!--[formGroup]="contactForm"-->
-      <form class="form-structure" #myForm="ngForm" (ngSubmit)="onSubmit()">
+      <form class="form-structure" #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
         <input
           type="text" id="name" name="name" ngModel required  #nameField
           class="horizontal-shake txt"

@@ -23,7 +23,7 @@ export class HeaderMenuComponent implements OnInit {
    * @returns {void}
    */
   ngOnInit() {
-    this.stopScrolling();
+    // this.stopScrolling();
   }
 
   /**
@@ -43,20 +43,23 @@ export class HeaderMenuComponent implements OnInit {
    * @memberof HeaderMenuComponent
    * @returns {void}
    */
-  stopScrolling() {
-    document.addEventListener('DOMContentLoaded', () => {
-      const toggleScrollCheckbox = document.getElementById('active') as HTMLInputElement;
+  // stopScrolling() {
+  //   document.addEventListener('DOMContentLoaded', () => {
+  //     const toggleScrollCheckbox = document.getElementById('active') as HTMLInputElement;
+  //     const aboutMe = document.getElementById('aboutMe') as HTMLInputElement;
+  //     const skills = document.getElementById('skills') as HTMLInputElement;
+  //     const projects = document.getElementById('projects') as HTMLInputElement;
+  //     const contact = document.getElementById('contact') as HTMLInputElement;
     
-      toggleScrollCheckbox.addEventListener('change', (event) => {
-        const isChecked = (event.target as HTMLInputElement).checked;
+  //     toggleScrollCheckbox.addEventListener('change', (event) => {
+  //       const isChecked = (event.target as HTMLInputElement).checked;
     
-        if (isChecked) {
-          document.body.classList.add('no-scroll');
-        } else {
-          document.body.classList.remove('no-scroll');
-        }
-      });
-    });
-    
-  }
+  //       if (isChecked) {
+  //         document.body.classList.add('no-scroll');
+  //       } else {
+  //         document.body.classList.remove('no-scroll');
+  //       }
+  //     });
+  //   });
+  // }
 }
