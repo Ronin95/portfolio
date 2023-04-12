@@ -227,12 +227,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 5px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -241,10 +241,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 255px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -353,12 +353,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 5px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -367,10 +367,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 305px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -478,12 +478,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -492,10 +492,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 315px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -608,12 +608,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -622,10 +622,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 355px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -733,12 +733,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -747,10 +747,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 415px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -859,12 +859,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -873,10 +873,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 475px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -984,12 +984,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -998,10 +998,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 535px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -1109,12 +1109,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -1123,10 +1123,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 575px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -1234,12 +1234,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -1248,10 +1248,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 645px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -1359,12 +1359,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -1373,10 +1373,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 705px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -1485,12 +1485,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -1499,10 +1499,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 755px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
@@ -1610,12 +1610,12 @@ a { color: inherit; }
   }
 
   .menu-btn {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 2000;
     right: 10px;
     top: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -1624,10 +1624,10 @@ a { color: inherit; }
   .menu-btn:before,
   .menu-btn:after{
     content: "";
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 30%;
-    width: 40%;
+    position: fixed;
+    top: 30px;
+    left: 845px;
+    width: 45px;
     border-bottom: 2px solid var(--color1);
   }
   .menu-btn:before{
