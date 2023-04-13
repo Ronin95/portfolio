@@ -8,6 +8,7 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./contact-form.component.scss']
 })
 export class ContactFormComponent implements OnInit {
+  email: string;
   @ViewChild('myForm') myForm: NgForm;
   @ViewChild('nameField') nameField: ElementRef;
   @ViewChild('emailField') emailField: ElementRef;

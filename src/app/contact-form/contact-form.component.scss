@@ -15,6 +15,11 @@
   display: none;
 }
 
+.email-warning {
+  height: 15px;
+  color: red;
+}
+
 .check-marker {
   display: none;
   width: 40px;
@@ -40,10 +45,11 @@
 }
 
 .contact {
-    margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .contact-intro h1 {
+  padding-left: 55px;
   font-size: 75px;
 }
 
@@ -127,7 +133,7 @@
 }
 
 .contact-text {
-  margin-left: 60px;
+  margin-left: 40px;
   display: flex;
   flex-direction: column;
   gap: 35px;
@@ -187,7 +193,7 @@ textarea:focus::placeholder {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 
   button {
     border: none;
@@ -253,8 +259,20 @@ textarea {
   }
 }
 
+.contact-text-h2 {
+  font-size: 25px;
+}
+
+.contact-text-p {
+  font-size: 20px;
+}
+
+.contact-text-contact {
+  font-size: 20px;
+}
+
 input.ng-invalid.ng-touched {
-  border: 2px solid var(--color2);
+  border: 2px solid red;
 }
 
 // Galaxy Fold
@@ -1904,5 +1922,17 @@ input.ng-invalid.ng-touched {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px)  {
+  .contact-intro {
+    padding-left: 30px;
+  }
+
+  .circle-position {
+    position: relative;
+    top: -10px;
   }
 }

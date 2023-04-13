@@ -34,7 +34,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 110px;
+  min-width: 140px;
   gap: 5px;
   height: 150px;
   color: white;
@@ -59,8 +59,32 @@
   }
 }
 
+@media screen and (max-width: 280px) {
+  .title-skill-set {
+    font-size: 22px;
+  }
 
-@media screen and (max-width: 320px) {
+  .skills-ordering {
+    padding: 0;
+    gap: 10px;
+  }
+
+  .individual-skill-position {
+    max-width: 70px;
+    max-height: 125px;
+
+    img {
+      width: 40px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
+
+
+@media screen and (min-width: 281px) and (max-width: 320px) {
   .title-skill-set {
     font-size: 22px;
   }

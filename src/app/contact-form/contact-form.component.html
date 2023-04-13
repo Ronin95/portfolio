@@ -28,9 +28,10 @@
           class="horizontal-shake txt"
           placeholder="Your name" />
         <input
-          type="email" id="email" name="email" ngModel required #emailField
-          class="horizontal-shake txt"
+          type="email" id="email" name="email" required #emailField="ngModel"
+          class="horizontal-shake txt" email [(ngModel)]="email"
           placeholder="Your email" />
+        <span class="email-warning" *ngIf="!emailField.valid && emailField.touched">Please enter a valid E-Mail.</span>
         <textarea
           id="message" name="message" ngModel required #messageField
           class="horizontal-shake txt"

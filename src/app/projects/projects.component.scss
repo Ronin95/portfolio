@@ -1,6 +1,6 @@
 * {
     overflow: hidden;
-    font-family: 'Ubuntu';
+    font-family: 'Baloo 2';
 }
 
 a:link { text-decoration: none; }
@@ -9,16 +9,16 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .section2 {
-  height: 500px;
+  height: 520px;
 }
 
 .section3 {
-  height: 500px;
+  height: 520px;
 }
 
 .work-text {
   padding-top: 20px;
-  padding-left: 140px;
+  padding-left: 180px;
   gap: 40px;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,8 @@ a:active { text-decoration: none; }
 }
 
 .work-text-p p {
-  padding-left: 30px;
+  padding-left: 5px;
+  font-size: 25px;
 }
 
 .work-text-small {
@@ -83,6 +84,18 @@ a:active { text-decoration: none; }
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 25px;
+    }
 }
 
 .project-buttons {
@@ -191,7 +204,7 @@ a:active { text-decoration: none; }
   height: 40px;
   width: 40px;
   position: relative;
-  right: 480px;
+  right: 400px;
 }
 
 .circle5 {
@@ -239,14 +252,14 @@ a:active { text-decoration: none; }
   .circle3 {
     width: 190px;
     height: 190px;
-    bottom: 410px;
+    bottom: 490px;
     right: 100px;
   }
 
   .circle5 {
     width: 150px;
     height: 150px;
-    top: -490px;
+    top: -520px;
     left: 190px;
   }
 
@@ -267,6 +280,14 @@ a:active { text-decoration: none; }
 
   .work-text-p {
     line-height: 25px;
+    position: relative;
+    left: 15px;
+
+    p {
+      font-size: 17px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
 
   .project-info {
@@ -292,7 +313,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 480px;
+    height: 520px;
   }
 
   .join {
@@ -370,7 +391,7 @@ a:active { text-decoration: none; }
   }
 
   .circle2 {
-    left: 220px;
+    left: 270px;
     bottom: 10px;
     width: 70px;
     height: 70px;
@@ -386,7 +407,7 @@ a:active { text-decoration: none; }
   .circle5 {
     width: 150px;
     height: 150px;
-    top: -490px;
+    top: -50px;
     left: 190px;
   }
 
@@ -406,10 +427,13 @@ a:active { text-decoration: none; }
 
   .work-text-p {
     width: 270px;
-    padding: 10px;
     position: relative;
-    right: 45px;
+    right: 55px;
     line-height: 25px;
+
+    p {
+      font-size: 18px;
+    }
   }
 
   .project-info {
@@ -435,7 +459,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 480px;
+    height: 520px;
   }
 
   .join {
@@ -520,7 +544,7 @@ a:active { text-decoration: none; }
   }
 
   .circle2 {
-    left: 270px;
+    left: 310px;
     bottom: 20px;
     width: 70px;
     height: 70px;
@@ -536,7 +560,7 @@ a:active { text-decoration: none; }
   .circle5 {
     width: 190px;
     height: 190px;
-    top: -470px;
+    top: -510px;
     left: 230px;
   }
 
@@ -555,11 +579,15 @@ a:active { text-decoration: none; }
   }
 
   .work-text-p {
-    width: 100%;
+    width: 270px;
     padding: 10px;
     position: relative;
-    right: 60px;
+    right: 35px;
     line-height: 25px;
+
+    p {
+      font-size: 18px;
+    }
   }
 
   .project-info {
@@ -624,12 +652,12 @@ a:active { text-decoration: none; }
 
     h1 {
       position: relative;
-      right: 90px;
+      right: 95px;
     }
 
     h3 {
       position: relative;
-      right: 60px;
+      right: 70px;
     }
 
     p {
@@ -664,7 +692,7 @@ a:active { text-decoration: none; }
   }
 
   .circle2 {
-    left: 270px;
+    left: 340px;
     bottom: 20px;
     width: 70px;
     height: 70px;
@@ -684,6 +712,11 @@ a:active { text-decoration: none; }
     left: 290px;
   }
 
+  .circle4 {
+    position: relative;
+    right: 360px;
+  }
+
   .work-text {
     width: 100%;
     position: relative;
@@ -699,11 +732,15 @@ a:active { text-decoration: none; }
   }
 
   .work-text-p {
-    width: 100%;
+    width: 270px;
     padding: 10px;
     position: relative;
-    right: 60px;
+    right: 20px;
     line-height: 25px;
+
+    p {
+      font-size: 18px;
+    }
   }
 
   .project-info {
@@ -808,7 +845,7 @@ a:active { text-decoration: none; }
   }
 
   .circle2 {
-    left: 350px;
+    left: 390px;
     bottom: 20px;
     width: 70px;
     height: 70px;
@@ -817,7 +854,7 @@ a:active { text-decoration: none; }
   .circle3 {
     width: 220px;
     height: 220px;
-    bottom: 380px;
+    bottom: 420px;
     right: 80px;
   }
 
@@ -835,17 +872,24 @@ a:active { text-decoration: none; }
   }
 
   .work-text-small {
-    width: 250px;
+    position: relative;
+    left: 135px;
+
     h1 {
       padding-top: 10px;
-      position: relative;
-      left: 35px;
       font-size: 50px;
     }
   }
 
   .work-text-p {
     line-height: 25px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+
+    p {
+      font-size: 18px;
+    }
   }
 
   .project-info {
@@ -959,7 +1003,7 @@ a:active { text-decoration: none; }
   .circle3 {
     width: 250px;
     height: 250px;
-    bottom: 380px;
+    bottom: 420px;
     right: 80px;
   }
 
@@ -968,6 +1012,11 @@ a:active { text-decoration: none; }
     height: 240px;
     top: -470px;
     left: 370px;
+  }
+
+  .circle4 {
+    position: relative;
+    right: 110px;
   }
 
   .work-text {
@@ -984,8 +1033,12 @@ a:active { text-decoration: none; }
     padding: 10px;
     width: 350px;
     position: relative;
-    right: 90px;
+    right: 75px;
     line-height: 25px;
+
+    p {
+      font-size: 20px;
+    }
   }
 
   .project-info {
@@ -1000,17 +1053,20 @@ a:active { text-decoration: none; }
   }
 
   .project-buttons {
+    width: 500px;
     gap: 0;
+    align-items: center;
+    justify-content: center;
   }
 
-  .project-buttons-a {
+  .join-btn {
     position: relative;
-    left: 90px;
+    left: 20px;
 
   }
 
   .section2 {
-    height: 480px;
+    height: 520px;
   }
 
   .join {
@@ -1075,8 +1131,9 @@ a:active { text-decoration: none; }
     }
   }
 
-  .el-pollo-loco-btn {
-    width: 100%;
+  .elpolloloco-btn {
+    position: relative;
+    right: 30px;
   }
 }
 
@@ -1103,6 +1160,11 @@ a:active { text-decoration: none; }
     right: 80px;
   }
 
+  .circle4 {
+    position: relative;
+    right: 110px;
+  }
+
   .circle5 {
     width: 240px;
     height: 240px;
@@ -1127,11 +1189,15 @@ a:active { text-decoration: none; }
   }
 
   .work-text-p {
-    width: 100%;
+    width: 300px;
     padding: 10px;
     position: relative;
-    right: 40px;
+    right: -70px;
     line-height: 25px;
+
+    p {
+      font-size: 20px;
+    }
   }
 
   .project-info {
@@ -1151,12 +1217,12 @@ a:active { text-decoration: none; }
 
   .project-buttons-a {
     position: relative;
-    left: 130px;
+    left: 140px;
 
   }
 
   .section2 {
-    height: 480px;
+    height: 520px;
   }
 
   .join {
@@ -1273,11 +1339,15 @@ a:active { text-decoration: none; }
   }
 
   .work-text-p {
-    width: 100%;
+    width: 400px;
     padding: 10px;
     position: relative;
-    right: 10px;
+    right: -40px;
     line-height: 25px;
+
+    p {
+      font-size: 20px;
+    }
   }
 
   .project-info {
@@ -1302,7 +1372,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 480px;
+    height: 520px;
   }
 
   .join {
@@ -1417,11 +1487,15 @@ a:active { text-decoration: none; }
   }
 
   .work-text-p {
-    width: 100%;
+    width: 500px;
     padding: 10px;
     position: relative;
     left: 30px;
     line-height: 25px;
+
+    p {
+      font-size: 20px;
+    }
   }
 
   .project-info {
@@ -1446,7 +1520,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 480px;
+    height: 520px;
   }
 
   .join {
@@ -1561,11 +1635,15 @@ a:active { text-decoration: none; }
   }
 
   .work-text-p {
-    width: 100%;
+    width: 500px;
     padding: 10px;
     position: relative;
     left: 50px;
     line-height: 25px;
+
+    p {
+      font-size: 20px;
+    }
   }
 
   .project-info {
@@ -1574,6 +1652,7 @@ a:active { text-decoration: none; }
     gap: 20px;
 
     p, h3 {
+      font-size: 20px;
       padding-left: 60px;
       padding-right: 60px;
     }
@@ -1590,7 +1669,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 580px;
+    height: 650px;
   }
 
   .join {
@@ -1678,14 +1757,14 @@ a:active { text-decoration: none; }
   .circle3 {
     width: 400px;
     height: 400px;
-    bottom: 510px;
+    bottom: 540px;
     right: 100px;
   }
 
   .circle5 {
     width: 390px;
     height: 390px;
-    top: -560px;
+    top: -590px;
     left: 500px;
   }
 
@@ -1706,11 +1785,15 @@ a:active { text-decoration: none; }
   }
 
   .work-text-p {
-    width: 100%;
+    width: 500px;
     padding: 10px;
     position: relative;
     left: 90px;
     line-height: 25px;
+
+    p {
+      font-size: 20px;
+    }
   }
 
   .project-info {
@@ -1719,6 +1802,7 @@ a:active { text-decoration: none; }
     gap: 20px;
 
     p, h3 {
+      font-size: 20px;
       padding-left: 60px;
       padding-right: 60px;
     }
@@ -1735,7 +1819,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 580px;
+    height: 650px;
   }
 
   .join {
@@ -1805,6 +1889,10 @@ a:active { text-decoration: none; }
 
 // Surface Pro 7
 @media screen and (min-width: 821px) and (max-width: 912px) {
+  .projects {
+    margin-bottom: 30px;
+  }
+
   .circle1 {
     left: 190px;
     top: 20px;
@@ -1822,7 +1910,7 @@ a:active { text-decoration: none; }
   .circle3 {
     width: 400px;
     height: 400px;
-    bottom: 560px;
+    bottom: 590px;
     right: 100px;
   }
 
@@ -1843,7 +1931,7 @@ a:active { text-decoration: none; }
   .work-text-small {
     h1 {
       position: relative;
-      left: 320px;
+      left: 280px;
       font-size: 60px;
     }
   }
@@ -1886,7 +1974,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 650px;
+    height: 750px;
   }
 
   .join {
@@ -2054,7 +2142,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 650px;
+    height: 750px;
   }
 
   .join {
@@ -2141,10 +2229,15 @@ a:active { text-decoration: none; }
 
 // Nest Hub Max
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+  .circle4 {
+    position: relative;
+    right: 100px;
+  }
+
   .work-text-p {
+    
     p {
-      position: relative;
-      right: 20px;
       font-size: 20px;
     }
   }
@@ -2156,7 +2249,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 380px;
+    height: 400px;
   }
 
   .circle5 {
@@ -2167,7 +2260,7 @@ a:active { text-decoration: none; }
   }
 
   .section3 {
-    height: 390px;
+    height: 430px;
   }
 }
 

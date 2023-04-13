@@ -17,16 +17,20 @@
 
 .full-header {
   background: radial-gradient(circle at bottom, var(--color1), 1%, transparent);
+  height: calc(100vh - 88px);
 }
 
 .cover-img {
-  border-style: dashed; // necessary border-style: don't delete
-  border-color: transparent;
-  position: relative;
-  top: 15px;
+  // border-style: dashed; // necessary border-style: don't delete
+  // border-color: transparent;
+  // position: relative;
+  // top: 15px;
+  width: 640px;
 }
 
 .cover-img-text-intro {
+  height: 855px;
+  // border-style: dotted;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -35,7 +39,7 @@
 .frontDev-text1 {
   font-family: 'Montserrat';
   font-weight: 900;
-  font-size: 90px;
+  font-size: 120px;
   color: var(--color1);
   text-align: left;
 }
@@ -43,43 +47,58 @@
 .frontDev-text2 {
   font-family: 'Montserrat';
   font-weight: 900;
-  font-size: 82px;
+  font-size: 109px;
   color: var(--color1);
   text-align: left;
 }
 
+.spacing-name-contact {
+  display: flex;
+  flex-direction: column;
+  // gap: 210px;
+}
+
 .scroll-line-socialMedia {
+  height: 566px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .scroll-text {
+  width: 150px;
   position: relative;
-  left: 320px;
-  margin-top: 20px;
+  left: 290px;
+  margin-top: 60px;
+
+  h4 {
+    font-size: 30px;
+    color: var(--color1);
+  }
 }
 
 .name-text {
   color: var(--color1);
-  font-size: 57px;
+  font-size: 77px;
 }
 
 .word-spacing {
-  padding-left: 50px;
-  line-height: 80px;
+  line-height: 95px;
 }
 
 .vertical-line {
+  margin-top: 80px;
   width: 3px;
-  height: 320px;
+  height: 430px;
   background-color: var(--color2);
   position: relative;
-  top: 10px;
+  // top: 90px;
   left: 350px;
 }
 
 .vertical-line-socialMedia {
+  // border-style: dotted;
+  // height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,8 +138,9 @@
   .word-spacing {
     padding: 0;
     width: 250px;
+    height: 850px;
     position: relative;
-    bottom: -10px;
+    bottom: 20px;
     left: 15px;
   }
 
@@ -233,7 +253,7 @@
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 40px;
   }
 
@@ -289,7 +309,7 @@
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 55px;
   }
 
@@ -345,7 +365,7 @@
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 60px;
+    top: 45px;
     left: 55px;
   }
 
@@ -401,7 +421,7 @@
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 100px;
   }
 
@@ -457,7 +477,7 @@
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: 100px;
   }
 
@@ -625,7 +645,7 @@
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 60px;
+    top: 30px;
     left: 210px;
   }
 
@@ -681,7 +701,7 @@
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 265px;
   }
 
@@ -738,7 +758,7 @@
     padding: 0;
     width: 300px;
     position: absolute;
-    top: 60px;
+    top: 30px;
     left: 295px;
   }
 
@@ -794,6 +814,7 @@
     padding: 0;
     width: 500px;
     position: absolute;
+    top: 50px;
     right: 380px;
   }
 
@@ -848,6 +869,7 @@
     width: 500px;
     position: absolute;
     right: 450px;
+    top: 50px;
   }
 
   .full-header {
@@ -898,5 +920,56 @@
 
 // Nest Hub Max
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .word-spacing {
+    padding: 0;
+    width: 500px;
+    position: absolute;
+    right: 650px;
+    top: 80px;
+  }
 
+  .full-header {
+    height: 600px;
+  }
+
+  .name-text {
+    font-size: 35px;
+    color: white;
+    width: 700px;
+    position: relative;
+    left: 46px;
+    top: 20px;
+  }
+
+  .frontDev-text1 {
+    font-size: 55px;
+    color: white;
+    width: 700px;
+    position: relative;
+    left: 45px;
+    bottom: 13px;
+  }
+
+  .frontDev-text2 {
+    font-size: 50px;
+    color: white;
+    width: 700px;
+    position: relative;
+    left: 45px;
+    bottom: 40px;
+  }
+
+  .cover-img-position img {
+    width: 390px;
+    position: absolute;
+    top: 143px;
+    right: 435px;
+    z-index: -1;
+  }
+
+  .scroll-line-socialMedia {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+  }
 }
