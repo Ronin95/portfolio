@@ -215,7 +215,7 @@ a:active { text-decoration: none; }
   width: 420px;
   position: relative;
   left: 1450px;
-  bottom: 390px;
+  bottom: 350px;
 }
 
 
@@ -2265,6 +2265,18 @@ a:active { text-decoration: none; }
 // Nest Hub Max
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 
+  .join-img {
+    img {
+      width: 1000px;
+    }
+  }
+
+  .el-pollo-loco-img {
+    img {
+      width: 1000px;
+    }
+  }
+
   .circle4 {
     position: relative;
     right: 100px;
@@ -2281,10 +2293,11 @@ a:active { text-decoration: none; }
     width: 360px;
     height: 360px;
     right: 100px;
+    top: -300px;
   }
 
   .section2 {
-    height: 400px;
+    height: 450px;
   }
 
   .circle5 {
@@ -2295,7 +2308,7 @@ a:active { text-decoration: none; }
   }
 
   .section3 {
-    height: 430px;
+    height: 500px;
   }
 }
 
