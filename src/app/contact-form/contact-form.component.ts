@@ -65,7 +65,8 @@ export class ContactFormComponent implements OnInit {
     fd.append('email', emailInput.value);
     fd.append('message', messageField.value);
 
-    let response = await fetch('https://nikola-badjevic.developerakademie.net/send_mail/send_mail.php',
+    let response = await fetch('https://nikolabadjevic.com/send_mail/send_mail.php',
+    // https://nikola-badjevic.developerakademie.net/send_mail/send_mail.php
     {
       method: 'POST',
       body: fd
