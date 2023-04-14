@@ -11,7 +11,7 @@ export class ContactFormComponent implements OnInit {
   email: string;
   @ViewChild('myForm') myForm: NgForm;
   @ViewChild('nameField') nameField: ElementRef;
-  @ViewChild('emailField') emailField: ElementRef;
+  @ViewChild('emailInput') emailInput: ElementRef;
   @ViewChild('messageField') messageField: ElementRef;
   @ViewChild('sendButton') sendButton: ElementRef;
 
@@ -52,17 +52,17 @@ export class ContactFormComponent implements OnInit {
    */
   async onSubmit(myForm: NgForm) {
     let nameField = this.nameField.nativeElement;
-    let emailField = this.emailField.nativeElement;
+    let emailInput = this.emailInput.nativeElement;
     let messageField = this.messageField.nativeElement;
     let sendButton = this.sendButton.nativeElement;
     nameField.disabled = true;
-    emailField.disabled = true;
+    emailInput.disabled = true;
     messageField.disabled = true;
     sendButton.disabled = true;
 
     let fd = new FormData();
     fd.append('name', nameField.value);
-    fd.append('email', emailField.value);
+    fd.append('email', emailInput.value);
     fd.append('message', messageField.value);
 
     let response = await fetch('https://nikola-badjevic.developerakademie.net/send_mail/send_mail.php',
@@ -75,7 +75,7 @@ export class ContactFormComponent implements OnInit {
     console.log(result);
 
     nameField.disabled = false;
-    emailField.disabled = false;
+    emailInput.disabled = false;
     messageField.disabled = false;
     sendButton.disabled = false;
 

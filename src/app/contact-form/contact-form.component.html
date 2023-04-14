@@ -29,7 +29,7 @@
           placeholder="Your name" />
         <input
           type="email" id="email" name="email" required #emailField="ngModel"
-          class="horizontal-shake txt" email [(ngModel)]="email"
+          class="horizontal-shake txt" #emailInput [(ngModel)]="email"
           placeholder="Your email" />
         <span class="email-warning" *ngIf="!emailField.valid && emailField.touched">Please enter a valid E-Mail.</span>
         <textarea
