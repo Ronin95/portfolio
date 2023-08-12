@@ -16,6 +16,42 @@ a:active { text-decoration: none; }
   height: 520px;
 }
 
+.section5 {
+  padding-top: 50px;
+  height: 400px;
+  position: relative;
+}
+
+.restaurant-style {
+  position: relative;
+}
+
+.restaurant-info {
+  padding-left: 20px;
+}
+
+.circle9 {
+  z-index: -1;
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  left: 200px;
+  top: 75px;
+}
+
+.circle10 {
+  z-index: -1;
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 1100px;
+  top: 245px;
+}
+
 .work-text {
   padding-top: 20px;
   padding-left: 180px;
@@ -423,6 +459,45 @@ a:active { text-decoration: none; }
   .el-pollo-loco-btn {
     width: 280px;
   }
+
+  .section5 {
+    padding:0;
+    height: 650px;
+    position: relative;
+    top: -90px;
+  }
+
+  .restaurant-style {
+    h1, h3, p {
+      position: relative;
+      left: -5px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    position: relative;
+    left: -60px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 5px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 560px;
+    left: 220px;
+  }
 }
 
 // Galaxy S9+ / Nokia Lumia 520 / iPhone 4 / iPhone 5-SE /
@@ -592,6 +667,45 @@ a:active { text-decoration: none; }
       left: -10px;
     }
   }
+
+  .section5 {
+    padding:0;
+    height: 650px;
+    position: relative;
+    top: -90px;
+  }
+
+  .restaurant-style {
+    h1, h3, p {
+      position: relative;
+      left: 3px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    position: relative;
+    left: -90px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 5px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 560px;
+    left: 270px;
+  }
 }
 
 // Pixel 4 (353px)
@@ -759,6 +873,46 @@ a:active { text-decoration: none; }
 
   .el-pollo-loco-btn {
     width: 100%;
+  }
+
+  .section5 {
+    padding:0;
+    height: 620px;
+    position: relative;
+    top: -90px;
+  }
+
+  .restaurant-style {
+    h1, h3, p {
+      position: relative;
+      left: -2px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 100px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 5px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 530px;
+    left: 270px;
   }
 }
 
@@ -930,6 +1084,51 @@ a:active { text-decoration: none; }
   .el-pollo-loco-btn {
     width: 100%;
   }
+
+  .section5 {
+    padding:0;
+    height: 600px;
+    position: relative;
+    top: -90px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -20px;
+    }
+
+    h3, p {
+      position: relative;
+      left: 5px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 120px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 25px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 530px;
+    left: 340px;
+  }
 }
 
 // Nokia N9 (480px)
@@ -1095,6 +1294,51 @@ a:active { text-decoration: none; }
 
   .el-pollo-loco-btn {
     width: 100%;
+  }
+
+  .section5 {
+    padding:0;
+    height: 570px;
+    position: relative;
+    top: -90px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -60px;
+    }
+
+    h3, p {
+      position: relative;
+      right: 2px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 160px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 25px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 530px;
+    left: 340px;
   }
 }
 
@@ -1281,6 +1525,51 @@ a:active { text-decoration: none; }
   .elpolloloco-btn {
     position: relative;
     right: 30px;
+  }
+
+  .section5 {
+    padding:0;
+    height: 570px;
+    position: relative;
+    top: -90px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -90px;
+    }
+
+    h3 {
+      position: relative;
+      right: 40px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 130px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 25px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 530px;
+    left: 440px;
   }
 }
 
@@ -1471,6 +1760,51 @@ a:active { text-decoration: none; }
   .el-pollo-loco-btn {
     width: 100%;
   }
+
+  .section5 {
+    padding:0;
+    height: 570px;
+    position: relative;
+    top: -90px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -120px;
+    }
+
+    h3 {
+      position: relative;
+      right: 50px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 210px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 75px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 530px;
+    left: 440px;
+  }
 }
 
 // Microsoft Lumia 550
@@ -1657,6 +1991,51 @@ a:active { text-decoration: none; }
 
   .el-pollo-loco-btn {
     width: 100%;
+  }
+
+  .section5 {
+    padding:0;
+    height: 570px;
+    position: relative;
+    top: -90px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -120px;
+    }
+
+    h3 {
+      position: relative;
+      right: 50px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 230px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 75px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 530px;
+    left: 440px;
   }
 }
 
@@ -1845,6 +2224,51 @@ a:active { text-decoration: none; }
   .el-pollo-loco-btn {
     width: 100%;
   }
+
+  .section5 {
+    padding:0;
+    height: 570px;
+    position: relative;
+    top: -70px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -180px;
+    }
+
+    h3 {
+      position: relative;
+      right: 70px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 270px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 135px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 530px;
+    left: 640px;
+  }
 }
 
 // iPad Mini / iPad
@@ -2031,6 +2455,51 @@ a:active { text-decoration: none; }
 
   .el-pollo-loco-btn {
     width: 100%;
+  }
+
+  .section5 {
+    padding:0;
+    height: 700px;
+    position: relative;
+    top: -50px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -220px;
+    }
+
+    h3 {
+      position: relative;
+      right: 90px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 300px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 85px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 630px;
+    left: 640px;
   }
 }
 
@@ -2219,6 +2688,51 @@ a:active { text-decoration: none; }
 
   .el-pollo-loco-btn {
     width: 100%;
+  }
+
+  .section5 {
+    padding:0;
+    height: 700px;
+    position: relative;
+    top: -50px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -220px;
+    }
+
+    h3 {
+      position: relative;
+      right: 120px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 320px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 85px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 630px;
+    left: 640px;
   }
 }
 
@@ -2430,6 +2944,51 @@ a:active { text-decoration: none; }
   .el-pollo-loco-btn {
     width: 100%;
   }
+
+  .section5 {
+    padding:0;
+    height: 720px;
+    position: relative;
+    top: -10px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -250px;
+    }
+
+    h3 {
+      position: relative;
+      right: 50px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 300px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 145px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 640px;
+    left: 840px;
+  }
 }
 
 // Nest Hub / iPad Pro
@@ -2626,6 +3185,51 @@ a:active { text-decoration: none; }
   .el-pollo-loco-btn {
     width: 100%;
   }
+
+  .section5 {
+    padding:0;
+    height: 740px;
+    position: relative;
+    top: -10px;
+  }
+
+  .restaurant-style {
+    h1 {
+      position: relative;
+      left: -300px;
+    }
+
+    h3 {
+      position: relative;
+      right: 110px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    width: 50%;
+    position: relative;
+    right: 340px;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 175px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 640px;
+    left: 840px;
+  }
 }
 
 // Nest Hub Max
@@ -2690,5 +3294,28 @@ a:active { text-decoration: none; }
     top: 455px;
     left: 1165px;
   }
+
+  .circle9 {
+    width: 50px;
+    height: 50px;
+    top: 125px;
+    left: 75px;
+  }
+
+  .restaurant-info {
+
+    h3 {
+      position: relative;
+      left: 62px;
+    }
+  }
+
+  .circle10 {
+    width: 20px;
+    height: 20px;
+    top: 400px;
+    left: 765px;
+  }
+
 }
 
