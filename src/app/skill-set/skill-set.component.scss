@@ -81,6 +81,13 @@
       font-size: 20px;
     }
   }
+
+  .mt-design {
+    h2 {
+      position: relative;
+      left: 30px;
+    }
+  }
 }
 
 
@@ -106,9 +113,23 @@
       font-size: 20px;
     }
   }
+
+  .mt-design {
+    h2 {
+      position: relative;
+      left: 30px;
+    }
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 425px) {
+  .mt-design {
+    h2 {
+      position: relative;
+      left: 30px;
+    }
+  }
+
   .title-skill-set {
     font-size: 22px;
   }
