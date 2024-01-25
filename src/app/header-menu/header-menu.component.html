@@ -1,6 +1,9 @@
+<!-- <div class="circle-overview">
+  <figure class="circle"></figure>
+</div> -->
 <div class="top-header">
     <div class="logo-position">
-        <img routerLink="/" src="./assets/img/otherImgs/logo-black-background-removebg-preview.png" alt="logo" >
+        <img routerLink="/" [src]="selected_img_logo" alt="logo" >
     </div>
     <!-- (click)="stopScrolling()" -->
     <div class="top-header-links">
@@ -15,10 +18,5 @@
                 <li><a href="#contact" >Contact</a></li>
             </ul>
         </nav>
-    </div>
-    <div>
-        <div>
-          <figure class="circle"></figure>
-        </div>
     </div>
 </div>

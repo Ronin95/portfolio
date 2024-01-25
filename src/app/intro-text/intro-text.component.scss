@@ -119,17 +119,28 @@
 .work-together-text {
   padding-left: 60px;
   color: var(--color2);
-  font-size: 35px;
   font-style: italic;
   position: relative;
   bottom: 30px;
+  width: 600px;
+
+  h3 {
+    word-break:break-all;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 60px;
+    position: relative;
+    top: 10px;
+  }
 }
 
 .about-me-desc {
   padding-right: 40px;
   font-size: 20px;
 
-
+  p {
+    height: 110px;
+  }
 }
 
 // Galaxy Fold
