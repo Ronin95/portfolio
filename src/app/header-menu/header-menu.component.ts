@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { StyleService } from '../services/style.service';
 
 @Component({
   selector: 'app-header-menu',
@@ -7,12 +6,7 @@ import { StyleService } from '../services/style.service';
   styleUrls: ['./header-menu.component.scss']
 })
 export class HeaderMenuComponent implements OnInit {
-
-  selected_img_logo = '';
-
-  constructor(private styleService: StyleService) { }
-
+  constructor() {}
   ngOnInit() {
-    this.selected_img_logo = this.styleService.getSelectedImageUrl();
   }
 }
