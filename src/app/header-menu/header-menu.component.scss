@@ -18,7 +18,7 @@ a { color: inherit; }
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: radial-gradient(var(--color1), 5%, transparent);
+  background: radial-gradient(var(--color1), 3%, transparent);
 }
 
 .logo-position img {
@@ -35,32 +35,29 @@ a { color: inherit; }
   font-size: 25px;
 
   li {
-    height: 25px;
-    overflow: hidden;
     color: var(--color2);
     font-weight: bold;
   }
 }
 
-// .circle {
-//   z-index: -1;
-//   background: linear-gradient(0.40turn, var(--color1), var(--color2));
-//   border-radius: 50%;
-//   height: 800px;
-//   width: 800px;
-//   position: relative; /* Ensure this is set to fixed */
-//   left: -90px;
-//   top: -150px;
-// }
-
+.circle { // the color circle that changes its color
+  z-index: -1;
+  position: absolute;
+  top: -150px;
+  left: -100px;
+  background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  border-radius: 50%;
+  height: 800px;
+  width: 800px;
+}
 
 // Galaxy Fold
 @media screen and (max-width: 280px) {
-  // .circle {
-  //   width: 340px;
-  //   height: 340px;
-  //   top: -20px;
-  // }
+  .circle {
+    width: 340px;
+    height: 340px;
+    top: -20px;
+  }
 
   .top-header {
     background: none;
@@ -186,11 +183,11 @@ a { color: inherit; }
     padding: 0;
   }
 
-  // .circle {
-  //   height: 395px;
-  //   width: 395px;
-  //   top: -25px;
-  // }
+  .circle {
+    height: 395px;
+    width: 395px;
+    top: -25px;
+  }
 
   .logo-position {
     position: relative;
@@ -312,11 +309,11 @@ a { color: inherit; }
     padding: 0;
   }
 
-  // .circle {
-  //   height: 440px;
-  //   width: 440px;
-  //   top: -35px;
-  // }
+  .circle {
+    height: 440px;
+    width: 440px;
+    top: -35px;
+  }
 
   .logo-position {
     position: relative;
@@ -437,11 +434,11 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 460px;
-  //   width: 460px;
-  //   top: -40px;
-  // }
+  .circle {
+    height: 460px;
+    width: 460px;
+    top: -40px;
+  }
 
   .logo-position {
     position: relative;
@@ -567,11 +564,11 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 460px;
-  //   width: 460px;
-  //   top: -40px;
-  // }
+  .circle {
+    height: 460px;
+    width: 460px;
+    top: -40px;
+  }
 
   .logo-position {
     position: relative;
@@ -796,11 +793,11 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 555px;
-  //   width: 555px;
-  //   top: -65px;
-  // }
+  .circle {
+    height: 555px;
+    width: 555px;
+    top: -65px;
+  }
 
   .logo-position {
     position: relative;
@@ -921,12 +918,12 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 600px;
-  //   width: 600px;
-  //   bottom: 270px;
-  //   top: -75px;
-  // }
+  .circle {
+    height: 600px;
+    width: 600px;
+    bottom: 270px;
+    top: -75px;
+  }
 
   .logo-position {
     position: relative;
@@ -1047,11 +1044,11 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 595px;
-  //   width: 595px;
-  //   top: -80px;
-  // }
+  .circle {
+    height: 595px;
+    width: 595px;
+    top: -80px;
+  }
 
   .logo-position {
     position: relative;
@@ -1172,11 +1169,11 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 655px;
-  //   width: 655px;
-  //   top: -90px;
-  // }
+  .circle {
+    height: 655px;
+    width: 655px;
+    top: -90px;
+  }
 
   .logo-position {
     position: relative;
@@ -1297,11 +1294,11 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 655px;
-  //   width: 655px;
-  //   top: -100px;
-  // }
+  .circle {
+    height: 655px;
+    width: 655px;
+    top: -100px;
+  }
 
   .logo-position {
     position: relative;
@@ -1422,11 +1419,11 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 735px;
-  //   width: 735px;
-  //   top: -115px;
-  // }
+  .circle {
+    height: 735px;
+    width: 735px;
+    top: -115px;
+  }
 
   .logo-position {
     position: relative;
@@ -1548,11 +1545,11 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 735px;
-  //   width: 735px;
-  //   top: -120px;
-  // }
+  .circle {
+    height: 735px;
+    width: 735px;
+    top: -120px;
+  }
 
   .logo-position {
     position: relative;
@@ -1673,11 +1670,11 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 735px;
-  //   width: 735px;
-  //   top: -130px;
-  // }
+  .circle {
+    height: 735px;
+    width: 735px;
+    top: -130px;
+  }
 
   .logo-position {
     position: relative;
@@ -1798,12 +1795,12 @@ a { color: inherit; }
     background: none;
   }
 
-  // .circle {
-  //   height: 735px;
-  //   width: 735px;
-  //   top: -130px;
-  //   left: -250px;
-  // }
+  .circle {
+    height: 735px;
+    width: 735px;
+    top: -130px;
+    left: -250px;
+  }
 
   .logo-position {
     position: relative;
@@ -1831,14 +1828,15 @@ a { color: inherit; }
     margin-left: 120px;
     margin-right: 40px;
     padding-left: 5px;
+
   }
 
-  // .circle {
-  //   height: 735px;
-  //   width: 735px;
-  //   top: -140px;
-  //   left: -140px;
-  // }
+  .circle {
+    height: 735px;
+    width: 735px;
+    top: -140px;
+    left: -140px;
+  }
 
   .wrapper-text {
     text-align: center;
