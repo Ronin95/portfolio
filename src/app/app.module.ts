@@ -14,6 +14,10 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { StartComponent } from './start/start.component';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
 
+// import { AngularFireModule } from '@angular/fire';
+// import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from '../environments/environment';
+
 @NgModule({
   declarations: [
     AppComponent,
