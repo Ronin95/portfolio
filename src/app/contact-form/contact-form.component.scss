@@ -723,7 +723,7 @@ input.ng-invalid.ng-touched {
 
   .form-positioning {
     position: relative;
-    // right: 20px;
+    right: -10px;
     height: 750px;
     width: 350px;
     top: 10px;
@@ -1333,13 +1333,14 @@ input.ng-invalid.ng-touched {
 }
 
 // Surface Duo (540px)
-@media screen and (min-width: 415px) and (max-width: 480px) {
+@media screen and (min-width: 415px) and (max-width: 430px) {
   .contact-text-h2 {
     font-size: 17px;
   }
 
   .contact-text-p {
     font-size: 17px;
+    width: 320px;
   }
 
   .contact-text-contact {
@@ -1411,8 +1412,8 @@ input.ng-invalid.ng-touched {
 
   .form-structure {
     position: relative;
-    right: 2px;
-    top: -130px;
+    right: 40px;
+    top: 5px;
     width: 450px;
     margin: 0;
     padding: 0;
@@ -1421,33 +1422,33 @@ input.ng-invalid.ng-touched {
   }
 
   input {
-    width: 350px;
+    width: 320px;
   }
 
   textarea {
-    width: 350px;
+    width: 320px;
   }
 
-  .circle-position-3 {
-    width: 150px;
-    height: 150px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 150px;
-    top: 82px;
-  }
+  // .circle-position-3 {
+  //   width: 150px;
+  //   height: 150px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 150px;
+  //   top: 82px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 135px;
-    width: 135px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 135px;
+  //   width: 135px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -1464,13 +1465,14 @@ input.ng-invalid.ng-touched {
 }
 
 // BlackBerry Playbook/ Nexus 7
-@media screen and (min-width: 541px) and (max-width: 600px) {
+@media screen and (min-width: 431px) and (max-width: 540px) {
   .contact-text-h2 {
     font-size: 17px;
   }
 
   .contact-text-p {
     font-size: 17px;
+    width: 450px;
   }
 
   .contact-text-contact {
@@ -1543,8 +1545,8 @@ input.ng-invalid.ng-touched {
 
   .form-structure {
     position: relative;
-    right: 2px;
-    top: -130px;
+    right: 20px;
+    top: 5px;
     width: 500px;
     margin: 0;
     padding: 0;
@@ -1553,33 +1555,33 @@ input.ng-invalid.ng-touched {
   }
 
   input {
-    width: 450px;
+    width: 400px;
   }
 
   textarea {
-    width: 450px;
+    width: 400px;
   }
 
-  .circle-position-3 {
-    width: 190px;
-    height: 190px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 150px;
-    top: 82px;
-  }
+  // .circle-position-3 {
+  //   width: 190px;
+  //   height: 190px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 150px;
+  //   top: 82px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 135px;
-    width: 135px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 135px;
+  //   width: 135px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -1596,7 +1598,7 @@ input.ng-invalid.ng-touched {
 }
 
 // Microsoft Lumia 550
-@media screen and (min-width: 601px) and (max-width: 640px) {
+@media screen and (min-width: 541px) and (max-width: 600px) {
   .contact-text-h2 {
     font-size: 17px;
   }
@@ -1676,7 +1678,7 @@ input.ng-invalid.ng-touched {
   .form-structure {
     position: relative;
     right: 2px;
-    top: -130px;
+    top: 5px;
     width: 500px;
     margin: 0;
     padding: 0;
@@ -1692,26 +1694,26 @@ input.ng-invalid.ng-touched {
     width: 450px;
   }
 
-  .circle-position-3 {
-    width: 190px;
-    height: 190px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 150px;
-    top: 82px;
-  }
+  // .circle-position-3 {
+  //   width: 190px;
+  //   height: 190px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 150px;
+  //   top: 82px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 135px;
-    width: 135px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 135px;
+  //   width: 135px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -1808,7 +1810,7 @@ input.ng-invalid.ng-touched {
   .form-structure {
     position: relative;
     right: 2px;
-    top: -130px;
+    top: 5px;
     width: 650px;
     margin: 0;
     padding: 0;
@@ -1824,26 +1826,26 @@ input.ng-invalid.ng-touched {
     width: 550px;
   }
 
-  .circle-position-3 {
-    width: 190px;
-    height: 190px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 250px;
-    top: 82px;
-  }
+  // .circle-position-3 {
+  //   width: 190px;
+  //   height: 190px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 250px;
+  //   top: 82px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 160px;
+  //   width: 160px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -1940,7 +1942,7 @@ input.ng-invalid.ng-touched {
   .form-structure {
     position: relative;
     right: 2px;
-    top: -130px;
+    top: 5px;
     width: 760px;
     margin: 0;
     padding: 0;
@@ -1956,26 +1958,26 @@ input.ng-invalid.ng-touched {
     width: 650px;
   }
 
-  .circle-position-3 {
-    width: 190px;
-    height: 190px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 300px;
-    top: 80px;
-  }
+  // .circle-position-3 {
+  //   width: 190px;
+  //   height: 190px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 300px;
+  //   top: 80px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 160px;
+  //   width: 160px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -2073,7 +2075,7 @@ input.ng-invalid.ng-touched {
   .form-structure {
     position: relative;
     right: 2px;
-    top: -130px;
+    top: 5px;
     width: 760px;
     margin: 0;
     padding: 0;
@@ -2089,26 +2091,26 @@ input.ng-invalid.ng-touched {
     width: 650px;
   }
 
-  .circle-position-3 {
-    width: 190px;
-    height: 190px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 300px;
-    top: 82px;
-  }
+  // .circle-position-3 {
+  //   width: 190px;
+  //   height: 190px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 300px;
+  //   top: 82px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 160px;
+  //   width: 160px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -2217,7 +2219,7 @@ input.ng-invalid.ng-touched {
   .form-structure {
     position: relative;
     right: 2px;
-    top: -130px;
+    top: 5px;
     width: 850px;
     margin: 0;
     padding: 0;
@@ -2233,26 +2235,26 @@ input.ng-invalid.ng-touched {
     width: 750px;
   }
 
-  .circle-position-3 {
-    width: 190px;
-    height: 190px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 340px;
-    top: 82px;
-  }
+  // .circle-position-3 {
+  //   width: 190px;
+  //   height: 190px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 340px;
+  //   top: 82px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 160px;
+  //   width: 160px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -2343,7 +2345,7 @@ input.ng-invalid.ng-touched {
     position: relative;
     left: 2px;
     width: 1000px;
-    height: 800px;
+    height: 700px;
     flex-direction: column;
     align-items: center;
   }
@@ -2382,7 +2384,7 @@ input.ng-invalid.ng-touched {
   .form-structure {
     position: relative;
     right: 2px;
-    top: -130px;
+    top: 5px;
     width: 1000px;
     margin: 0;
     padding: 0;
@@ -2398,26 +2400,26 @@ input.ng-invalid.ng-touched {
     width: 850px;
   }
 
-  .circle-position-3 {
-    width: 170px;
-    height: 170px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 420px;
-    top: 82px;
-  }
+  // .circle-position-3 {
+  //   width: 170px;
+  //   height: 170px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 420px;
+  //   top: 82px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 160px;
-    width: 160px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 160px;
+  //   width: 160px;
+  // }
 
   .check-marker-visible {
     position: relative;
