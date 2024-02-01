@@ -21,25 +21,32 @@
       <div class="circle-position-3">
         <figure class="form-circle-3"></figure>
       </div>
-      <!--[formGroup]="contactForm"-->
-      <form class="form-structure" #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
-        <input
-          type="text" id="name" name="name" ngModel required  #nameField
-          class="horizontal-shake txt"
-          placeholder="Your name" />
-        <input
-          type="email" id="email" name="email" required #emailField="ngModel"
-          class="horizontal-shake txt" #emailInput [(ngModel)]="email"
-          placeholder="Your email" />
-        <span class="email-warning" *ngIf="!emailField.valid && emailField.touched">Please enter a valid E-Mail.</span>
-        <textarea
-          id="message" name="message" ngModel required #messageField
-          class="horizontal-shake txt"
-          placeholder="Your message..."></textarea>
-        <button #sendButton type="submit" id="sendButton" [disabled]="!myForm.valid">
-          <a class="contact-btn">Contact</a>
-        </button>
-      </form>
+      <div [formGroup]="form">
+        <form class="form-structure" (submit)="sendMail()">
+          <input
+            formControlName="from_name"
+            type="text"
+            class="horizontal-shake txt"
+            placeholder="Your name..." />
+          <input
+            formControlName="from_email"
+            type="email"
+            class="horizontal-shake txt"
+            placeholder="Your email..." />
+            <span class="email-warning" *ngIf="form.get('from_email').touched && form.get('from_email').invalid">
+              Please enter a valid E-Mail.
+            </span>            
+          <textarea
+            formControlName="message"
+            class="horizontal-shake txt"
+            placeholder="Your message...">
+          </textarea>
+          <button
+           type="submit">
+            <a class="contact-btn">Contact</a>
+          </button>
+        </form>
+      </div>
       <div class="check-marker">
         <img id="check-marker" src="./assets/img/media/check_mark.png" alt="check-marker">
       </div>

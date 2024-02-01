@@ -1,5 +1,16 @@
 {
   "projects": {
-    "default": "portfolio-e6192"
-  }
+    "default": "portfolio-f3217",
+    "portfolio": "portfolio-f3217"
+  },
+  "targets": {
+    "portfolio-f3217": {
+      "hosting": {
+        "portfolio": [
+          "portfolio-f3217"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

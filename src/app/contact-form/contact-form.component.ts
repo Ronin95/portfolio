@@ -1,6 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { NgForm } from '@angular/forms';
-
+import { FormBuilder, FormGroup, Validators  } from '@angular/forms';
+// import { NgForm } from '@angular/forms';
+import emailjs from '@emailjs/browser';
 
 @Component({
   selector: 'app-contact-form',
@@ -8,12 +9,16 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./contact-form.component.scss']
 })
 export class ContactFormComponent implements OnInit {
-  email: string;
-  @ViewChild('myForm') myForm: NgForm;
-  @ViewChild('nameField') nameField: ElementRef;
-  @ViewChild('emailInput') emailInput: ElementRef;
-  @ViewChild('messageField') messageField: ElementRef;
-  @ViewChild('sendButton') sendButton: ElementRef;
+  form: FormGroup;
+
+  constructor(private fb: FormBuilder) {
+    this.form = this.fb.group({
+      from_name: ['', Validators.required],
+      to_name: 'Nikola',
+      from_email: ['', [Validators.required, Validators.email]],
+      message: ['', Validators.required]
+    });
+  }
 
   /**
    * `ngOnInit()` is a lifecycle hook method in Angular that is called after 
@@ -30,57 +35,6 @@ export class ContactFormComponent implements OnInit {
    */
   ngOnInit() {
     this.displayCheckMark();
-  }
-
-
-  /**
-   * `async onSubmit() {` is a method that is triggered when the submit 
-   * button of the contact form is clicked. It disables the form fields and 
-   * the submit button, creates a new FormData object with the values of the form 
-   * fields, sends a POST request to a PHP script on the server with the FormData 
-   * object as the request body, and waits for the response. Once the response is 
-   * received, it logs the response to the console and enables the form fields and
-   * the submit button again. The `async` keyword indicates that this method 
-   * contains asynchronous code and will return a Promise.
-   * 
-   * @async
-   * @method
-   * @name onSubmit
-   * @kind method
-   * @memberof ContactFormComponent
-   * @returns {Promise<void>}
-   */
-  async onSubmit(myForm: NgForm) {
-    let nameField = this.nameField.nativeElement;
-    let emailInput = this.emailInput.nativeElement;
-    let messageField = this.messageField.nativeElement;
-    let sendButton = this.sendButton.nativeElement;
-    nameField.disabled = true;
-    emailInput.disabled = true;
-    messageField.disabled = true;
-    sendButton.disabled = true;
-
-    let fd = new FormData();
-    fd.append('name', nameField.value);
-    fd.append('email', emailInput.value);
-    fd.append('message', messageField.value);
-
-    let response = await fetch('nikolabadjevic.com/send_mail/send_mail.php',
-    //  https://nikola-badjevic.developerakademie.net/send_mail/send_mail.php
-    {
-      method: 'POST',
-      body: fd
-    });
-
-    let result= await response.text();
-    console.log(result);
-
-    nameField.disabled = false;
-    emailInput.disabled = false;
-    messageField.disabled = false;
-    sendButton.disabled = false;
-
-    myForm.reset();
   }
 
   /**
@@ -106,5 +60,22 @@ export class ContactFormComponent implements OnInit {
             imageToDisplay.parentElement?.classList.remove('check-marker-visible');
         }, 3000);
     });
+  }
+
+  async sendMail() {
+    emailjs.init('R3op_yk9Ll1B4Rleb');
+    try {
+      await emailjs.send("service_vur8ckj", "template_s386prl", {
+        from_name: this.form.value.from_name,
+        to_name: this.form.value.to_name,
+        from_mail: this.form.value.from_email,
+        message: this.form.value.message,
+      });
+      alert('Message sent.');
+      this.form.reset();
+    } catch (error) {
+      console.error('Failed to send message', error);
+      alert('Failed to send message.');
+    }
   }
 }

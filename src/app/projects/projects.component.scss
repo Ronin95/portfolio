@@ -305,6 +305,10 @@ a:active { text-decoration: none; }
 
 // Galaxy Fold
 @media screen and (max-width: 280px) {
+  .section6-bookr {
+    height: 800px;
+  }
+
   .circle1 {
     left: 100px;
     top: 20px;
@@ -322,7 +326,7 @@ a:active { text-decoration: none; }
   .circle3 {
     width: 190px;
     height: 190px;
-    bottom: 490px;
+    bottom: 630px;
     right: 100px;
   }
 
@@ -337,7 +341,7 @@ a:active { text-decoration: none; }
     position: absolute;
     width: 180px;
     height: 180px;
-    top: 43px;
+    top: 5px;
     left: 49px;
   }
 
@@ -381,10 +385,15 @@ a:active { text-decoration: none; }
   }
 
   .project-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 0;
   }
 
   .project-buttons-a {
+    width: 190px;
     a {
       position: relative;
       right: 5px;
@@ -418,7 +427,7 @@ a:active { text-decoration: none; }
   }
 
   .section3 {
-    height: 650px;
+    height: 750px;
   }
 
 
@@ -485,8 +494,9 @@ a:active { text-decoration: none; }
   }
 
   .restaurant-btn {
-    position: relative;
-    left: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .circle9 {
@@ -508,6 +518,10 @@ a:active { text-decoration: none; }
 
 // Galaxy S9+ / Nokia Lumia 520 / iPhone 4 / iPhone 5-SE /
 @media screen and (min-width: 281px) and (max-width: 320px) {
+  .section6-bookr {
+    height: 800px;
+  }
+  
   .circle1 {
     left: 100px;
     top: 20px;
@@ -525,14 +539,14 @@ a:active { text-decoration: none; }
   .circle3 {
     width: 190px;
     height: 190px;
-    bottom: 410px;
+    bottom: 590px;
     right: 100px;
   }
 
   .circle5 {
     width: 150px;
     height: 150px;
-    top: -500px;
+    top: -600px;
     left: 190px;
   }
 
@@ -540,7 +554,7 @@ a:active { text-decoration: none; }
     position: absolute;
     width: 230px;
     height: 230px;
-    top: 25px;
+    top: 5px;
     left: 49px;
   }
 
@@ -583,6 +597,10 @@ a:active { text-decoration: none; }
   }
 
   .project-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 0;
   }
 
@@ -626,6 +644,8 @@ a:active { text-decoration: none; }
 
 
   .el-pollo-loco {
+    position: relative;
+    top: -40px;
     padding-top: 40px;
     flex-direction: column-reverse;
     width: 100%;
@@ -678,7 +698,7 @@ a:active { text-decoration: none; }
     padding:0;
     height: 650px;
     position: relative;
-    top: -90px;
+    top: -50px;
   }
 
   .restaurant-style {
@@ -693,8 +713,9 @@ a:active { text-decoration: none; }
   }
 
   .restaurant-btn {
-    position: relative;
-    left: -90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .circle9 {
@@ -717,7 +738,11 @@ a:active { text-decoration: none; }
 // Pixel 4 (353px)
 // Galaxy Note 3/Note II/ S III/ S8 / Microsoft Lumia 950 / Moto G4 / Galaxy S8+ / Galaxy S5 (360px)
 // iPhone SE / iPhone 6-7-8 / iPhone X (375px)
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  .section6-bookr {
+    height: 800px;
+  }
+  
   .circle1 {
     left: 100px;
     top: 20px;
@@ -735,23 +760,23 @@ a:active { text-decoration: none; }
   .circle3 {
     width: 190px;
     height: 190px;
-    bottom: 380px;
+    bottom: 550px;
     right: 100px;
   }
 
   .circle5 {
     width: 190px;
     height: 190px;
-    top: -500px;
+    top: -550px;
     left: 230px;
   }
 
   .circle6 {
     position: absolute;
-    width: 260px;
-    height: 260px;
-    top: 40px;
-    left: 60px;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+    left: 90px;
   }
 
   .work-text {
@@ -793,13 +818,11 @@ a:active { text-decoration: none; }
   }
 
   .project-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 0;
-  }
-
-  .project-buttons-a {
-    position: relative;
-    left: 30px;
-
   }
 
   .section2 {
@@ -831,6 +854,8 @@ a:active { text-decoration: none; }
   }
 
   .section3 {
+    position: relative;
+    top: -50px;
     height: 650px;
   }
 
@@ -885,7 +910,7 @@ a:active { text-decoration: none; }
     padding:0;
     height: 620px;
     position: relative;
-    top: -90px;
+    top: -50px;
   }
 
   .restaurant-style {
@@ -900,9 +925,9 @@ a:active { text-decoration: none; }
   }
 
   .restaurant-btn {
-    width: 50%;
-    position: relative;
-    right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .circle9 {
@@ -922,8 +947,11 @@ a:active { text-decoration: none; }
   }
 }
 
-// LG Optimus L70 / Nexus 4
-@media screen and (min-width: 376px) and (max-width: 414px) {
+@media screen and (min-width: 361px) and (max-width: 375px) {
+  .section6-bookr {
+    height: 800px;
+  }
+  
   .circle1 {
     left: 100px;
     top: 20px;
@@ -932,7 +960,7 @@ a:active { text-decoration: none; }
   }
 
   .circle2 {
-    left: 340px;
+    left: 310px;
     bottom: 20px;
     width: 70px;
     height: 70px;
@@ -941,20 +969,23 @@ a:active { text-decoration: none; }
   .circle3 {
     width: 190px;
     height: 190px;
-    bottom: 380px;
-    right: 80px;
+    bottom: 550px;
+    right: 100px;
   }
 
   .circle5 {
     width: 190px;
     height: 190px;
-    top: -460px;
-    left: 290px;
+    top: -550px;
+    left: 230px;
   }
 
-  .circle4 {
-    position: relative;
-    right: 360px;
+  .circle6 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+    left: 90px;
   }
 
   .work-text {
@@ -975,7 +1006,7 @@ a:active { text-decoration: none; }
     width: 270px;
     padding: 10px;
     position: relative;
-    right: 20px;
+    right: 35px;
     line-height: 25px;
 
     p {
@@ -989,33 +1020,24 @@ a:active { text-decoration: none; }
     gap: 10px;
 
     p, h3 {
-      font-size: 18px;
+      font-size: 17px;
       padding-left: 20px;
       padding-right: 20px;
     }
   }
 
   .project-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 0;
-  }
-
-  .project-buttons-a {
-    position: relative;
-    left: 50px;
-
   }
 
   .section2 {
     height: 480px;
   }
 
-  .circle6 {
-    position: absolute;
-    width: 260px;
-    height: 260px;
-    top: 35px;
-    left: 75px;
-  }
 
   .section4 {
     height: 600px;
@@ -1041,6 +1063,8 @@ a:active { text-decoration: none; }
   }
 
   .section3 {
+    position: relative;
+    top: -50px;
     height: 650px;
   }
 
@@ -1062,12 +1086,12 @@ a:active { text-decoration: none; }
 
     h1 {
       position: relative;
-      right: 100px;
+      right: 80px;
     }
 
     h3 {
       position: relative;
-      right: 95px;
+      right: 85px;
     }
 
     p {
@@ -1093,20 +1117,15 @@ a:active { text-decoration: none; }
 
   .section5 {
     padding:0;
-    height: 600px;
+    height: 620px;
     position: relative;
-    top: -90px;
+    top: -50px;
   }
 
   .restaurant-style {
-    h1 {
+    h1, h3, p {
       position: relative;
-      left: -20px;
-    }
-
-    h3, p {
-      position: relative;
-      left: 5px;
+      left: -2px;
     }
   }
 
@@ -1115,9 +1134,9 @@ a:active { text-decoration: none; }
   }
 
   .restaurant-btn {
-    width: 50%;
-    position: relative;
-    right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .circle9 {
@@ -1125,7 +1144,7 @@ a:active { text-decoration: none; }
     width: 100px;
     height: 100px;
     top: 20px;
-    left: 25px;
+    left: 5px;
   }
 
   .circle10 {
@@ -1133,12 +1152,15 @@ a:active { text-decoration: none; }
     width: 20px;
     height: 20px;
     top: 530px;
-    left: 340px;
+    left: 270px;
   }
 }
 
-// Nokia N9 (480px)
-@media screen and (min-width: 415px) and (max-width: 480px) {
+@media screen and (min-width: 376px) and (max-width: 384px) {
+  .section6-bookr {
+    height: 800px;
+  }
+  
   .circle1 {
     left: 100px;
     top: 20px;
@@ -1147,47 +1169,54 @@ a:active { text-decoration: none; }
   }
 
   .circle2 {
-    left: 390px;
+    left: 310px;
     bottom: 20px;
     width: 70px;
     height: 70px;
   }
 
   .circle3 {
-    width: 220px;
-    height: 220px;
-    bottom: 420px;
-    right: 80px;
+    width: 190px;
+    height: 190px;
+    bottom: 550px;
+    right: 100px;
   }
 
   .circle5 {
     width: 190px;
     height: 190px;
-    top: -460px;
-    left: 330px;
+    top: -550px;
+    left: 230px;
+  }
+
+  .circle6 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+    left: 90px;
   }
 
   .work-text {
-    width: 400px;
-    padding: 0;
-    gap: 15px;
+    width: 100%;
+    position: relative;
+    right: 100px;
+    gap: 0;
   }
 
   .work-text-small {
-    position: relative;
-    left: 135px;
 
     h1 {
-      padding-top: 10px;
       font-size: 50px;
     }
   }
 
   .work-text-p {
-    line-height: 25px;
-    width: 300px;
+    width: 270px;
+    padding: 10px;
     position: relative;
-    left: 100px;
+    right: 35px;
+    line-height: 25px;
 
     p {
       font-size: 18px;
@@ -1200,33 +1229,24 @@ a:active { text-decoration: none; }
     gap: 10px;
 
     p, h3 {
-      font-size: 18px;
+      font-size: 17px;
       padding-left: 20px;
       padding-right: 20px;
     }
   }
 
   .project-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 0;
-  }
-
-  .project-buttons-a {
-    position: relative;
-    left: 90px;
-
   }
 
   .section2 {
     height: 480px;
   }
 
-  .circle6 {
-    position: absolute;
-    width: 260px;
-    height: 260px;
-    top: 35px;
-    left: 105px;
-  }
 
   .section4 {
     height: 600px;
@@ -1252,6 +1272,8 @@ a:active { text-decoration: none; }
   }
 
   .section3 {
+    position: relative;
+    top: -50px;
     height: 650px;
   }
 
@@ -1273,12 +1295,12 @@ a:active { text-decoration: none; }
 
     h1 {
       position: relative;
-      right: 140px;
+      right: 80px;
     }
 
     h3 {
       position: relative;
-      right: 115px;
+      right: 85px;
     }
 
     p {
@@ -1304,20 +1326,15 @@ a:active { text-decoration: none; }
 
   .section5 {
     padding:0;
-    height: 570px;
+    height: 620px;
     position: relative;
-    top: -90px;
+    top: -50px;
   }
 
   .restaurant-style {
-    h1 {
+    h1, h3, p {
       position: relative;
-      left: -60px;
-    }
-
-    h3, p {
-      position: relative;
-      right: 2px;
+      left: -2px;
     }
   }
 
@@ -1326,9 +1343,9 @@ a:active { text-decoration: none; }
   }
 
   .restaurant-btn {
-    width: 50%;
-    position: relative;
-    right: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .circle9 {
@@ -1336,7 +1353,7 @@ a:active { text-decoration: none; }
     width: 100px;
     height: 100px;
     top: 20px;
-    left: 25px;
+    left: 5px;
   }
 
   .circle10 {
@@ -1344,12 +1361,436 @@ a:active { text-decoration: none; }
     width: 20px;
     height: 20px;
     top: 530px;
-    left: 340px;
+    left: 270px;
+  }
+}
+
+// LG Optimus L70 / Nexus 4
+@media screen and (min-width: 385px) and (max-width: 414px) {
+  .section6-bookr {
+    height: 800px;
+  }
+  
+  .circle1 {
+    left: 100px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .circle2 {
+    left: 310px;
+    bottom: 20px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .circle3 {
+    width: 190px;
+    height: 190px;
+    bottom: 550px;
+    right: 100px;
+  }
+
+  .circle5 {
+    width: 190px;
+    height: 190px;
+    top: -550px;
+    left: 230px;
+  }
+
+  .circle6 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+    left: 90px;
+  }
+
+  .work-text {
+    width: 100%;
+    position: relative;
+    right: 100px;
+    gap: 0;
+  }
+
+  .work-text-small {
+
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  .work-text-p {
+    width: 270px;
+    padding: 10px;
+    position: relative;
+    right: 35px;
+    line-height: 25px;
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .project-info {
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+
+    p, h3 {
+      font-size: 17px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .project-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .section2 {
+    height: 480px;
+  }
+
+
+  .section4 {
+    height: 600px;
+  }
+
+  .join, .slack {
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+  }
+
+  .slack {
+    top: -80px;
+  }
+
+  .join-img {
+
+    img {
+      width: 300px;
+    }
+  }
+
+  .section3 {
+    position: relative;
+    top: -50px;
+    height: 650px;
+  }
+
+
+  .el-pollo-loco {
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    width: 100%;
+    position: relative;
+    right: 150px;
+    gap: 20px;
+  }
+
+  .el-pollo-loco-info {
+    gap: 10px;
+    width: 100%;
+    position: relative;
+    left: 10px;
+
+    h1 {
+      position: relative;
+      right: 80px;
+    }
+
+    h3 {
+      position: relative;
+      right: 85px;
+    }
+
+    p {
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+
+    }
+  }
+
+  .el-pollo-loco-img {
+    position: relative;
+    left: 10px;
+
+    img {
+      width: 300px;
+    }
+  }
+
+  .el-pollo-loco-btn {
+    width: 100%;
+  }
+
+  .section5 {
+    padding:0;
+    height: 620px;
+    position: relative;
+    top: -50px;
+  }
+
+  .restaurant-style {
+    h1, h3, p {
+      position: relative;
+      left: -2px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 5px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 530px;
+    left: 270px;
+  }
+}
+
+// Nokia N9 (480px) / iphone 14 pro max
+@media screen and (min-width: 415px) and (max-width: 430px) {
+  .section6-bookr {
+    height: 800px;
+  }
+  
+  .circle1 {
+    left: 100px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .circle2 {
+    left: 310px;
+    bottom: 20px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .circle3 {
+    width: 190px;
+    height: 190px;
+    bottom: 550px;
+    right: 100px;
+  }
+
+  .circle5 {
+    width: 190px;
+    height: 190px;
+    top: -550px;
+    left: 230px;
+  }
+
+  .circle6 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+    left: 90px;
+  }
+
+  .work-text {
+    width: 100%;
+    position: relative;
+    right: 100px;
+    gap: 0;
+  }
+
+  .work-text-small {
+
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  .work-text-p {
+    width: 270px;
+    padding: 10px;
+    position: relative;
+    right: 35px;
+    line-height: 25px;
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .project-info {
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+
+    p, h3 {
+      font-size: 17px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .project-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .section2 {
+    height: 480px;
+  }
+
+
+  .section4 {
+    height: 600px;
+  }
+
+  .join, .slack {
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+  }
+
+  .slack {
+    top: -80px;
+  }
+
+  .join-img {
+
+    img {
+      width: 300px;
+    }
+  }
+
+  .section3 {
+    position: relative;
+    top: -50px;
+    height: 650px;
+  }
+
+
+  .el-pollo-loco {
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    width: 100%;
+    position: relative;
+    right: 150px;
+    gap: 20px;
+  }
+
+  .el-pollo-loco-info {
+    gap: 10px;
+    width: 100%;
+    position: relative;
+    left: 10px;
+
+    h1 {
+      position: relative;
+      right: 80px;
+    }
+
+    h3 {
+      position: relative;
+      right: 85px;
+    }
+
+    p {
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+
+    }
+  }
+
+  .el-pollo-loco-img {
+    position: relative;
+    left: 10px;
+
+    img {
+      width: 300px;
+    }
+  }
+
+  .el-pollo-loco-btn {
+    width: 100%;
+  }
+
+  .section5 {
+    padding:0;
+    height: 620px;
+    position: relative;
+    top: -50px;
+  }
+
+  .restaurant-style {
+    h1, h3, p {
+      position: relative;
+      left: -2px;
+    }
+  }
+
+  .restaurant-info {
+    padding-left: 0;
+  }
+
+  .restaurant-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 5px;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 530px;
+    left: 270px;
   }
 }
 
 // Surface Duo (540px)
-@media screen and (min-width: 481px) and (max-width: 540px) {
+@media screen and (min-width: 431px) and (max-width: 480px) {
+  .section6-bookr {
+    height: 850px;
+  }
+  
   .circle1 {
     left: 350px;
     top: 20px;
@@ -1421,6 +1862,7 @@ a:active { text-decoration: none; }
   .project-buttons {
     width: 500px;
     gap: 0;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -1432,7 +1874,7 @@ a:active { text-decoration: none; }
   }
 
   .section2 {
-    height: 520px;
+    height: 580px;
   }
 
   .circle6 {
@@ -1460,7 +1902,7 @@ a:active { text-decoration: none; }
   }
 
   .section4 {
-    height: 600px;
+    height: 630px;
   }
 
   .join, .slack {

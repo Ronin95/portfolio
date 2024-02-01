@@ -8,15 +8,15 @@ import { SkillSetComponent } from './skill-set/skill-set.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FooterComponent } from './footer/footer.component';
-import { FormsModule, ReactiveFormsModule }   from '@angular/forms';
+import { ReactiveFormsModule }   from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ImprintComponent } from './imprint/imprint.component';
 import { StartComponent } from './start/start.component';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
-
-// import { AngularFireModule } from '@angular/fire';
-// import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { FirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
+import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
+import { getMessaging, provideMessaging } from '@angular/fire/messaging';
 
 @NgModule({
   declarations: [
@@ -34,9 +34,10 @@ import { environment } from '../environments/environment';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    provideFirebaseApp(() => initializeApp({"projectId":"portfolio-f3217","appId":"1:386058160291:web:fe298490bb7879928e9716","storageBucket":"portfolio-f3217.appspot.com","apiKey":"AIzaSyA9F3z8KGLztg20ytAKcVG00VzQeLyIWUI","authDomain":"portfolio-f3217.firebaseapp.com","messagingSenderId":"386058160291"})),
+    provideMessaging(() => getMessaging())
   ],
   providers: [],
   bootstrap: [AppComponent]

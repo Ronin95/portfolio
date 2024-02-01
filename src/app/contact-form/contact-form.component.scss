@@ -329,45 +329,52 @@ input.ng-invalid.ng-touched {
     margin: 0;
   }
 
+  .form-positioning {
+    height: 750px;
+    width: 260px;
+  }
+
   .form-structure {
-    height: 430px;
     position: relative;
-    top: -150px;
-    width: 265px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
     margin: 0;
     padding: 0;
-    height: 400px;
+    height: 380px;
     gap: 20px;
   }
 
   input {
-    width: 200px;
+    width: 190px;
   }
 
   textarea {
-    width: 200px;
+    width: 190px;
   }
 
-  .circle-position-3 {
-    width: 150px;
-    height: 150px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 60px;
-    top: 55px;
-  }
+  // .circle-position-3 {
+  //   width: 150px;
+  //   height: 150px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 60px;
+  //   top: 55px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 120px;
-    width: 120px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 120px;
+  //   width: 120px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -383,11 +390,13 @@ input.ng-invalid.ng-touched {
   }
 
   .contact-text-h2 {
+    height: 150px;
     font-size: 17px;
     padding-left: 5px;
   }
 
   .contact-text-p {
+    height: 220px;
     font-size: 17px;
     padding-left: 5px;
   }
@@ -401,15 +410,39 @@ input.ng-invalid.ng-touched {
 // Galaxy S9+ / Nokia Lumia 520 / iPhone 4 / iPhone 5-SE /
 @media screen and (min-width: 281px) and (max-width: 320px) {
   .contact-text-h2 {
+    height: 80px;
     font-size: 17px;
   }
 
   .contact-text-p {
+    height: 120px;
     font-size: 17px;
   }
 
   .contact-text-contact {
+    height: 80px;
     font-size: 17px;
+  }
+
+  .form-positioning {
+    position: relative;
+    right: 40px;
+    height: 750px;
+    width: 350px;
+  }
+
+  .form-structure {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    height: 380px;
+    gap: 20px;
   }
   
   .email-warning {
@@ -470,17 +503,6 @@ input.ng-invalid.ng-touched {
     margin: 0;
   }
 
-  .form-structure {
-    position: relative;
-    right: 25px;
-    top: -150px;
-    width: 310px;
-    margin: 0;
-    padding: 0;
-    height: 390px;
-    gap: 30px;
-  }
-
   input {
     width: 210px;
   }
@@ -489,19 +511,19 @@ input.ng-invalid.ng-touched {
     width: 210px;
   }
 
-  .circle-position-3 {
-    width: 150px;
-    height: 150px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 60px;
-    top: 55px;
-  }
+  // .circle-position-3 {
+  //   width: 150px;
+  //   height: 150px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 60px;
+  //   top: 55px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -509,12 +531,160 @@ input.ng-invalid.ng-touched {
     left: 200px;
   }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 120px;
-    width: 120px;
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 120px;
+  //   width: 120px;
+  // }
+
+  .contact-circles {
+    width: 85%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
   }
+}
+
+@media screen and (min-width: 321px) and (max-width: 353px) {
+  .contact-text-h2 {
+    height: 80px;
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    width: 300px;
+  }
+
+  .contact-text-p {
+    height: 170px;
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    width: 300px;
+  }
+
+  .contact-text-contact {
+    height: 80px;
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    width: 300px;
+  }
+
+  .form-positioning {
+    position: relative;
+    top: 40px;
+    height: 750px;
+    // width: 300px;
+  }
+
+  .form-structure {
+    // position: relative;
+    // left: 40px;
+    // top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // width: 340px;
+    margin: 0;
+    padding: 0;
+    height: 380px;
+    gap: 20px;
+  }
+  
+  .email-warning {
+    height: 20px;
+    position: relative;
+    top: -10px;
+  }
+  
+  .contact {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -10px;
+    // right: 10px;
+  }
+
+  .contact-intro {
+    height: 5px;
+    width: 150px;
+    margin: 0;
+
+    h1 {
+      width: 200px;
+      font-size: 40px;
+      padding: 0;
+      position: relative;
+      right: 130px;
+    }
+  }
+
+  .contact-form-text-structure {
+    position: relative;
+    left: 2px;
+    // width: 370px;
+    height: 700px;
+    flex-direction: column;
+  }
+
+  .circle-position {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  .contact-text {
+    position: relative;
+    left: 130px;
+    gap: 30px;
+    width: 340px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  input {
+    width: 290px;
+  }
+
+  textarea {
+    width: 290px;
+  }
+
+  // .circle-position-3 {
+  //   width: 150px;
+  //   height: 150px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 60px;
+  //   top: 55px;
+  // }
+
+  .check-marker-visible {
+    position: relative;
+    top: -195px;
+    left: 200px;
+  }
+
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 120px;
+  //   width: 120px;
+  // }
 
   .contact-circles {
     width: 85%;
@@ -526,17 +696,51 @@ input.ng-invalid.ng-touched {
 
 // Pixel 4 (353px)
 // Galaxy Note 3/Note II/ S III/ S8 / Microsoft Lumia 950 / Moto G4 / Galaxy S8+ / Galaxy S5 (360px)
-@media screen and (min-width: 321px) and (max-width: 360px) {
+@media screen and (min-width: 354px) and (max-width: 360px) {
+  .contact-text {
+    // border-style: dotted;
+    width: 85%;
+    position: relative;
+    right: 20px;
+  }
+
   .contact-text-h2 {
-    font-size: 17px;
+    font-size: 19px;
+    // border-style: dotted;
+    height: 170px;
   }
 
   .contact-text-p {
     font-size: 17px;
+    // border-style: dotted;
+    height: 200px;
   }
 
   .contact-text-contact {
     font-size: 17px;
+    height: 100px;
+  }
+
+  .form-positioning {
+    position: relative;
+    // right: 20px;
+    height: 750px;
+    width: 350px;
+    top: 10px;
+  }
+
+  .form-structure {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    height: 380px;
+    gap: 20px;
   }
   
   .email-warning {
@@ -563,7 +767,7 @@ input.ng-invalid.ng-touched {
     margin: 0;
     position: relative;
     top: -5px;
-    right: 65px;
+    right: 55px;
 
 
     h1 {
@@ -592,27 +796,6 @@ input.ng-invalid.ng-touched {
     display: none;
   }
 
-  .contact-text {
-    position: relative;
-    left: 5px;
-    gap: 30px;
-    width: 320px;
-    height: 250px;
-    padding: 0;
-    margin: 0;
-  }
-
-  .form-structure {
-    position: relative;
-    right: 2px;
-    top: -130px;
-    width: 350px;
-    margin: 0;
-    padding: 0;
-    height: 420px;
-    gap: 30px;
-  }
-
   input {
     width: 270px;
   }
@@ -621,26 +804,26 @@ input.ng-invalid.ng-touched {
     width: 270px;
   }
 
-  .circle-position-3 {
-    width: 190px;
-    height: 190px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 75px;
-    top: 80px;
-  }
+  // .circle-position-3 {
+  //   width: 190px;
+  //   height: 190px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 75px;
+  //   top: 80px;
+  // }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 135px;
-    width: 135px;
-  }
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 135px;
+  //   width: 135px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -658,16 +841,52 @@ input.ng-invalid.ng-touched {
 
 // iPhone SE / iPhone 6-7-8 / iPhone X
 @media screen and (min-width: 361px) and (max-width: 375px) {
+  .contact-text {
+    // border-style: dotted;
+    // height: 120vh;
+    width: 95%;
+    position: relative;
+    right: 20px;
+  }
+
   .contact-text-h2 {
-    font-size: 17px;
+    font-size: 19px;
+    // border-style: dotted;
+    height: 220px;
   }
 
   .contact-text-p {
     font-size: 17px;
+    // border-style: dotted;
+    height: 300px;
   }
 
   .contact-text-contact {
     font-size: 17px;
+    height: 250px;
+  }
+
+  .form-positioning {
+    position: relative;
+    // border-style: dotted;
+    right: -10px;
+    height: 800px;
+    width: 350px;
+    top: -70px;
+  }
+
+  .form-structure {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    height: 380px;
+    gap: 20px;
   }
   
   .email-warning {
@@ -685,7 +904,7 @@ input.ng-invalid.ng-touched {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -60px;
+    top: -100px;
   }
 
   .contact-intro {
@@ -707,6 +926,7 @@ input.ng-invalid.ng-touched {
   }
 
   .contact-form-text-structure {
+    // border-style: dotted;
     position: relative;
     left: 2px;
     width: 340px;
@@ -715,33 +935,23 @@ input.ng-invalid.ng-touched {
     align-items: center;
   }
 
-  .circle-position {
-    display: none;
-  }
+  // .circle-position {
+  //   display: none;
+  // }
 
-  .form-circle {
-    display: none;
-  }
+  // .form-circle {
+  //   display: none;
+  // }
 
   .contact-text {
+    // border-style: dotted;
     position: relative;
     left: 5px;
-    gap: 30px;
+    gap: 20px;
     width: 320px;
-    height: 250px;
+    height: 650px;
     padding: 0;
     margin: 0;
-  }
-
-  .form-structure {
-    position: relative;
-    right: 2px;
-    top: -130px;
-    width: 350px;
-    margin: 0;
-    padding: 0;
-    height: 420px;
-    gap: 30px;
   }
 
   input {
@@ -752,26 +962,199 @@ input.ng-invalid.ng-touched {
     width: 270px;
   }
 
+  // .circle-position-3 {
+  //   width: 150px;
+  //   height: 150px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 110px;
+  //   top: 82px;
+  // }
+
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 135px;
+  //   width: 135px;
+  // }
+
+  .check-marker-visible {
+    position: relative;
+    top: -190px;
+    left: 260px;
+  }
+
+  .contact-circles {
+    width: 90%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 384px) {
+  .contact-text {
+    // border-style: dotted;
+    // height: 120vh;
+    width: 95%;
+    position: relative;
+    right: 20px;
+  }
+
+  .contact-text-h2 {
+    font-size: 19px;
+    // border-style: dotted;
+    height: 220px;
+  }
+
+  .contact-text-p {
+    font-size: 17px;
+    // border-style: dotted;
+    height: 300px;
+  }
+
+  .contact-text-contact {
+    font-size: 17px;
+    height: 250px;
+  }
+
+  .form-positioning {
+    position: relative;
+    // border-style: dotted;
+    right: -10px;
+    height: 800px;
+    width: 350px;
+    top: -70px;
+  }
+
+  .form-structure {
+    position: relative;
+    left: 10px;
+    top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    height: 380px;
+    gap: 20px;
+  }
+  
+  .email-warning {
+    height: 20px;
     position: relative;
-    left: 110px;
-    top: 82px;
+    top: -10px;
+  }
+  
+  .contact {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -100px;
   }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 135px;
-    width: 135px;
+  .contact-intro {
+    height: 5px;
+    width: 40px;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    right: 65px;
+
+
+    h1 {
+      width: 200px;
+      font-size: 40px;
+      padding: 0;
+      position: relative;
+      right: 130px;
+    }
   }
+
+  .contact-form-text-structure {
+    // border-style: dotted;
+    position: relative;
+    left: 2px;
+    width: 340px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  // .circle-position {
+  //   display: none;
+  // }
+
+  // .form-circle {
+  //   display: none;
+  // }
+
+  .contact-text {
+    // border-style: dotted;
+    position: relative;
+    left: 5px;
+    gap: 20px;
+    width: 320px;
+    height: 650px;
+    padding: 0;
+    margin: 0;
+  }
+
+  input {
+    width: 270px;
+  }
+
+  textarea {
+    width: 270px;
+  }
+
+  // .circle-position-3 {
+  //   width: 150px;
+  //   height: 150px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 110px;
+  //   top: 82px;
+  // }
+
+  .circle-position-3 {
+    display: none;
+  }
+
+  .form-circle {
+    display: none;
+  }
+
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 135px;
+  //   width: 135px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -788,17 +1171,49 @@ input.ng-invalid.ng-touched {
 }
 
 // LG Optimus L70 / Nexus 4
-@media screen and (min-width: 376px) and (max-width: 414px) {
+@media screen and (min-width: 385px) and (max-width: 414px) {
+  .contact-text {
+    width: 95%;
+  }
+
   .contact-text-h2 {
-    font-size: 17px;
+    font-size: 19px;
+    // border-style: dotted;
+    height: 220px;
   }
 
   .contact-text-p {
     font-size: 17px;
+    // border-style: dotted;
+    height: 300px;
   }
 
   .contact-text-contact {
     font-size: 17px;
+    height: 250px;
+  }
+
+  .form-positioning {
+    // position: relative;
+    // border-style: dotted;
+    // right: -100px;
+    height: 800px;
+    width: 410px;
+    top: -70px;
+  }
+
+  .form-structure {
+    // position: relative;
+    // left: 30px;
+    // top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    margin: 0;
+    padding: 0;
+    height: 380px;
+    gap: 20px;
   }
   
   .email-warning {
@@ -810,13 +1225,13 @@ input.ng-invalid.ng-touched {
   .contact {
     margin: 0;
     padding: 0;
-    width: 400px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -60px;
+    top: -100px;
   }
 
   .contact-intro {
@@ -838,41 +1253,32 @@ input.ng-invalid.ng-touched {
   }
 
   .contact-form-text-structure {
+    // border-style: dotted;
     position: relative;
-    left: 2px;
-    width: 340px;
+    left: 20px;
+    width: 410px;
     height: 700px;
     flex-direction: column;
     align-items: center;
   }
 
-  .circle-position {
-    display: none;
-  }
+  // .circle-position {
+  //   display: none;
+  // }
 
-  .form-circle {
-    display: none;
-  }
+  // .form-circle {
+  //   display: none;
+  // }
 
   .contact-text {
+    // border-style: dotted;
     position: relative;
     left: 5px;
-    gap: 30px;
+    gap: 20px;
     width: 320px;
-    height: 250px;
+    height: 650px;
     padding: 0;
     margin: 0;
-  }
-
-  .form-structure {
-    position: relative;
-    right: 2px;
-    top: -130px;
-    width: 350px;
-    margin: 0;
-    padding: 0;
-    height: 420px;
-    gap: 30px;
   }
 
   input {
@@ -883,26 +1289,34 @@ input.ng-invalid.ng-touched {
     width: 270px;
   }
 
+  // .circle-position-3 {
+  //   width: 150px;
+  //   height: 150px;
+  //   z-index: -1999;
+  //   padding: 0;
+  //   margin: 0;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: relative;
+  //   left: 110px;
+  //   top: 82px;
+  // }
+
   .circle-position-3 {
-    width: 150px;
-    height: 150px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 110px;
-    top: 82px;
+    display: none;
   }
 
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 135px;
-    width: 135px;
+  .form-circle {
+    display: none;
   }
+
+  // .form-circle-3 {
+  //   background: linear-gradient(0.40turn, var(--color1), var(--color2));
+  //   border-radius: 50%;
+  //   height: 135px;
+  //   width: 135px;
+  // }
 
   .check-marker-visible {
     position: relative;
@@ -918,139 +1332,8 @@ input.ng-invalid.ng-touched {
   }
 }
 
-// Nokia N9 (480px)
-@media screen and (min-width: 415px) and (max-width: 480px) {
-  .contact-text-h2 {
-    font-size: 17px;
-  }
-
-  .contact-text-p {
-    font-size: 17px;
-  }
-
-  .contact-text-contact {
-    font-size: 17px;
-  }
-  
-  .email-warning {
-    height: 20px;
-    position: relative;
-    top: -10px;
-  }
-  
-  .contact {
-    margin: 0;
-    padding: 0;
-    width: 470px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -60px;
-  }
-
-  .contact-intro {
-    height: 5px;
-    width: 40px;
-    margin: 0;
-    position: relative;
-    top: -5px;
-    right: 65px;
-
-
-    h1 {
-      width: 200px;
-      font-size: 40px;
-      padding: 0;
-      position: relative;
-      right: 130px;
-    }
-  }
-
-  .contact-form-text-structure {
-    position: relative;
-    left: 2px;
-    width: 400px;
-    height: 700px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .circle-position {
-    display: none;
-  }
-
-  .form-circle {
-    display: none;
-  }
-
-  .contact-text {
-    position: relative;
-    left: 5px;
-    gap: 30px;
-    width: 320px;
-    height: 250px;
-    padding: 0;
-    margin: 0;
-  }
-
-  .form-structure {
-    position: relative;
-    right: 2px;
-    top: -130px;
-    width: 450px;
-    margin: 0;
-    padding: 0;
-    height: 420px;
-    gap: 30px;
-  }
-
-  input {
-    width: 350px;
-  }
-
-  textarea {
-    width: 350px;
-  }
-
-  .circle-position-3 {
-    width: 150px;
-    height: 150px;
-    z-index: -1999;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 150px;
-    top: 82px;
-  }
-
-  .form-circle-3 {
-    background: linear-gradient(0.40turn, var(--color1), var(--color2));
-    border-radius: 50%;
-    height: 135px;
-    width: 135px;
-  }
-
-  .check-marker-visible {
-    position: relative;
-    top: -190px;
-    left: 310px;
-  }
-
-  .contact-circles {
-    width: 90%;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
 // Surface Duo (540px)
-@media screen and (min-width: 481px) and (max-width: 540px) {
+@media screen and (min-width: 415px) and (max-width: 480px) {
   .contact-text-h2 {
     font-size: 17px;
   }

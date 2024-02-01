@@ -21,16 +21,11 @@
 }
 
 .cover-img {
-  // border-style: dashed; // necessary border-style: don't delete
-  // border-color: transparent;
-  // position: relative;
-  // top: 15px;
   width: 640px;
 }
 
 .cover-img-text-intro {
   height: 855px;
-  // border-style: dotted;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -97,8 +92,6 @@
 }
 
 .vertical-line-socialMedia {
-  // border-style: dotted;
-  // height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
